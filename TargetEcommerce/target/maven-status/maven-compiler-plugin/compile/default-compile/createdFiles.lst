@@ -1,1 +1,4 @@
-targetHome/TargetHome.class
+home/HomePageWebElements.class
+home/HomePage.class
+giftcard/GiftCardWebElements.class
+giftcard/GiftCardPage.class

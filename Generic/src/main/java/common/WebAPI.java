@@ -122,10 +122,10 @@ public class WebAPI {
 
     //Browser SetUp
     public static WebDriver driver = null;
-    public String browserstack_username = "mhs5";
-    public String browserstack_accesskey = "dGpR3twU2pLPLgXZxmSa";
-    public String saucelabs_username = "";
-    public String saucelabs_accesskey = "";
+    public String browserstack_username = "mohammadislam5";
+    public String browserstack_accesskey = "95GuaVTH3synT5t5QVnJ";
+    public String saucelabs_username = "mizan1256";
+    public String saucelabs_accesskey = "c8f01e7b-696c-471e-acdd-7a2adff87234";
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod
@@ -151,7 +151,7 @@ public class WebAPI {
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/mac/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/Mac/chromedriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/windows/chromedriver.exe");
             }
@@ -160,7 +160,7 @@ public class WebAPI {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/mac/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/Mac/chromedriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/windows/chromedriver.exe");
             }
