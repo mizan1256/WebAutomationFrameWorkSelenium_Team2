@@ -20,16 +20,19 @@
         <parameter name="browserName" value="chrome"/>
         <parameter name="browserVersion" value="84"/>
         <classes>
-            <class name="cnntesthome.CnnHomeTest">
-                <methods>
-                    <exclude name="testSearchBoxCheck"></exclude>
-                    <exclude name="testSearchBoxCheck1"></exclude>
-                    <!--                    <exclude name="testSearchBoxCheckUsingGetItemValue"></exclude>-->
-                    <!--                    <exclude name="testSearchBoxCheckGetItemsListFromExcel"></exclude>-->
-                    <!--                    <exclude name="testSearchBoxCheckGetItemsListFromDB"></exclude>-->
-                    <!--                    <include name="testSearchBoxCheckGetItemsListFromExcel"></include>-->
-                </methods>
-            </class>
+            <class name="testhome.HomePageTest"></class>
+            <class name="testhome.RegistrationPageTest"></class>
+
+<!--            <>-->
+<!--                <methods>-->
+<!--                    <exclude name="testSearchBoxCheck"></exclude>-->
+<!--                    <exclude name="testSearchBoxCheck1"></exclude>-->
+<!--                    &lt;!&ndash;                    <exclude name="testSearchBoxCheckUsingGetItemValue"></exclude>&ndash;&gt;-->
+<!--                    &lt;!&ndash;                    <exclude name="testSearchBoxCheckGetItemsListFromExcel"></exclude>&ndash;&gt;-->
+<!--                    &lt;!&ndash;                    <exclude name="testSearchBoxCheckGetItemsListFromDB"></exclude>&ndash;&gt;-->
+<!--                    &lt;!&ndash;                    <include name="testSearchBoxCheckGetItemsListFromExcel"></include>&ndash;&gt;-->
+<!--                </methods>-->
+<!--            </>-->
 
             <!--            <class name="testhome.RegistrationPageTest"></class>-->
 
