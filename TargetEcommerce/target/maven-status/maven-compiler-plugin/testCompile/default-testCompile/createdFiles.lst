@@ -1,1 +1,4 @@
-testHome/TargetHomeTest.class
+testRedCard\RedCardTest.class
+testHome\HomePageTest.class
+testRegistry\RegistryHomePageTest.class
+testfindstore\StorePageTest.class

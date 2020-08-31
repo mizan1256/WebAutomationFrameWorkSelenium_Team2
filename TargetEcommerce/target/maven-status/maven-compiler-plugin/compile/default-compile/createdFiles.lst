@@ -1,1 +1,8 @@
-targetHome/TargetHome.class
+targetHome\HomePage.class
+registry\RegistryHome.class
+redCard\RedPageWebElement.class
+findstores\StorePageWebElement.class
+registry\RegistryWebElements.class
+findstores\StorePage.class
+redCard\RedCardPage.class
+targetHome\HomePageWebElement.class

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestSuite]">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="windows"/>
+  <parameter name="os_version" value="10"/>
+  <parameter name="cloudEnvName" value="browserstack"/>
+  <parameter name="url" value="https://www.target.com"/>
+  <test thread-count="5" verbose="0" name="Target Home(failed)">
+    <parameter name="browserVersion" value="84"/>
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="testHome.HomePageTest">
+        <methods>
+          <include name="testing_Validate_clearanceText"/>
+          <include name="afterEachTestMethod"/>
+          <include name="setUp"/>
+          <include name="testing_Validate_more"/>
+          <include name="testing_Validate_whatsNewText"/>
+          <include name="startExtent"/>
+          <include name="testing_ValidateCreateAccountMethod"/>
+          <include name="cleanUp"/>
+          <include name="testing_ValidateNewInWomen"/>
+          <include name="testing_validating_SearchingForProduct_Method"/>
+          <include name="extentSetup"/>
+          <include name="testing_Validate_Deals1"/>
+          <include name="testing_ValidateCreateAccountMethod_NegativeTest"/>
+          <include name="testing_validate_cartLogo_method"/>
+          <include name="testing_dealsTarget"/>
+          <include name="testing_signInMethod"/>
+          <include name="testing_validate_heartLogoFavorite_Method"/>
+          <include name="getInIt"/>
+          <include name="generateReport"/>
+          <include name="testing_Validate_sameDayDeliveryTarget_Method"/>
+        </methods>
+      </class> <!-- testHome.HomePageTest -->
+    </classes>
+  </test> <!-- Target Home(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
