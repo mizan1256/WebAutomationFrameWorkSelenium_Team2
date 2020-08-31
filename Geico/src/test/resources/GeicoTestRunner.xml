@@ -12,15 +12,15 @@
     <!-- <parameter name="os" value="OS X"/>-->
     <parameter name="os_version" value="10"/>
     <!--    <parameter name="os_version" value="Sierra"/>-->
-    <!--    <parameter name="browserName" value="chrome"/>-->
-    <!--    <parameter name="browserVersion" value="84"/>-->
-    <parameter name="url" value="https://www.geico.com"/>
+<!--        <parameter name="browserName" value="chrome"/>-->
+<!--        <parameter name="browserVersion" value="80"/>-->
+<!--    <parameter name="url" value="https://www.geico.com"/>-->
 
     <test name="Geico Home">
         <parameter name="browserName" value="chrome"/>
         <parameter name="browserVersion" value="84"/>
         <classes>
-            <class name="geicoHomeTest.GeicoHomeTest">
+            <class name="testgeicohome.GeicoHomePageTest">
                 <methods>
                     <exclude name="testSearchBoxCheck"></exclude>
                     <exclude name="testSearchBoxCheck1"></exclude>
