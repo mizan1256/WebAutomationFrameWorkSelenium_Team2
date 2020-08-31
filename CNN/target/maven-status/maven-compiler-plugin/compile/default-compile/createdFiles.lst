@@ -1,1 +1,4 @@
-cnnhome/CnnHome.class
+home\HomePage.class
+home\HomePageWebElement.class
+registration\RegistrationWebElementPage.class
+registration\RegistrationPage.class

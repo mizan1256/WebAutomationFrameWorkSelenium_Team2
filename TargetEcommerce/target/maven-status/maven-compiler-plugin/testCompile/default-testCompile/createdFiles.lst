@@ -1,1 +1,7 @@
-testHome/TargetHomeTest.class
+testhome\HomePageTest.class
+readyforschooltest\SchoolHomePageTest.class
+testhome\RegistrationPageTest.class
+testredcard\RedCardPageTest.class
+testkidsactivities\KidsActiviesTest.class
+testRegistry\RegistryHomePageTest.class
+homefunctiontest\HomeFunctionalTest.class

@@ -1,1 +1,12 @@
-targetHome/TargetHome.class
+home\HomePage.class
+homefunction\HomeFunctionPage.class
+kidsactivates\MainPage.class
+home\HomePagewebElements.class
+redcard\RedCardPage.class
+homefunction\HomeFunctionWebElement.class
+kidsactivates\MainPageWebElements.class
+readyforschool\SchoolWebElementPage.class
+registry\RegistryPageWebElement.class
+redcard\RedCardWebElement.class
+readyforschool\SchoolHomePage.class
+registry\RegistryHomePage.class
