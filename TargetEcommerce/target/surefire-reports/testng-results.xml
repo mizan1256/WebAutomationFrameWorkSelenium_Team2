@@ -1,11 +1,259 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="8" total="11" passed="3" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Extent Report Directory/Users/syedhussain/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/target/surefire-reports/html]]>
+    </line>
   </reporter-output>
-  <suite started-at="2020-08-30T23:56:26 EDT" name="TestSuite" finished-at="2020-08-30T23:56:26 EDT" duration-ms="5">
+  <suite started-at="2020-09-01T01:38:13 EDT" name="TestSuite" finished-at="2020-09-01T01:38:51 EDT" duration-ms="38017">
     <groups>
     </groups>
-    <test started-at="2020-08-30T23:56:26 EDT" name="Target Home" finished-at="2020-08-30T23:56:26 EDT" duration-ms="5">
+    <test started-at="2020-09-01T01:38:13 EDT" name="Target Home" finished-at="2020-09-01T01:38:51 EDT" duration-ms="38017">
+      <class name="testhome.HomePageTest">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testhome.HomePageTest@683dbc2c]" started-at="2020-09-01T01:38:13 EDT" name="extentSetup" finished-at="2020-09-01T01:38:13 EDT" duration-ms="215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@164a62bf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report Directory/Users/syedhussain/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/target/surefire-reports/html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testhome.HomePageTest@683dbc2c]" started-at="2020-09-01T01:38:13 EDT" name="setUp" finished-at="2020-09-01T01:38:18 EDT" duration-ms="4570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.target.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testhome.HomePageTest@683dbc2c]" started-at="2020-09-01T01:38:18 EDT" name="startExtent" finished-at="2020-09-01T01:38:18 EDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testhome.HomePageTest.testLocationWithCityName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testhome.HomePageTest@683dbc2c]" started-at="2020-09-01T01:38:18 EDT" name="getInit" finished-at="2020-09-01T01:38:18 EDT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testLocationWithCityName()[pri:0, instance:testhome.HomePageTest@683dbc2c]" started-at="2020-09-01T01:38:18 EDT" name="testLocationWithCityName" finished-at="2020-09-01T01:38:23 EDT" duration-ms="5007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLocationWithCityName -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testhome.HomePageTest@683dbc2c]" started-at="2020-09-01T01:38:23 EDT" name="afterEachTestMethod" finished-at="2020-09-01T01:38:23 EDT" duration-ms="315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLocationWithCityName status=SUCCESS method=HomePageTest.testLocationWithCityName()[pri:0, instance:testhome.HomePageTest@683dbc2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testhome.HomePageTest@683dbc2c]" started-at="2020-09-01T01:38:23 EDT" name="cleanUp" finished-at="2020-09-01T01:38:23 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testhome.HomePageTest@683dbc2c]" started-at="2020-09-01T01:38:23 EDT" name="setUp" finished-at="2020-09-01T01:38:28 EDT" duration-ms="4387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.target.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testhome.HomePageTest@683dbc2c]" started-at="2020-09-01T01:38:28 EDT" name="getInit" finished-at="2020-09-01T01:38:28 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testhome.HomePageTest@683dbc2c]" started-at="2020-09-01T01:38:28 EDT" name="startExtent" finished-at="2020-09-01T01:38:28 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testhome.HomePageTest.testLocationWithStateName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testLocationWithStateName()[pri:0, instance:testhome.HomePageTest@683dbc2c]" started-at="2020-09-01T01:38:28 EDT" name="testLocationWithStateName" finished-at="2020-09-01T01:38:32 EDT" duration-ms="4728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLocationWithStateName -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testhome.HomePageTest@683dbc2c]" started-at="2020-09-01T01:38:32 EDT" name="afterEachTestMethod" finished-at="2020-09-01T01:38:32 EDT" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLocationWithStateName status=SUCCESS method=HomePageTest.testLocationWithStateName()[pri:0, instance:testhome.HomePageTest@683dbc2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testhome.HomePageTest@683dbc2c]" started-at="2020-09-01T01:38:32 EDT" name="cleanUp" finished-at="2020-09-01T01:38:32 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testhome.HomePageTest@683dbc2c]" started-at="2020-09-01T01:38:32 EDT" name="setUp" finished-at="2020-09-01T01:38:41 EDT" duration-ms="8582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.target.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testhome.HomePageTest@683dbc2c]" started-at="2020-09-01T01:38:41 EDT" name="startExtent" finished-at="2020-09-01T01:38:41 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testhome.HomePageTest.testLoginWithInvalidEmailAndPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testhome.HomePageTest@683dbc2c]" started-at="2020-09-01T01:38:41 EDT" name="getInit" finished-at="2020-09-01T01:38:41 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testLoginWithInvalidEmailAndPassword()[pri:0, instance:testhome.HomePageTest@683dbc2c]" started-at="2020-09-01T01:38:41 EDT" name="testLoginWithInvalidEmailAndPassword" finished-at="2020-09-01T01:38:51 EDT" duration-ms="10066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidEmailAndPassword -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testhome.HomePageTest@683dbc2c]" started-at="2020-09-01T01:38:51 EDT" name="afterEachTestMethod" finished-at="2020-09-01T01:38:51 EDT" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithInvalidEmailAndPassword status=SUCCESS method=HomePageTest.testLoginWithInvalidEmailAndPassword()[pri:0, instance:testhome.HomePageTest@683dbc2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testhome.HomePageTest@683dbc2c]" started-at="2020-09-01T01:38:51 EDT" name="cleanUp" finished-at="2020-09-01T01:38:51 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:testhome.HomePageTest@683dbc2c]" started-at="2020-09-01T01:38:51 EDT" name="generateReport" finished-at="2020-09-01T01:38:51 EDT" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- testhome.HomePageTest -->
     </test> <!-- Target Home -->
   </suite> <!-- TestSuite -->
 </testng-results>

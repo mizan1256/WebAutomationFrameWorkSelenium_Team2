@@ -1,1 +1,4 @@
-targetHome/TargetHome.class
+home/HomePageWebElements.class
+deals/DealsPage.class
+home/HomePage.class
+deals/DealsPageWebElements.class

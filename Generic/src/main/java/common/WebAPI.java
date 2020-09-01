@@ -122,8 +122,8 @@ public class WebAPI {
 
     //Browser SetUp
     public static WebDriver driver = null;
-    public String browserstack_username = "mhs5";
-    public String browserstack_accesskey = "dGpR3twU2pLPLgXZxmSa";
+    public String browserstack_username = "pntp1";
+    public String browserstack_accesskey = "DcYKjQ1kuKUzyxzbgdxB";
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 
@@ -151,7 +151,7 @@ public class WebAPI {
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/mac/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/Mac/chromedriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/windows/chromedriver.exe");
             }
@@ -160,20 +160,20 @@ public class WebAPI {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/mac/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/Mac/chromedriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/windows/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/Windows/chromedriver.exe");
             }
             driver = new ChromeDriver(options);
         } else if (browserName.equalsIgnoreCase("firefox")) {
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.gecko.driver", "../Generic/BrowserDriver/mac/geckodriver");
+                System.setProperty("webdriver.gecko.driver", "../Generic/BrowserDriver/Mac/geckodriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.gecko.driver", "../Generic/BrowserDriver/windows/geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", "../Generic/BrowserDriver/Windows/geckodriver.exe");
             }
             driver = new FirefoxDriver();
         } else if (browserName.equalsIgnoreCase("ie")) {
-            System.setProperty("webdriver.ie.driver", "../Generic/BrowserDriver/windows/IEDriverServer.exe");
+            System.setProperty("webdriver.ie.driver", "../Generic/BrowserDriver/Windows/IEDriverServer.exe");
             driver = new InternetExplorerDriver();
         }
         return driver;

@@ -1,5 +1,5 @@
-# Created at 2020-08-30T23:56:31.767
-org.apache.maven.surefire.api.testset.TestSetFailedException: Suite file /Users/mohammadislam/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/Aetna/target/test-classes/TargetEcommerceTestRunner.xml is not a valid file
+# Created at 2020-09-01T01:38:58.029
+org.apache.maven.surefire.api.testset.TestSetFailedException: Suite file /Users/syedhussain/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TDBank/target/test-classes/TargetEcommerceTestRunner.xml is not a valid file
 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.locateTestSets(TestNGXmlTestSuite.java:99)
 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:118)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
