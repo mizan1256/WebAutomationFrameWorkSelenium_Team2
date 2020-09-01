@@ -21,8 +21,10 @@
 <!--        <parameter name="browserVersion" value="84"/>-->
         <classes>
 <!--            <class name="testHome.HomePageTest"/>-->
-            <class name="testGiftCardHome.GiftCardPageTest"/>
-            <class name="testhome.HomePageTest">
+<!--            <class name="testhome.GiftCardPageTest"/>-->
+<!--            <class name="testhome.HomePageTest"/>-->
+<!--            <class name="testhome.ShoppingCartTest"/>-->
+            <class name="testhome.WeeklyAdTest">
 
                 <methods>
                     <exclude name="testSearchBoxCheck"></exclude>

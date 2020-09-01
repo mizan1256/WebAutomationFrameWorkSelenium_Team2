@@ -1,4 +1,4 @@
-package testGiftCardHome;
+package testhome;
 
 import common.WebAPI;
 import giftcard.GiftCardPage;
