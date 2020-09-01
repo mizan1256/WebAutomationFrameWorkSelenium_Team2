@@ -1,4 +1,6 @@
 package aetnaHome;
 
-public class AetnaHome {
+import common.WebAPI;
+
+public class AetnaHome extends WebAPI {
 }
