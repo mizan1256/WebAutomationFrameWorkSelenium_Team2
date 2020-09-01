@@ -124,8 +124,8 @@ public class WebAPI {
     public static WebDriver driver = null;
     public String browserstack_username = "jonhossn1";
     public String browserstack_accesskey = "4wrzQSxzdyLWt7XHRoDQ";
-    public String saucelabs_username = "";
-    public String saucelabs_accesskey = "";
+    public String saucelabs_username = "jonhosn";
+    public String saucelabs_accesskey = "756c64b0-bcee-40bb-8680-22677d6827ea";
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod
