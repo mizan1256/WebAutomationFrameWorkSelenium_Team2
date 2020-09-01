@@ -144,7 +144,8 @@
                     <configuration>
                         <testFailureIgnore>true</testFailureIgnore>
                         <suiteXmlFiles>
-                            <suiteXmlFile>target/test-classes/TargetEcommerceTestRunner.xml</suiteXmlFile>
+<!--                            <suiteXmlFile>target/test-classes/TargetEcommerceTestRunner.xml</suiteXmlFile>-->
+                            <suiteXmlFile>target/test-classes/CNNTestRunner.xml</suiteXmlFile>
                             <!--                            <suiteXmlFile></suiteXmlFile>-->
                             <!--                            <suiteXmlFile></suiteXmlFile>-->
                         </suiteXmlFiles>

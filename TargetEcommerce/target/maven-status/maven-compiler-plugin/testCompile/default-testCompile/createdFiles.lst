@@ -1,1 +1,3 @@
-testHome/TargetHomeTest.class
+testHome\GiftCardPageTest.class
+testHome\HomePageTest.class
+testHome\OrderPageTest.class

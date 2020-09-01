@@ -1,1 +1,9 @@
-targetHome/TargetHome.class
+home\HomePage.class
+home\HomePageWebElement.class
+loginPage\AccountLoginPageWebElement.class
+order\OrderPage.class
+giftCard\GiftCardPageWebElement.class
+giftCard\GiftCardPage.class
+order\OrderPageWebElement.class
+loginPage\AccountLoginPage.class
+targetHome\TargetHome.class

@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 12.102 s <<< FAILURE! - in TestSuite
+testHome.HomePageTestCnn.testUsButton  Time elapsed: 4.203 s  <<< FAILURE!
+java.lang.AssertionError: test fail expected [US] but found [null]
+	at testHome.HomePageTestCnn.testUsButton(HomePageTestCnn.java:22)
+
+testHome.HomePageTestCnn.afterEachTestMethod[[TestResult name=testUsButton status=FAILURE method=HomePageTestCnn.testUsButton()[pri:0, instance:testHome.HomePageTestCnn@2892dae4] output={null}]](0)  Time elapsed: 4.671 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DOLBH1K', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\shaha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53843}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d7855274b4a7ec46d46cb771f20467e3
+
