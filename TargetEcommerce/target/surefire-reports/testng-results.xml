@@ -1,11 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="6" total="8" passed="2" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Extent Report DirectoryC:\Users\esaji\IdeaProjects\WebAutomationFrameWorkSelenium_Team2\TargetEcommerce\target\surefire-reports\html]]>
+    </line>
   </reporter-output>
-  <suite started-at="2020-08-30T23:56:26 EDT" name="TestSuite" finished-at="2020-08-30T23:56:26 EDT" duration-ms="5">
+  <suite started-at="2020-09-01T15:15:43 EDT" name="TestSuite" finished-at="2020-09-01T15:16:47 EDT" duration-ms="63300">
     <groups>
     </groups>
-    <test started-at="2020-08-30T23:56:26 EDT" name="Target Home" finished-at="2020-08-30T23:56:26 EDT" duration-ms="5">
+    <test started-at="2020-09-01T15:15:43 EDT" name="Target Home" finished-at="2020-09-01T15:16:47 EDT" duration-ms="63300">
+      <class name="testHome.HomePageTest">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testHome.HomePageTest@3a6bb9bf]" started-at="2020-09-01T15:15:43 EDT" name="extentSetup" finished-at="2020-09-01T15:15:43 EDT" duration-ms="273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3c0fbd3a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report DirectoryC:\Users\esaji\IdeaProjects\WebAutomationFrameWorkSelenium_Team2\TargetEcommerce\target\surefire-reports\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testHome.HomePageTest@3a6bb9bf]" started-at="2020-09-01T15:15:43 EDT" name="setUp" finished-at="2020-09-01T15:16:10 EDT" duration-ms="26733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.target.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHome.HomePageTest@3a6bb9bf]" started-at="2020-09-01T15:16:10 EDT" name="startExtent" finished-at="2020-09-01T15:16:10 EDT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHome.HomePageTest.testRegistryLandedPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInIt()[pri:0, instance:testHome.HomePageTest@3a6bb9bf]" started-at="2020-09-01T15:16:10 EDT" name="getInIt" finished-at="2020-09-01T15:16:10 EDT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInIt -->
+        <test-method signature="testRegistryLandedPage()[pri:0, instance:testHome.HomePageTest@3a6bb9bf]" started-at="2020-09-01T15:16:10 EDT" name="testRegistryLandedPage" finished-at="2020-09-01T15:16:16 EDT" duration-ms="5589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistryLandedPage -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHome.HomePageTest@3a6bb9bf]" started-at="2020-09-01T15:16:16 EDT" name="afterEachTestMethod" finished-at="2020-09-01T15:16:19 EDT" duration-ms="3021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistryLandedPage status=SUCCESS method=HomePageTest.testRegistryLandedPage()[pri:0, instance:testHome.HomePageTest@3a6bb9bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testHome.HomePageTest@3a6bb9bf]" started-at="2020-09-01T15:16:19 EDT" name="cleanUp" finished-at="2020-09-01T15:16:19 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testHome.HomePageTest@3a6bb9bf]" started-at="2020-09-01T15:16:19 EDT" name="setUp" finished-at="2020-09-01T15:16:45 EDT" duration-ms="25844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.target.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHome.HomePageTest@3a6bb9bf]" started-at="2020-09-01T15:16:45 EDT" name="startExtent" finished-at="2020-09-01T15:16:45 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHome.HomePageTest.testTergetLogoIsDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInIt()[pri:0, instance:testHome.HomePageTest@3a6bb9bf]" started-at="2020-09-01T15:16:45 EDT" name="getInIt" finished-at="2020-09-01T15:16:45 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInIt -->
+        <test-method signature="testTergetLogoIsDisplayed()[pri:0, instance:testHome.HomePageTest@3a6bb9bf]" started-at="2020-09-01T15:16:45 EDT" name="testTergetLogoIsDisplayed" finished-at="2020-09-01T15:16:45 EDT" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTergetLogoIsDisplayed -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHome.HomePageTest@3a6bb9bf]" started-at="2020-09-01T15:16:45 EDT" name="afterEachTestMethod" finished-at="2020-09-01T15:16:47 EDT" duration-ms="1749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTergetLogoIsDisplayed status=SUCCESS method=HomePageTest.testTergetLogoIsDisplayed()[pri:0, instance:testHome.HomePageTest@3a6bb9bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testHome.HomePageTest@3a6bb9bf]" started-at="2020-09-01T15:16:47 EDT" name="cleanUp" finished-at="2020-09-01T15:16:47 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:testHome.HomePageTest@3a6bb9bf]" started-at="2020-09-01T15:16:47 EDT" name="generateReport" finished-at="2020-09-01T15:16:47 EDT" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- testHome.HomePageTest -->
     </test> <!-- Target Home -->
   </suite> <!-- TestSuite -->
 </testng-results>
