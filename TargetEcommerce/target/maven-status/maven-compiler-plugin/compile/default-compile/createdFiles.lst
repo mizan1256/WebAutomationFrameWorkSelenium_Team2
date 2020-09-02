@@ -1,1 +1,14 @@
-targetHome/TargetHome.class
+targetsigninpage\SignInPage.class
+findStores\FindStoresHomePageElements.class
+giftCardTest\GiftCardHomePageTest.class
+registry\RegistryHomePage.class
+findStores\FindStoresHomePage.class
+targetsigninpage\SignInPageWebElements.class
+findStoreTest\FindStoresHomePageTest.class
+giftCards\GiftCardHomePage.class
+registry\RegistryHomePageElements.class
+registryButtonTest\RegistryHomePageTest.class
+signinpagetest\SignInPageTest.class
+giftCards\GiftCardHomePageElements.class
+targetHome\TargetHomeWebElements.class
+targetHome\TargetHome.class
