@@ -17,6 +17,8 @@ public class HomePage extends WebAPI {
     @FindBy(how = How.XPATH, using = webElementImage) public WebElement homepageImage;
     @FindBy(how = How.XPATH, using = webElementBabyButton) public WebElement babyButton;
     @FindBy(how = How.XPATH, using = webElementClearanceButton) public WebElement clearanceButton;
+    @FindBy(how = How.XPATH, using = webElementHelpButton) public WebElement helpButton;
+    @FindBy(how = How.XPATH, using = webElementPrivacyButton) public WebElement privacyButton;
 
 
 //    Action Method
@@ -68,5 +70,21 @@ public class HomePage extends WebAPI {
         String expectedResult="Home Clearance";
         Assert.assertEquals(actualResult,expectedResult,"Do not match");
     }
-
+//    Action Method
+    public void helpButtonClickable() throws InterruptedException {
+        helpButton.click();
+        Thread.sleep(3000);
+    }
+//   Validation Method
+    public void validationHelpButton(){
+        String actualResult= helpButton.getText();
+        String expectedResult="Help";
+        Assert.assertEquals(actualResult,expectedResult,"Do not match");
+        System.out.println("Help Button validation passed");
+    }
+//    Action Method
+    public void privacyButtonClickable() throws InterruptedException {
+        privacyButton.click();
+        Thread.sleep(4000);
+    }
 }

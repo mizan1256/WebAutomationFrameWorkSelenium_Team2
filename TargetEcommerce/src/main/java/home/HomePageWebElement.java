@@ -9,7 +9,8 @@ public static final String webElementSameDayDeliveryButton ="//span[@class='Same
 public static final String webElementImage ="//a[@class='Link-sc-1khjl8b-0 bTKAgl storycard--link']//div[@class='StorycardImage__StyledPicture-zbqnkg-0 guKnaw']//img";
 public static final String webElementBabyButton ="//div[contains(text(),'Baby')]";
 public static final String webElementClearanceButton ="//div[contains(text(),'Clearance')]";
-
+public static final String webElementHelpButton="//div[@id='select-15']//button[@class='Button-bwu3xu-0 SelectBox__SelectButtonWithValidation-sc-6gt3w9-1 kBVzxM']";
+public static final String webElementPrivacyButton ="//div[@id='footer']//li[6]//a[1]";
 }
 
 

@@ -13,12 +13,12 @@ public class HomePageTest extends WebAPI {
        homePage= PageFactory.initElements(driver, HomePage.class);
     }
 //Action Method
-    @Test
+    @Test(enabled = false)
     public void testTergetLogoIsDisplayed(){
         homePage.tergetLogoIsDisplayed();
 //    Action Method
     }
-    @Test
+    @Test(enabled = false)
     public void testRegistryLandedPage(){
         homePage.registryLandedPage();
     }
@@ -49,5 +49,14 @@ public class HomePageTest extends WebAPI {
     public void testClearanceTabLanded() throws InterruptedException {
         homePage.actionClearanceButton();
         homePage.validationClearanceButton();
+    }
+    @Test(enabled = false)
+    public void testHelpButtonClickable() throws InterruptedException {
+        homePage.helpButtonClickable();
+        homePage.validationHelpButton();
+    }
+    @Test
+    public void testPrivacyButtonClickable() throws InterruptedException {
+        homePage.privacyButtonClickable();
     }
 }

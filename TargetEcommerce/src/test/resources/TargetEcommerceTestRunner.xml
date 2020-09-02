@@ -13,7 +13,7 @@
     <parameter name="os_version" value="10"/>
     <!--    <parameter name="os_version" value="Catalina"/>-->
         <parameter name="browserName" value="chrome"/>
-        <parameter name="browserVersion" value="84"/>
+        <parameter name="browserVersion" value="85"/>
     <parameter name="url" value="https://www.target.com"/>
 
     <test name="Target Home">
