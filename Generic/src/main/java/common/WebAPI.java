@@ -122,8 +122,8 @@ public class WebAPI {
 
     //Browser SetUp
     public static WebDriver driver = null;
-    public String browserstack_username = "mhs5";
-    public String browserstack_accesskey = "dGpR3twU2pLPLgXZxmSa";
+    public String browserstack_username = "mobassaratabassu1";
+    public String browserstack_accesskey = "H2a3wqqVnyW24wvfwKCx";
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 
@@ -142,7 +142,7 @@ public class WebAPI {
         } else {
             getLocalDriver(os, browserName);
         }
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         //driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.get(url);
         //driver.manage().window().maximize();
@@ -236,14 +236,14 @@ public class WebAPI {
             driver.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
         } catch (Exception ex1) {
             try {
-                System.out.println("First Attempt was not successful");
+//                System.out.println("First Attempt was not successful");
                 driver.findElement(By.name(locator)).sendKeys(value, Keys.ENTER);
             } catch (Exception ex2) {
                 try {
-                    System.out.println("Second Attempt was not successful");
+//                    System.out.println("Second Attempt was not successful");
                     driver.findElement(By.xpath(locator)).sendKeys(value, Keys.ENTER);
                 } catch (Exception ex3) {
-                    System.out.println("Third Attempt was not successful");
+//                    System.out.println("Third Attempt was not successful");
                     driver.findElement(By.id(locator)).sendKeys(value, Keys.ENTER);
                 }
             }
@@ -255,14 +255,14 @@ public class WebAPI {
             driver1.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
         } catch (Exception ex1) {
             try {
-                System.out.println("First Attempt was not successful");
+//                System.out.println("First Attempt was not successful");
                 driver1.findElement(By.id(locator)).sendKeys(value, Keys.ENTER);
             } catch (Exception ex2) {
                 try {
-                    System.out.println("Second Attempt was not successful");
+//                    System.out.println("Second Attempt was not successful");
                     driver1.findElement(By.name(locator)).sendKeys(value, Keys.ENTER);
                 } catch (Exception ex3) {
-                    System.out.println("Third Attempt was not successful");
+//                    System.out.println("Third Attempt was not successful");
                     driver1.findElement(By.xpath(locator)).sendKeys(value, Keys.ENTER);
                 }
             }

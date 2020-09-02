@@ -8,9 +8,9 @@
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <!--<parameter name="cloudEnvName" value="saucelab"/>-->
-    <parameter name="os" value="windows"/>
-    <!-- <parameter name="os" value="OS X"/>-->
-    <parameter name="os_version" value="10"/>
+<!--    <parameter name="os" value="windows"/>-->
+     <parameter name="os" value="OS X"/>
+<!--    <parameter name="os_version" value="10"/>-->
     <!--    <parameter name="os_version" value="Sierra"/>-->
     <!--    <parameter name="browserName" value="chrome"/>-->
     <!--    <parameter name="browserVersion" value="84"/>-->
@@ -20,19 +20,16 @@
         <parameter name="browserName" value="chrome"/>
         <parameter name="browserVersion" value="84"/>
         <classes>
-            <class name="atnthometest.AtntHomeTest">
-                <methods>
-                    <exclude name="testSearchBoxCheck"></exclude>
-                    <exclude name="testSearchBoxCheck1"></exclude>
-                    <!--                    <exclude name="testSearchBoxCheckUsingGetItemValue"></exclude>-->
-                    <!--                    <exclude name="testSearchBoxCheckGetItemsListFromExcel"></exclude>-->
-                    <!--                    <exclude name="testSearchBoxCheckGetItemsListFromDB"></exclude>-->
-                    <!--                    <include name="testSearchBoxCheckGetItemsListFromExcel"></include>-->
+<!--            <class name="testRegistration.RegistrationTest"></class>-->
+
+            <class name="testSearch.SearchTest">
+
+            <methods>
+                <exclude name="testSearch"></exclude>
+                <exclude name="testSearchBoxCheckUsingGetItemValue"></exclude>
+                <exclude name="testSearchBoxCheckGetItemsListFromExcel"></exclude>
                 </methods>
             </class>
-
-            <!--            <class name="testhome.RegistrationPageTest"></class>-->
-
         </classes>
 
     </test>

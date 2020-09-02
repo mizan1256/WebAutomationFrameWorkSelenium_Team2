@@ -1,1 +1,4 @@
-cnnhome/CnnHome.class
+Account/AccountPageElement.class
+home/HomePageElement.class
+home/HomePage.class
+Account/AccountPage.class
