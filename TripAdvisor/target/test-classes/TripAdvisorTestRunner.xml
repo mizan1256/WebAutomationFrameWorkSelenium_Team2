@@ -13,12 +13,12 @@
     <parameter name="os_version" value="10"/>
     <!--    <parameter name="os_version" value="Sierra"/>-->
     <!--    <parameter name="browserName" value="chrome"/>-->
-    <!--    <parameter name="browserVersion" value="84"/>-->
+    <!--    <parameter name="browserVersion" value="85"/>-->
     <parameter name="url" value="https://www.tripadvisor.com"/>
 
     <test name="Trip Advisor Home">
         <parameter name="browserName" value="chrome"/>
-        <parameter name="browserVersion" value="84"/>
+        <parameter name="browserVersion" value="85"/>
         <classes>
             <class name="tripAdvisorHomeTest.TripAdvisorHomeTest">
                 <methods>

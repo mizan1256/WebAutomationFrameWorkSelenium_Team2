@@ -54,7 +54,6 @@ public class HomePage extends WebAPI {
 
     public void validate_heartLogoFavorite_Method() throws InterruptedException {
         String actualHeartLogo = driver.getTitle();
-        ;
         Assert.assertEquals("Your Favorites : Target", driver.getTitle());
         Thread.sleep(2000);
     }
