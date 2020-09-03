@@ -13,11 +13,11 @@
         <module>TargetEcommerce</module>
         <module>CNN</module>
         <module>ATNT</module>
-        <module>Aetna</module>
         <module>Geico</module>
         <module>TDBank</module>
         <module>TripAdvisor</module>
         <module>UnitedAirLines</module>
+        <module>Aetna</module>
 
     </modules>
 

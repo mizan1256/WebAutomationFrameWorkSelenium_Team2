@@ -25,9 +25,16 @@ public class HomePage extends WebAPI {
 
     @FindBy(how = How.XPATH, using = cnnLogo) public WebElement logo;
 
-    @FindBy(how = How.XPATH, using = openMenuTab) public WebElement openMenu;
+    @FindBy(how = How.XPATH, using = openBurgarButton) public WebElement burgarButton;
     @FindBy(how = How.XPATH, using = searchBox) public WebElement search;
-    @FindBy(how = How.XPATH, using = searchButton) public WebElement searchButt;
+    @FindBy(how = How.XPATH, using = searchArrowButton) public WebElement arrowButton;
+
+    @FindBy(how = How.XPATH, using = politicsRadioButton) public WebElement radioButton;
+    @FindBy(how = How.XPATH, using = politicsTextDisplayed) public WebElement politicsText;
+
+    @FindBy(how = How.XPATH, using = homeTravelTab) public WebElement travelTab;
+    @FindBy(how = How.XPATH, using = homeGoToBestBeach) public WebElement bestBeach;
+    @FindBy(how = How.XPATH, using = homeTravelText) public WebElement travelText;
 
 
 
@@ -83,10 +90,33 @@ public class HomePage extends WebAPI {
     }
 
 //    Action Method
-    public void burgerButtonCheck(){
-        openMenu.click();
-        search.sendKeys("News");
-        searchButt.click();
+    public void burgerButtonCheck() throws InterruptedException {
+        burgarButton.click();
+        search.sendKeys("sprots");
+        arrowButton.submit();
+        Thread.sleep(3000);
+        radioButton.isSelected();
+        Thread.sleep(3000);
     }
+    // Validate Method
+    public void validateSearchText(String expectedResult){
+        String actualResult=politicsText.getText();
+        Assert.assertEquals(actualResult,expectedResult,"Search Item not match");
+        System.out.println("PASSED");
+    }
+    //    Action Method
+    public void travelTabCheck() throws InterruptedException {
+        travelTab.click();
+        Thread.sleep(3000);
+        bestBeach.click();
+        Thread.sleep(3000);
+        }
+    // Validate Method
+    public void validateTravelTabCheck(String expectedResult){
+        String actualResult=travelText.getText();
+        Assert.assertEquals(actualResult,expectedResult,"Search Item not match");
+        System.out.println("PASSED");
+    }
+
 
 }

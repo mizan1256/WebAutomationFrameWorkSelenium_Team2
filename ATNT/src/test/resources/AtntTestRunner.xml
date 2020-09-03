@@ -20,7 +20,7 @@
 <!--        <parameter name="browserName" value="chrome"/>-->
 <!--        <parameter name="browserVersion" value="85"/>-->
         <classes>
-            <class name="atnthometest.AtntHomeTest">
+            <class name="testAtnt.TestAtntHomePage">
                 <methods>
                     <exclude name="testSearchBoxCheck"></exclude>
                     <exclude name="testSearchBoxCheck1"></exclude>

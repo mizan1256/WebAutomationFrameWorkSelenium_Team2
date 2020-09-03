@@ -1,4 +1,5 @@
 home\HomePage.class
 home\HomePageWebElement.class
 registration\RegistrationWebElementPage.class
+livetv\LiveTvHomePage.class
 registration\RegistrationPage.class
