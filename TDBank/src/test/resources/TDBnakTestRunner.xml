@@ -14,7 +14,7 @@
     <!--    <parameter name="os_version" value="Sierra"/>-->
     <!--    <parameter name="browserName" value="chrome"/>-->
     <!--    <parameter name="browserVersion" value="84"/>-->
-    <parameter name="url" value="https://www.td.com"/>
+    <parameter name="url" value="https://www.td.com/us/en/personal-banking/"/>
 
     <test name="TDBank Home">
         <parameter name="browserName" value="chrome"/>
