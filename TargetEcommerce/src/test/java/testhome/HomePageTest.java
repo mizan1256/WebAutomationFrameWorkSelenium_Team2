@@ -5,6 +5,7 @@ import home.HomePage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class HomePageTest extends WebAPI {
     HomePage homePage;
@@ -14,30 +15,30 @@ public class HomePageTest extends WebAPI {
     }
     @Test
     public void testSearchBoxCheck() throws InterruptedException {
-        homePage.serchBoxCheck("iPhone");
-         homePage.validateSeachText();
+        homePage.searchBoxCheck("iPhone");
+         homePage.validateSearchText();
     }
-    @Test
-    public void testserchBoxIsDisplayed(){
-        homePage.serchBoxIsDisplayed();
+    @Test(enabled = true)
+    public void testSearchBoxIsDisplayed(){
+        homePage.searchBoxIsDisplayed();
     }
-    @Test
+    @Test(enabled = true)
     public void testCreateTargetAccount() throws InterruptedException {
         homePage.createTargetAccount();
     }
-    @Test
+    @Test(enabled = true)
     public void testCreateTargetAccountForNegativeTest() throws InterruptedException {
         homePage.createTargetAccountForNegativeTest();
         homePage.validateCreateTargetAccountForNegativeTest();
     }
-    @Test
-    public void testSignInTargerUserAccount(){
-        homePage.signInTargerUserAccount();
-        homePage.validateSignInTargerUserAccount();
+    @Test(enabled = true)
+    public void testSignInTargetUserAccount(){
+        homePage.signInTargetUserAccount();
+        homePage.validateSignInTargetUserAccount();
     }
     @Test (enabled = true)
-    public void testSignInTargerUserAccountUsingInvalidCredentials() throws InterruptedException {
-        homePage.signInTargerUserAccountUsingInvalidCredentials();
+    public void testSignInTargetUserAccountUsingInvalidCredentials() throws InterruptedException {
+        homePage.signInTargetUserAccountUsingInvalidCredentials();
         homePage.validateSignInTargetUserAccountUsingInvalidCredentials();
     }
 }

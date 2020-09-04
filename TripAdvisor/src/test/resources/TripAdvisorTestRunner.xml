@@ -13,14 +13,18 @@
 <!--    <parameter name="os_version" value="10"/>-->
         <parameter name="os_version" value="Catalina"/>
         <parameter name="browserName" value="chrome"/>
-        <parameter name="browserVersion" value="84"/>
+        <parameter name="browserVersion" value="85"/>
     <parameter name="url" value="https://www.tripadvisor.com/"/>
 
     <test name="Trip Advisor Home">
-        <parameter name="browserName" value="chrome"/>
-        <parameter name="browserVersion" value="84"/>
+<!--        <parameter name="browserName" value="chrome"/>-->
+<!--        <parameter name="browserVersion" value="85"/>-->
         <classes>
-            <class name="tripAdvisorHomeTest.TripAdvisorHomeTest">
+            <class name="tripAdvisorHomeTest.TripAdvisorHomeTest"/>
+            <class name="tripAdvisorHomeTest.TaRegistrationPageTest"/>
+            <class name="tripAdvisorHomeTest.HotelPageTest">
+
+
                 <methods>
                     <!--                    <exclude name="testSearchBoxCheckGetItemsListFromDB"></exclude>-->
                     <!--                    <include name="testSearchBoxCheckGetItemsListFromExcel"></include>-->

@@ -13,17 +13,16 @@
 <!--    <parameter name="os_version" value="10"/>-->
         <parameter name="os_version" value="catalina"/>
         <parameter name="browserName" value="chrome"/>
-        <parameter name="browserVersion" value="84"/>
+        <parameter name="browserVersion" value="85"/>
     <parameter name="url" value="https://www.target.com"/>
 
     <test name="Target Home">
 <!--        <parameter name="browserName" value="chrome"/>-->
 <!--        <parameter name="browserVersion" value="84"/>-->
         <classes>
-<!--            <class name="testHome.HomePageTest"/>-->
-<!--            <class name="testhome.GiftCardPageTest"/>-->
-<!--            <class name="testhome.HomePageTest"/>-->
-<!--            <class name="testhome.ShoppingCartTest"/>-->
+            <class name="testhome.GiftCardPageTest"/>
+            <class name="testhome.HomePageTest"/>
+            <class name="testhome.ShoppingCartTest"/>
             <class name="testhome.WeeklyAdTest">
 
                 <methods>

@@ -17,12 +17,12 @@ public class ShoppingCartTest extends WebAPI {
         shoppingCart.shoppingCartLogoIsDisplay();
     }
     @Test
-    public void testalidateShoppingCartLogoIsClickable() throws InterruptedException {
+    public void testShoppingCartLogoIsClickable() throws InterruptedException {
         shoppingCart.shoppingCartLogoIsClickable();
         shoppingCart.validateShoppingCartLogoIsClickable();
     }
     @Test
-    public void testShoppInCartLogIn() throws InterruptedException {
+    public void testShoppingCartLogIn() throws InterruptedException {
         shoppingCart.shoppingInCartLogIn();
         shoppingCart.validateShoppInCartLogIn();
     }

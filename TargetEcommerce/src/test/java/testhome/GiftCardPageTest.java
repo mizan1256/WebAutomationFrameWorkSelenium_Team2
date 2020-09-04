@@ -28,7 +28,7 @@ public class GiftCardPageTest extends WebAPI {
         giftCardPage.validateGcpShiptImageIsClickAble();
     }
     @Test
-    public void tsetGcpShiptButtonIsDisplay() throws InterruptedException {
+    public void testGcpShiptButtonIsDisplay() throws InterruptedException {
          giftCardPage.gcpShiptButtonIsDisplay();
     }
     @Test
@@ -46,7 +46,7 @@ public class GiftCardPageTest extends WebAPI {
         giftCardPage.validateGcpGiftCardForSchoolShoppingBagLogo();
     }
     @Test
-    public void tsetGcpGiftForSchoolChooseOption() throws InterruptedException {
+    public void testGcpGiftForSchoolChooseOption() throws InterruptedException {
          giftCardPage.gcpGiftForSchoolChooseOption();
          giftCardPage.validateGcpGiftForSchoolChooseOption();
     }

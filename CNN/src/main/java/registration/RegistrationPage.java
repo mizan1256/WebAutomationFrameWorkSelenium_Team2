@@ -71,9 +71,5 @@ public class RegistrationPage extends WebAPI {
     public void validateCnnAccountLogIn() {
         Assert.assertEquals("CNN - Breaking News, Latest News and Videos", driver.getTitle());
     }
-//    Set<String> windows = driver.getWindowHandles();
-//    Iterator<String> it = windows.iterator();
-//    String windowId = it.next();
-//        driver.switchTo().window(windowId);
-//        System.out.println(windowId);
+
 }
