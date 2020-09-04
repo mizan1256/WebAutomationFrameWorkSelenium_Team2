@@ -102,4 +102,35 @@ public class CnnHomePageTest extends WebAPI {
         myCnnHomePage.signInCreation();
         myCnnHomePage.validate_signInCreation();
     }
+    @Test//#51
+    public void testing_Validate_signInCreationNegativePass() throws InterruptedException {
+        myCnnHomePage.signInCreationNegativePass();
+        myCnnHomePage.validate_signInCreationNegativePass();
+    }
+    @Test//#52
+    public void testing_Validate_SignInConfirming() throws InterruptedException {
+        myCnnHomePage.signInConfirming();
+        myCnnHomePage.validate_SignInConfirming();
+    }
+    @Test//#53
+    public void testing_Validate_SignInConfirmingNegativeEmail() throws InterruptedException {
+        myCnnHomePage.signInConfirmingNegativeEmail();
+        myCnnHomePage.validate_SignInConfirmingNegativeEmail();
+    }
+    @Test//#54
+    public void testing_Validate_SignInConfirmingNegativePass() throws InterruptedException {
+        myCnnHomePage.signInConfirmingNegativePass();
+        myCnnHomePage.validate_SignInConfirmingNegativePass();
+    }
+    @Test//#55
+    public void testing_Validate_SignInConfirmingNegativeEmailPass() throws InterruptedException {
+        myCnnHomePage.signInConfirmingNegativeEmailPass();
+        myCnnHomePage.validate_SignInConfirmingNegativeEmailPass();
+    }
+    @Test//#56
+    public void testing_Validate_searchLogo() throws InterruptedException {
+        myCnnHomePage.searchLogo();
+        myCnnHomePage.validate_searchLogo();
+    }
+
 }

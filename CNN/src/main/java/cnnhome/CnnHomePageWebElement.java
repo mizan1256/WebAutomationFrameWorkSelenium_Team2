@@ -1,5 +1,6 @@
 package cnnhome;
 
+
 public class CnnHomePageWebElement {
 
     public static final String UsText="//li[@class='sc-chPdSV jUoWJl']//a[@name='us'][contains(text(),'US')]";// xpath..33
@@ -44,7 +45,7 @@ public class CnnHomePageWebElement {
     public static final String cnnLogoXpath="//div[@class='Cell-i0zvfi-0 sc-cHGsZl durQSY']//a[@class='Text-sc-1amvtpj-0-a Link-sc-1hkqz5e-0 jlzTwO']//*[local-name()='svg']//*[name()='rect' and contains(@x,'0')]";// 47
     //48
     public static final String espanolTextXpath="//div[@class='Box-sc-1fet97o-0 indexes__Dropdown-sc-1rspu01-2 iISZyL']//a[@name='espanol'][contains(text(),'Español')]";// 47
-// 50
+// 50,51
     public static final String signInLogoXpath="//div[@class='Flex-sc-1sqrs56-0 indexes__HideOnMobile-nujtvs-13 fSxGEU']//div[@id='account-icon-button']//*[local-name()='svg']";//50
     public static final String signInTextXpath="//a[@id='login-registration-link']";//50
     public static final String emailAddressBoxXpath="//input[@name='registrationEmail']";
@@ -52,5 +53,18 @@ public class CnnHomePageWebElement {
     public static final String zipCodeBoxXpath="//input[@name='userZipCode']";//50
     public static final String registerButtonXpath="//span[@class='Text-sc-1amvtpj-0-span kDWOQ']";//50
     public static final String expectedSignInCreationXpath="//div[@class='Text-sc-1amvtpj-0 indexes__FeedbackText-sc-1l7akfd-32 iygQsz']";//50
+//52
+    public static final String logInButtonXpath="//span[@class='Text-sc-1amvtpj-0-span kDWOQ']";// 52
+    public static final String emailAddressForSignInXpath="//input[@name='loginEmail']";
+    public static final String passwordForSignInXpath="//input[@name='loginPassword']";//52
+//53
+    public static final String expectedSignInErrorMessage="//div[@class='Text-sc-1amvtpj-0 indexes__FeedbackText-sc-1l7akfd-32 iygQsz']";//53
+    //56
+    public static final String searchLogoXpath="//div[@class='Flex-sc-1sqrs56-0 sc-hmzhuo lazpcj']//button[@class='sc-bdVaJa sc-fAjcbJ fdRUKj']//*[local-name()='svg']";// 56
+    public static final String searchBoxXpath="//input[@id='header-search-bar']";
+
+
+
+
 }
 

@@ -286,5 +286,130 @@ public class CnnHomePage extends WebAPI {
         //System.out.println(driver.getTitle());
         Assert.assertEquals(actualResult, expectedResult);
     }
+//////////////////////////// case 51
+public void signInCreationNegativePass(){
+    signInLogo.click();
+    signInText.click();
+    emailAddress.click();
+    emailAddress.clear();
+    emailAddress.sendKeys("jonyhossn@gmail.com");
+    password.click();
+    password.clear();
+    password.sendKeys("dhaka1219!");
+    zipCode.click();
+    zipCode.clear();
+    zipCode.sendKeys("11435");
+    register.click();
 
+}
+    public void validate_signInCreationNegativePass() {
+        String actualResult ="Please enter valid password";
+        String expectedResult="Please enter valid password";
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+    //////////////////////////// case 52
+    @FindBy(how = How.XPATH, using =logInButtonXpath )
+    public WebElement logInButton;
+    @FindBy(how = How.XPATH, using =emailAddressForSignInXpath )
+    public WebElement emSignIN;
+    @FindBy(how = How.XPATH, using =passwordForSignInXpath )
+    public WebElement passSignIn;
+
+    public void signInConfirming() throws InterruptedException {
+        signInLogo.click();
+        emSignIN.click();
+        emSignIN.clear();
+        Thread.sleep(2000);
+        emSignIN.sendKeys("jonhossn@gmail.com");
+        passSignIn.click();
+        passSignIn.clear();
+        Thread.sleep(2000);
+        passSignIn.sendKeys("Dhaka1219!");
+        logInButton.click();
+    }
+    public void validate_SignInConfirming() {
+        String actualResult ="CNN - Breaking News, Latest News and Videos";
+        String expectedResult=driver.getTitle();
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+/////////////// case 53
+@FindBy(how = How.XPATH, using =expectedSignInErrorMessage )
+public WebElement expectedSignInError;
+
+public void signInConfirmingNegativeEmail() throws InterruptedException {
+    signInLogo.click();
+    emSignIN.click();
+    emSignIN.clear();
+    Thread.sleep(2000);
+    emSignIN.sendKeys("hossn@gmail.com");
+    passSignIn.click();
+    passSignIn.clear();
+    Thread.sleep(2000);
+    passSignIn.sendKeys("Dhaka1219!");
+    logInButton.click();
+}
+    public void validate_SignInConfirmingNegativeEmail() {
+        String actualResult ="You have entered an invalid username or password.";
+        String expectedResult=expectedSignInError.getText();
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+    /////////////// case 54
+
+    public void signInConfirmingNegativePass() throws InterruptedException {
+        signInLogo.click();
+        emSignIN.click();
+        emSignIN.clear();
+        Thread.sleep(2000);
+        emSignIN.sendKeys("jonhossn@gmail.com");
+        passSignIn.click();
+        passSignIn.clear();
+        Thread.sleep(2000);
+        passSignIn.sendKeys("1219!");
+        logInButton.click();
+    }
+    public void validate_SignInConfirmingNegativePass() {
+        String actualResult ="You have entered an invalid username or password.";
+        String expectedResult=expectedSignInError.getText();
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+    /////////////// case 55
+
+    public void signInConfirmingNegativeEmailPass() throws InterruptedException {
+        signInLogo.click();
+        emSignIN.click();
+        emSignIN.clear();
+        Thread.sleep(2000);
+        emSignIN.sendKeys("jn@gmail.com");
+        passSignIn.click();
+        passSignIn.clear();
+        Thread.sleep(2000);
+        passSignIn.sendKeys("1219!");
+        logInButton.click();
+    }
+    public void validate_SignInConfirmingNegativeEmailPass() {
+        String actualResult ="You have entered an invalid username or password.";
+        String expectedResult=expectedSignInError.getText();
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+    ///////////case 56
+    @FindBy(how = How.XPATH, using =searchLogoXpath )
+    public WebElement searchLogo;
+    @FindBy(how = How.XPATH, using =searchBoxXpath )
+    public WebElement searchBox;
+
+    public void searchLogo() throws InterruptedException {
+        searchLogo.click();
+        searchBox.click();
+        searchBox.clear();
+        searchBox.sendKeys("bangladesh");
+        Thread.sleep(2000);
+        searchBox.submit();
+
+    }
+    public void validate_searchLogo() {
+        String actualResult ="Search CNN - Videos, Pictures, and News - CNN.com";
+        String expectedResult= driver.getTitle();
+//        System.out.println(driver.getTitle());
+        Assert.assertEquals(actualResult, expectedResult);
+    }
 }
