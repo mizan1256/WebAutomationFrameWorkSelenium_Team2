@@ -12,5 +12,9 @@ public class CnnTravelWebElement {
     public static final String newsTextXpath="//*[@id=\"mount\"]/div/div[1]/div[2]/div/div/div[2]/a[3]";//59
     //60
     public static final String stayTextXpath="//*[@id=\"mount\"]/div/div[1]/div[2]/div/div/div[2]/a[4]";//60
+    //61
+    public static final String videoTextClass="//a[@class='Header__section Header__video Header__active']";// 61
+    public static final String watchNowXpath="//*[@id=\"mount\"]/div/div[4]/div[2]/div/div[1]/div/div[1]/a[2]/div/div/div[2]/div";//61
+
 
 }

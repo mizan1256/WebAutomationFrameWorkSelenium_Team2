@@ -92,8 +92,18 @@ public class HomePageTest extends WebAPI {
         myHomePage.more();
         myHomePage.validate_more();
     }
-
-
+    @Test//#33
+    public void testing_SearchBoxCheckUsingGetItemValue() throws InterruptedException {
+        myHomePage.searchBoxCheckUsingGetItemValue();
+    }
+    @Test//#34
+    public void testing_SearchBoxCheckGetItemsListFromExcel() throws Exception {
+        myHomePage.searchBoxCheckGetItemsListFromExcel();
+    }
+    @Test//#35
+    public void testing_SearchBoxCheckGetItemsListFromDB() throws Exception {
+        myHomePage.searchBoxCheckGetItemsListFromDB();
+    }
 
 }
 

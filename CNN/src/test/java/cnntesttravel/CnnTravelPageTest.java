@@ -36,5 +36,10 @@ public class CnnTravelPageTest extends WebAPI {
         myTravelPage.stayTextClickable();
         myTravelPage.validateStayTextClickable();
     }
+    @Test//#61
+    public void testing_ValidateVideoPlayable() throws InterruptedException {
+        myTravelPage.videoPlayable();
+        myTravelPage.validateVideoPlayable();
+    }
 
 }

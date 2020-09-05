@@ -69,7 +69,7 @@ public class CnnTravelPage extends WebAPI {
 //      System.out.println(driver.getTitle());
         Assert.assertEquals(actualResult, expectedResult);
     }
-    ///////////////// case 59
+    ///////////////// case 60.travel.stay
     @FindBy(how = How.XPATH, using =stayTextXpath )
     public WebElement stay;
 
@@ -85,5 +85,25 @@ public class CnnTravelPage extends WebAPI {
 //      System.out.println(driver.getTitle());
         Assert.assertEquals(actualResult, expectedResult);
     }
+    ///////////////// case 61.travel.video.play button
 
+    @FindBy(how = How.XPATH, using =videoTextClass )
+    public WebElement video;
+
+    @FindBy(how = How.XPATH, using =watchNowXpath )
+    public WebElement playIcon;
+
+    public void videoPlayable() throws InterruptedException {//61
+        travel.click();
+        Thread.sleep(3000);
+        video.click();
+        Thread.sleep(4000);
+        //playIcon.click();
+    }
+    public void validateVideoPlayable() {
+        String actualResult ="Places to Stay | CNN Travel";
+        String expectedResult= driver.getTitle();
+     System.out.println(driver.getTitle());
+        Assert.assertEquals(actualResult, expectedResult);
+    }
 }

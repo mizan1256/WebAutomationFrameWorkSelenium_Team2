@@ -23,6 +23,8 @@
 
             <class name="cnntesthome.CnnHomePageTest"></class>
             <class name="cnntesttravel.CnnTravelPageTest"></class>
+            <class name="cnnteststyle.CnnStylePageTest"></class>
+
 
 
         </classes>
