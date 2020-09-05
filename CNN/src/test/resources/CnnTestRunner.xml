@@ -5,11 +5,11 @@
     <!--    thread-count="2" parallel="tests"-->
     <!--    Cross Browser Testing-->
     <!--    Parameter to pass the value to WebAPI-->
-    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <!--<parameter name="cloudEnvName" value="saucelab"/>-->
-    <parameter name="os" value="windows"/>
-<!--     <parameter name="os" value="OS X"/>-->
+<!--    <parameter name="os" value="windows"/>-->
+     <parameter name="os" value="OS X"/>
     <parameter name="os_version" value="10"/>
         <parameter name="os_version" value="Catalina"/>
         <parameter name="browserName" value="chrome"/>
@@ -17,8 +17,8 @@
     <parameter name="url" value="https://www.cnn.com"/>
 
     <test name="CNN Home">
-        <parameter name="browserName" value="chrome"/>
-        <parameter name="browserVersion" value="84"/>
+<!--        <parameter name="browserName" value="chrome"/>-->
+<!--        <parameter name="browserVersion" value="84"/>-->
         <classes>
             <class name="cnntesthome.CnnHomeTest">
                 <methods>

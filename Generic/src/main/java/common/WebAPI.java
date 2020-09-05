@@ -130,8 +130,8 @@ public class WebAPI {
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName,
-                      @Optional("windows") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-                              String browserVersion, @Optional("https://www.google.com") String url) throws IOException {
+                      @Optional("OS X") String os, @Optional("Catalina") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
+                              String browserVersion, @Optional("https://www.tripadvisor.com") String url) throws IOException {
 
         if (useCloudEnv == true) {
             if (cloudEnvName.equalsIgnoreCase("browserstack")) {

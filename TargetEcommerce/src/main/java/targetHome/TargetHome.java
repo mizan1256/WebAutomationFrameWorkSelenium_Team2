@@ -11,14 +11,14 @@ import static targetHome.TargetWebElements.*;
 
 public class TargetHome extends WebAPI {
 
-    @FindBy(how= How.XPATH, using = webElementsLogo) public WebElement targetLogo;
-    @FindBy (how=How.XPATH, using = webElementsShoppingCard) public WebElement shoppingCard;
+    @FindBy(how= How.XPATH, using =  webElementsLogo) public WebElement targetLogo;
+    @FindBy (how=How.XPATH, using =  webElementsShoppingCard) public WebElement shoppingCard;
     @FindBy (how=How.XPATH, using =  webElementsWeeklyAd) public WebElement targetWeeklyAd;
     @FindBy (how=How.XPATH, using =  webElementsToy) public WebElement targetToy;
     @FindBy (how=How.XPATH, using =  webElementsElectronics) public WebElement electronic;
     @FindBy (how=How.XPATH, using =  webElementsSearchBox) public WebElement searchBox;
     @FindBy (how=How.XPATH, using =  webElementsWallPaper) public WebElement wallPaper;
-    @FindBy (how=How.XPATH, using =   webElementsForSchool) public WebElement forSchool;
+    @FindBy (how=How.XPATH, using =  webElementsForSchool) public WebElement forSchool;
     @FindBy (how=How.XPATH, using =  webElementsDealsDropDown) public WebElement  dealsDropDown;
     @FindBy (how=How.XPATH, using =  webElementsClearance) public WebElement  Clearance;
     @FindBy (how=How.XPATH, using =  webElementsWeeklyAd1) public WebElement  weeklyAd1;
@@ -30,7 +30,7 @@ public class TargetHome extends WebAPI {
     @FindBy (how=How.XPATH, using =  webElementsGroceryExploreAll ) public WebElement  groceryExploreAll;
     @FindBy (how=How.XPATH, using =  webElementsHouseHole ) public WebElement  houseHole ;
     @FindBy (how=How.XPATH, using =  webElementsHouseHoleExploreAll ) public WebElement  houseHoleExploreAll ;
-    @FindBy (how=How.XPATH, using =webElementsWhatNow) public WebElement  whatNow;
+    @FindBy (how=How.XPATH, using =  webElementsWhatNow) public WebElement  whatNow;
     @FindBy (how=How.XPATH, using =  webElementsTargetStyle ) public WebElement  targetStyle;
     @FindBy (how=How.XPATH, using =  webElementsNewInBeauty ) public WebElement  NewInBeauty;
     @FindBy (how=How.XPATH, using =  webElementsNewInWomen ) public WebElement  NewInWomen;
