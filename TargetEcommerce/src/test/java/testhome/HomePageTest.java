@@ -5,7 +5,6 @@ import home.HomePage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import reporting.TestLogger;
 
 public class HomePageTest extends WebAPI {
     HomePage homePage;
@@ -40,5 +39,17 @@ public class HomePageTest extends WebAPI {
     public void testSignInTargetUserAccountUsingInvalidCredentials() throws InterruptedException {
         homePage.signInTargetUserAccountUsingInvalidCredentials();
         homePage.validateSignInTargetUserAccountUsingInvalidCredentials();
+    }
+    @Test
+    public void testSearchBoxCheckUsingGetItemValue() throws InterruptedException {
+        homePage.searchBoxCheckUsingGetItemValue();
+    }
+    @Test
+    public void testSearchBoxCheckUsingGetItemsListFromExcel() throws Exception {
+        homePage.searchBoxCheckUsingGetItemsListFromExcel();
+    }
+    @Test
+    public void testSearchBoxCheckGetItemsListFromDB() throws Exception {
+        homePage.searchBoxCheckGetItemsListFromDB();
     }
 }
