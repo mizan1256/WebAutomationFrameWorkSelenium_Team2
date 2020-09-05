@@ -52,4 +52,18 @@ public class TargetHomeTest extends WebAPI {
         targetHome.clickSameDayDelivery();
         targetHome.validateClickSameDayDelivery();
     }
+    @Test
+    public void testTargetSearchBoxCheckGetItemValue() throws InterruptedException {
+        targetHome.targetSearchBoxCheckGetItemValue();
+
+    }
+    @Test
+    public void testTargetSearchBoxCheckGetItemsListFromExcel() throws Exception {
+        targetHome.targetSearchBoxCheckGetItemsListFromExcel();
+    }
+    @Test
+    public void testTargetSearchBoxCheckGetItemsListFromDB() throws Exception {
+        targetHome.targetSearchBoxCheckGetItemsListFromDB();
+    }
+
 }
