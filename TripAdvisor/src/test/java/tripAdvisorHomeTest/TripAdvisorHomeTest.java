@@ -15,14 +15,44 @@ public class TripAdvisorHomeTest extends WebAPI{
     public void getInIt(){
         tripAdvisorHomePage = PageFactory.initElements(driver,TripAdvisorHomePage.class);
     }
-    @Test
-    public void testSearchBoxCheck() throws InterruptedException {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        tripAdvisorHomePage.searchBoxCheck();
-    }
+
     @Test
     public void test() throws InterruptedException {
         tripAdvisorHomePage.searchBoxClickable();
     }
+    @Test
+    public void testTripAdvisorWhereToSearchBox() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        tripAdvisorHomePage.tripAdvisorWhereToSearchBox();
+        tripAdvisorHomePage.validateTripAdvisorWhereToSearchBox("Texas");
+    }
+    @Test
+    public void testTripAdvisorHotelTabButton()throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        tripAdvisorHomePage.tripAdvisorHotelTabButton();
+        tripAdvisorHomePage.validateTripAdvisorWhereToSearchBox("Hotels matching \"Texas\"");
+    }
+    @Test
+    public void testTripAdvisorVacationRentalsTab() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        tripAdvisorHomePage.tripAdvisorVacationRentalsTab();
+        tripAdvisorHomePage.validateTripAdvisorVacationRentalsTab("Vacation rentals matching \"Texas\"");
+    }
+    @Test
+    public void testTripAdvisorGageHotelCheck() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        tripAdvisorHomePage.tripAdvisorGageHotelCheck();
+        tripAdvisorHomePage.validateTripAdvisorGageHotelCheck("Gage Hotel");
+    }
+    @Test
+    public void testTripAdvisorGageHotelCheckIn() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        tripAdvisorHomePage.tripAdvisorGageHotelCheckIn();
+    }
+
 }

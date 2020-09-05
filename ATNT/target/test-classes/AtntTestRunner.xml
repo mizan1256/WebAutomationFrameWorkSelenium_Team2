@@ -11,19 +11,21 @@
     <parameter name="os" value="windows"/>
     <!-- <parameter name="os" value="OS X"/>-->
     <parameter name="os_version" value="10"/>
-    <!--    <parameter name="os_version" value="Sierra"/>-->
-    <!--    <parameter name="browserName" value="chrome"/>-->
-    <!--    <parameter name="browserVersion" value="84"/>-->
+    <!--    <parameter name="os_version" value="Catalina"/>-->
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="browserVersion" value="85"/>
     <parameter name="url" value="https://www.att.com/"/>
 
     <test name="ATNT Home">
-        <parameter name="browserName" value="chrome"/>
-        <parameter name="browserVersion" value="84"/>
+<!--        <parameter name="browserName" value="chrome"/>-->
+<!--        <parameter name="browserVersion" value="85"/>-->
         <classes>
-            <class name="atnthometest.AtntHomeTest">
-                <methods>
-                    <exclude name="testSearchBoxCheck"></exclude>
-                    <exclude name="testSearchBoxCheck1"></exclude>
+            <class name="testAtnt.TestAtntHomePage">
+<!--            <class name="testAtnt.TestAtntCookies">-->
+
+            <methods>
+                    <exclude name="public void testBurgerButtonCheck"></exclude>
+                    <exclude name="public void testSearchBoxCheckAndGetItemValue"></exclude>
                     <!--                    <exclude name="testSearchBoxCheckUsingGetItemValue"></exclude>-->
                     <!--                    <exclude name="testSearchBoxCheckGetItemsListFromExcel"></exclude>-->
                     <!--                    <exclude name="testSearchBoxCheckGetItemsListFromDB"></exclude>-->

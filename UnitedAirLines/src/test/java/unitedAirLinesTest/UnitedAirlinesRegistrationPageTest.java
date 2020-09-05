@@ -44,7 +44,7 @@ public class UnitedAirlinesRegistrationPageTest extends WebAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         unitedAirlinesRegistrationPage.numberOfPassengerCheck();
-        unitedAirlinesRegistrationPage.validateNumberOfPassengerCheck("Map Search");
+        unitedAirlinesRegistrationPage.validateNumberOfPassengerCheck("One-way");
     }
     @Test
     public void testPassengerClassCheck() throws InterruptedException {

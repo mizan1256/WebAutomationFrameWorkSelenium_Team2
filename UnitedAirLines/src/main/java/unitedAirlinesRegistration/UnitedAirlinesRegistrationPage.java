@@ -1,11 +1,12 @@
 package unitedAirlinesRegistration;
 
+
 import common.WebAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 import static unitedAirlinesRegistration.UnitedAirlinesRegistrationWebElements.*;
@@ -103,9 +104,13 @@ public class UnitedAirlinesRegistrationPage extends WebAPI {
     }
 //  Action Method
     public void numberOfPassengerCheck() throws InterruptedException {
+//        passengerBox.clear();
+        Thread.sleep(3000);
         passengerBox.click();
         Thread.sleep(2000);
         numberOfPassengerBox.click();
+        Thread.sleep(2000);
+        numberDecreaseButton.click();
         Thread.sleep(2000);
         numberIncreaseButton.click();
         Thread.sleep(2000);
@@ -130,7 +135,9 @@ public class UnitedAirlinesRegistrationPage extends WebAPI {
 
 //  Action Method
     public void passengerClassCheck() throws InterruptedException {
-        mouseHoverByXpath("//button[@id='cabinType']");
+        Select select = new Select(driver.findElement(By.xpath("//*[@id=\"cabinType\"]/span")));
+        select.deselectByVisibleText("premium economy");
+//        mouseHoverByXpath("//button[@id='cabinType']");
         Thread.sleep(3000);
     }
 

@@ -131,7 +131,7 @@ public class WebAPI {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName,
                       @Optional("windows") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-                              String browserVersion, @Optional("https://www.united.com/en/us") String url) throws IOException {
+                              String browserVersion, @Optional("https://www.google.com") String url) throws IOException {
 
         if (useCloudEnv == true) {
             if (cloudEnvName.equalsIgnoreCase("browserstack")) {
@@ -271,6 +271,9 @@ public class WebAPI {
 
     public void clearField(String locator) {
         driver.findElement(By.id(locator)).clear();
+    }
+    public void clearField1(String locator) {
+        driver.findElement(By.xpath(locator)).clear();
     }
 
     public void navigateBack() {

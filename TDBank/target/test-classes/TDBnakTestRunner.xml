@@ -11,16 +11,16 @@
     <parameter name="os" value="windows"/>
     <!-- <parameter name="os" value="OS X"/>-->
     <parameter name="os_version" value="10"/>
-    <!--    <parameter name="os_version" value="Sierra"/>-->
-    <!--    <parameter name="browserName" value="chrome"/>-->
-    <!--    <parameter name="browserVersion" value="84"/>-->
-    <parameter name="url" value="https://www.td.com"/>
+    <!--    <parameter name="os_version" value="Catalina"/>-->
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="browserVersion" value="85"/>
+    <parameter name="url" value="https://www.td.com/us/en/personal-banking/"/>
 
     <test name="TDBank Home">
-        <parameter name="browserName" value="chrome"/>
-        <parameter name="browserVersion" value="84"/>
+<!--        <parameter name="browserName" value="chrome"/>-->
+<!--        <parameter name="browserVersion" value="85"/>-->
         <classes>
-            <class name="tdBankHomeTest.TDBankHomeTest">
+            <class name="tdBankTest.TDBankHomePageTest">
                 <methods>
                     <exclude name="testSearchBoxCheck"></exclude>
                     <exclude name="testSearchBoxCheck1"></exclude>

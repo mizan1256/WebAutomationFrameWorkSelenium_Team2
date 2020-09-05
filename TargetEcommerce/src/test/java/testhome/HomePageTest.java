@@ -5,6 +5,7 @@ import home.HomePage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class HomePageTest extends WebAPI {
     HomePage homePage;
@@ -57,9 +58,27 @@ public class HomePageTest extends WebAPI {
         homePage.validateCheckEmailButton();
     }
     @Test
-    public void testcheckMailButton() throws InterruptedException {
+    public void testCheckMailButton() throws InterruptedException {
         homePage.checkMailButton();
         homePage.validateCheckMailButton();
+    }
+    @Test
+    public void testSearchBoxCheckAndGetItemsValue() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        homePage.searchBoxCheckAndGetItemsValue();
+    }
+    @Test
+    public void testSearchAndGetItemsListFromExcel() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        homePage.searchAndGetItemsListFromExcel();
+    }
+    @Test
+    public void testSearchBoxCheckGetItemsListFromDB() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        homePage.searchBoxCheckGetItemsListFromDB();
     }
 
 }

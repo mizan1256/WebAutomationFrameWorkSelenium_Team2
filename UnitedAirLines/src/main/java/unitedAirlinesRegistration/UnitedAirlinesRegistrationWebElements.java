@@ -20,9 +20,9 @@ public class UnitedAirlinesRegistrationWebElements {
     public static final String travellerNumberOfPassengerBox = "//input[@id='NumOfSeniors']";
     public static final String travellerNumberOfPassengerIncrease = "//button[@id='NumOfSeniors plusBtn']";
     public static final String travellerNumberButtonClose = "//button[@id='passengersCloseBtn']//img";
-    public static final String travellerCheckText = "//span[contains(text(),'Map Search')]";
+    public static final String travellerCheckText = "//span[contains(text(),'One-way')]";
     public static final String travellerClassCheck ="//button[@id='cabinType']";
-    public static final String travelWhichClassArrowButton = "//button[@id='cabinType']";
+    public static final String travelWhichClassArrowButton = "//*[@id=\"cabinType\"]/div";
 //    public static final String
 //    public static final String
 //    public static final String

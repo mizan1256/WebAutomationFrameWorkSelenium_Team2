@@ -12,7 +12,7 @@ public class UnitedAirLinesHomePageTest extends WebAPI {
     UnitedAirLinesHomePage unitedAirLinesHomePage;
 
     @BeforeMethod
-    public void gitInIt() {
+    public void getInIt() {
         unitedAirLinesHomePage = PageFactory.initElements(driver, UnitedAirLinesHomePage.class);
     }
 

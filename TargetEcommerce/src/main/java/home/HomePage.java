@@ -1,11 +1,14 @@
 package home;
 
+import DataDriven.DataSource;
 import common.WebAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.testng.Assert;
+
+import java.util.List;
 
 import static home.HomePagewebElements.*;
 
@@ -139,6 +142,52 @@ public class HomePage extends WebAPI {
         Assert.assertEquals(actualResult,expectedResult);
         System.out.println("PASSED");
     }
+    public void searchBoxCheckAndGetItemsValue() throws InterruptedException {
+        List<String> itemsList= DataSource.getItemValue();
+        for (String st:itemsList) {
+            searchBox.sendKeys(st);
+            searchButton.click();
+//            searchBox.submit();
+            Thread.sleep(3000);
+            navigateBack();
+            Thread.sleep(2000);
+            searchBox.clear();
+            Thread.sleep(2000);
+        }
+    }
 
-}
+    public void searchAndGetItemsListFromExcel() throws Exception {
+        List<String> itemsList= DataSource.getItemsListFromExcel();
+        for (int i=1; i<itemsList.size();i++) {
+            String item = itemsList.get(i);
+            searchBox.sendKeys(item);
+            searchButton.click();
+            Thread.sleep(2000);
+            searchBox.clear();
+            Thread.sleep(3000);
+        }
+    }
+    public void searchBoxCheckGetItemsListFromDB() throws Exception {
+        // Insert Data to a Database table
+        DataSource.insertDataIntoDB();
+        // Get Data From Database Table
+        List<String> itemList = DataSource.getItemsListFromDB();
+        for (int i = 1; i < itemList.size(); i++) {
+            String item = itemList.get(i);
+            searchBox.sendKeys(item);
+            searchButton.click();
+            sleepFor(3);
+            searchBox.clear();
+            sleepFor(3);
+//            String expectedResult="\""+item+"\"";
+//            System.out.println("Expected Result : "+expectedResult);
+//            String actualResult = searchText.getText();
+//            System.out.println("Actual Result : "+actualResult);
+//            Assert.assertEquals(actualResult, expectedResult, "Search Item not match");
+//            sleepFor(3);
+//            searchBox.clear();
+        }
+    }
+
+    }
 
