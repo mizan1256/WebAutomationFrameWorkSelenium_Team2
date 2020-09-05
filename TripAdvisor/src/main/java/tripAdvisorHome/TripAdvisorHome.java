@@ -9,14 +9,29 @@ import org.testng.Assert;
 import static tripAdvisorHome.TripAdvisorHomeWebElements.*;
 
 public class TripAdvisorHome extends WebAPI {
-    @FindBy(how = How.XPATH,using = webElementsSearchBox) public WebElement searchBox;
-    @FindBy(how = How.XPATH,using = webElementsSearchButton) public WebElement searchButton;
-    @FindBy(how = How.XPATH,using = webElementsSearchButtonText) public WebElement searchButtonText;
+    @FindBy(how = How.XPATH,using = webElementsSearchBox)
+    public WebElement searchBox;
 
-    @FindBy(how = How.XPATH,using = webElementsPostButton) public WebElement postButton;
-    @FindBy(how = How.XPATH,using = webElementsWriteReviewButton) public WebElement writeReviewButton;
+    @FindBy(how = How.XPATH,using = webElementsSearchButton)
+    public WebElement searchButton;
 
+    @FindBy(how = How.XPATH,using = webElementsSearchButtonText)
+    public WebElement searchButtonText;
 
+    @FindBy(how = How.XPATH,using = webElementsPostButton)
+    public WebElement postButton;
+
+    @FindBy(how = How.XPATH,using = webElementsWriteReviewButton)
+    public WebElement writeReviewButton;
+
+    @FindBy(how = How.XPATH,using = webElementsTAPressButton)
+    public WebElement pressButton;
+
+    @FindBy(how = How.XPATH,using =webElementsTAOwnersButton)
+    public WebElement ownersButton;
+
+    @FindBy(how = How.XPATH,using =webElementsTATravelersChoiceButton)
+    public WebElement travelersChoiceButton;
 
     //Action Method
     public void checkSearchBoxText(String searchItem ) throws InterruptedException {
@@ -43,8 +58,36 @@ public class TripAdvisorHome extends WebAPI {
         Thread.sleep(3000);
         Assert.assertEquals(actualResult,expectedResult, "Text don't match");
     }
-
-
-
+    //Action Method
+    public void checkTAPressButton(){
+        pressButton.click();
+    }
+    //Validate Method
+    public void validateTAPressButton(String expectedResult) throws InterruptedException {
+        String actualResult = "Tripadvisor: Read Reviews, Compare Prices & Book";
+        Thread.sleep(3000);
+        Assert.assertEquals(actualResult, expectedResult, "Text don't match");
+    }
+    //Action Method
+    public void checkTAOwnersButton(){
+        ownersButton.click();
+    }
+    //Validate Method
+    public void validateCheckTAOwnersButton(String expectedResult) throws InterruptedException {
+        String actualResult = getTextByXpath(webElementsTAOwnersButtonText);
+        Thread.sleep(3000);
+        Assert.assertEquals(actualResult, expectedResult, "Text Don't match");
+    }
+    //Action Method
+    public void checkTATravelersChoiceButton(){
+        travelersChoiceButton.click();
+    }
+    //Validate Method
+    public void validateCheckTATravelersChoiceButton(String expectedResult) throws InterruptedException {
+        String actualResult = getTextByXpath(webElementsTATravelersChoiceButtonText);
+        Thread.sleep(3000);
+        Assert.assertEquals(actualResult, expectedResult, "Text Don't match");
+    }
 
 }
+

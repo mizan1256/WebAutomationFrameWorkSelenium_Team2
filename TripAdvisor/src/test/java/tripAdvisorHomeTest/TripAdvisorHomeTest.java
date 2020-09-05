@@ -22,7 +22,31 @@ public class TripAdvisorHomeTest extends WebAPI {
     }
     @Test
     public void testCheckPostButton() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
       tripAdvisorHome.checkPostButton();
       tripAdvisorHome.validateCheckPostButton(driver.getTitle());
     }
+    @Test
+    public void testCheckTAPresspButton() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        tripAdvisorHome.checkTAPressButton();
+        tripAdvisorHome.validateTAPressButton(driver.getTitle());
+    }
+    @Test
+    public void testCheckTAOwnersButton() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        tripAdvisorHome.checkTAOwnersButton();
+        tripAdvisorHome.validateCheckTAOwnersButton("Claim Your Free Tripadvisor Listing");
+    }
+    @Test
+    public void testCheckTATravelersChoiceButton() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        tripAdvisorHome.checkTATravelersChoiceButton();
+        tripAdvisorHome.validateCheckTATravelersChoiceButton("");
+    }
+
 }

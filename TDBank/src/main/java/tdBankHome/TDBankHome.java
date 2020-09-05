@@ -62,8 +62,10 @@ public class TDBankHome extends WebAPI {
     }
     //Action Method
     public void checkTDHelpButton() {
+
         tdHelpButton.click();
     }
+    //Validate Method
     public void validateCheckTDHelpButton(String expectedResult) throws InterruptedException {
         String actualResult = "Help Center";
         Thread.sleep(3000);
