@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="TestSuite">
-    <!--    thread-count="2" parallel="tests"-->
+<suite name="TestSuite" thread-count="1" parallel="tests">
     <!--    Cross Browser Testing-->
     <!--    Parameter to pass the value to WebAPI-->
     <parameter name="useCloudEnv" value="false"/>
@@ -12,8 +11,8 @@
     <!-- <parameter name="os" value="OS X"/>-->
     <parameter name="os_version" value="10"/>
     <!--    <parameter name="os_version" value="Sierra"/>-->
-    <!--    <parameter name="browserName" value="chrome"/>-->
-    <!--    <parameter name="browserVersion" value="84"/>-->
+    <!--  <parameter name="browserName" value="chrome"/> -->
+       <!-- <parameter name="browserVersion" value="84"/> -->
     <parameter name="url" value="https://www.cnn.com"/>
 
     <test name="CNN Home">
@@ -22,17 +21,12 @@
         <classes>
             <class name="cnntesthome.CnnHomeTest">
                 <methods>
-                    <exclude name="testSearchBoxCheck"></exclude>
-                    <exclude name="testSearchBoxCheck1"></exclude>
-                    <!--                    <exclude name="testSearchBoxCheckUsingGetItemValue"></exclude>-->
-                    <!--                    <exclude name="testSearchBoxCheckGetItemsListFromExcel"></exclude>-->
-                    <!--                    <exclude name="testSearchBoxCheckGetItemsListFromDB"></exclude>-->
-                    <!--                    <include name="testSearchBoxCheckGetItemsListFromExcel"></include>-->
+                    <!--                    <exclude name="testSearchBoxCheck1"></exclude>-->
                 </methods>
             </class>
 
             <!--            <class name="testhome.RegistrationPageTest"></class>-->
-
+<!--            <class name="testhome.HomePageTest"></class>-->
         </classes>
 
     </test>

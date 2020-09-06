@@ -122,8 +122,8 @@ public class WebAPI {
 
     //Browser SetUp
     public static WebDriver driver = null;
-    public String browserstack_username = "mhs5";
-    public String browserstack_accesskey = "dGpR3twU2pLPLgXZxmSa";
+    public String browserstack_username = "mhs5";//change it
+    public String browserstack_accesskey = "dGpR3twU2pLPLgXZxmSa";//change it
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 
