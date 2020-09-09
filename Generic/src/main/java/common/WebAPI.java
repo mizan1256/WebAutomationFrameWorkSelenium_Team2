@@ -140,7 +140,7 @@ public class WebAPI {
 //                                  String browserVersion, @Optional("https://www.united.com/en/us")
 //                                  String browserVersion, @Optional("https://www.geico.com/")
 //                                  String browserVersion, @Optional("https://www.tripadvisor.com//")
-                                  String browserVersion, @Optional("https://www.target.com") String url) throws IOException {
+                                  String browserVersion, @Optional("https://www.google.com") String url) throws IOException {
 
         if (useCloudEnv == true) {
             if (cloudEnvName.equalsIgnoreCase("browserstack")) {
