@@ -18,10 +18,10 @@ public class DealsWebElement {
     public static final String adultBeveragesXPathWebElement = "//*[@id=\"viewport\"]/div[5]/ul/li[3]/a/span";
     public static final String apparelXPathWebElement = "//*[@id='viewport']/div[5]/ul[1]/li[4]/a/span";
     public static final String babyXPathWebElement = "//*[@id='viewport']/div[5]/ul[1]/li[5]/a/span";
-    public static final String beautyXPathWebElement = "//span[contains(text(),'beauty')]";
+    public static final String beautyXPathWebElement = "//*[@id=\"viewport\"]/div[5]/ul[1]/li[6]/a/span";
     public static final String beautyItemXPathWebElement = "//p[contains(text(),'Neutrogena Rapid Tone Repair')]";
     public static final String beautyItemDetailsPageXPathWebElement = "/html/body/div[38]/div/div/div/div/div/div/div[1]/h2";
-    public static final String foodXPathWebElement = "//div[@class='l-container-fixed h-padding-h-wide']//li[7]//a[1]";
+    public static final String foodXPathWebElement = "//span[contains(text(),'food')]";
     public static final String foodItemXPathWebElement = "//p[contains(text(),'BelVita Breakfast Biscuits & Bites')]";
     public static final String foodDetailsPageXPathWebElement = "//div[@class='h-text-red']";
     public static final String healthXPathWebElement = "//*[@id=\"viewport\"]/div[5]/ul[1]/li[8]/a/span";

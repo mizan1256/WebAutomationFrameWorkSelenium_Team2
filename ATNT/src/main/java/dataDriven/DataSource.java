@@ -1,8 +1,12 @@
 package dataDriven;
 
 import databases.ConnectToSqlDB;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
 import utility.DataReader;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -56,5 +60,38 @@ public class DataSource {
         return list;
     }
 
+
+    public static List<String> getLoginInfo() throws IOException {
+        String path = "../ATNT/DataTest/ATTData.xlsx";
+        String[] myStringArray = excelReader.fileReader2(path, 1);
+        for(int i=1;i<myStringArray.length; i++)
+            System.out.println(myStringArray[i] + " ");
+        ArrayList<String> list = new ArrayList<String>();
+        return list;
+
+    }
+
+
+    public static String getCellValue(String xl, String Sheet, int r, int c) {
+        try {
+            FileInputStream fis = new FileInputStream(xl);
+            Workbook wb = WorkbookFactory.create(fis);
+            Cell cell = wb.getSheet(Sheet).getRow(r).getCell(c);
+            return cell.getStringCellValue();
+        } catch (Exception e) {
+            return "";
+        }
+    }
+
+    public static int getRowCount (String xl, String Sheet) {
+        try {
+            FileInputStream fis = new FileInputStream(xl);
+            Workbook wb = WorkbookFactory.create(fis);
+            return wb.getSheet(Sheet).getLastRowNum();
+        } catch (Exception e) {
+            return 0;
+        }
+
+    }
 
 }

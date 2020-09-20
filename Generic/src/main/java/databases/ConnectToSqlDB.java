@@ -207,7 +207,7 @@ public class ConnectToSqlDB {
         List<User> list = new ArrayList<>();
         User user = null;
         try{
-            Connection conn = connectToSqlDatabase();
+            Connection conn = connectToSqlDatabase ();
             String query = "SELECT * FROM Students";
             // create the java statement
             Statement st = conn.createStatement();

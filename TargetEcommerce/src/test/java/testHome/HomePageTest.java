@@ -20,18 +20,11 @@ public class HomePageTest extends WebAPI {
         homePage.validateNavigateToWeeklyAd();
     }
 
-
     @Test
     public void TestSearchBox() {//works
     homePage.SearchElement();
     homePage.validateSearchElement();
     }
-    @Test
-    public void TestItemsAddToCart() {//works
-        homePage.ItemsAddToCart();
-        homePage.validateAddToCart();
-    }
-
 
     @Test
     public void TestNavigate() {//works
@@ -93,30 +86,38 @@ public class HomePageTest extends WebAPI {
 
     }
     @Test
-    public void TestAllTheThingsSchool() {//works
+    public void TestAllTheThingsSchool() throws InterruptedException {//works
         homePage.allTheThingsSchool();
         homePage.validateAllTheThingsSchool();
 
     }
-    @Test
-    public void TestSharpieAddToCart() {//works: takes few try
-        homePage.sharpieAddToCart();
-        homePage.validateSharpieAddToCart();
 
+    @Test
+    public void TestSchool1() throws InterruptedException {//works: takes few try
+        homePage.school1();
+        homePage.validateSchool();
     }
 
+    @Test
+    public void TestItemsAddToCart() throws InterruptedException {//works
+        homePage.ItemsAddToCart();
+        homePage.validateAddToCart();
+    }
+
+
+     @Test
+     public void TestKidsHeadPhone() throws InterruptedException {//works
+     homePage.kidsHeadPhone();
+     homePage.validateKidsHeadPhone();
+
+     }
     @Test
     public void TestReadyForSchool() {//works
         homePage.readyForSchool();
         homePage.validateReadyForSchool();
 
     }
-    @Test
-    public void TestKidsHeadPhone() {//works
-        homePage.kidsHeadPhone();
-        homePage.validateKidsHeadPhone();
 
-    }
     @Test
     public void TestPostIt() {//works
         homePage.postIt();

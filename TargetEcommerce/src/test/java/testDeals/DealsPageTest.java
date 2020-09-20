@@ -23,7 +23,7 @@ public class DealsPageTest extends WebAPI {
 
     }
     @Test
-    public void testGoTopDeals() {//works
+    public void testGoTopDeals() throws InterruptedException {//works
         deals.GoTopDeals();
         deals.validateGoTopDeals();
 
@@ -35,11 +35,11 @@ public class DealsPageTest extends WebAPI {
 
     }
     @Test
-    public void testRedCardDeals2() {//works
+    public void testRedCardDeals2() throws InterruptedException {//works
         deals.redCardDeals2();
         deals.validateRedCardDeals2();
-
     }
+
 
     @Test
     public void testNavigateToTargetCircle() {//works
@@ -47,54 +47,56 @@ public class DealsPageTest extends WebAPI {
         deals.validateNavigateToTargetCircle();
     }
     @Test
-    public void testNavigateToForYouTargetCircle(){//works
+    public void testNavigateToForYouTargetCircle() throws InterruptedException {//works
         deals.navigateToForYouTargetCircle();
         deals.validateNavigateToForYouTargetCircle();
     }
 
 
     @Test
-    public void testNavigateToAdultBeveragesTargetCircle(){//works
+    public void testNavigateToAdultBeveragesTargetCircle() throws InterruptedException {//works
         deals.navigateToAdultBeveragesTargetCircle();
         deals.validateNavigateToAdultBeveragesTargetCircle();
 
     }
 
     @Test
-    public void testNavigateToApparelTargetCircle() {//works
+    public void testNavigateToApparelTargetCircle() throws InterruptedException {//works
         deals.navigateToApparelTargetCircle();
         deals.validateNavigateToApparelTargetCircle();
     }
 
 
     @Test
-    public void testNavigateToBabyTargetCircle() {//works
+    public void testNavigateToBabyTargetCircle() throws InterruptedException {//works
         deals.navigateToBabyTargetCircle();
         deals.validateNavigateToBabyTargetCircle();
 
     }
     @Test
-    public void testNavigateToBeautyTargetCircle() {//works
+    public void testNavigateToBeautyTargetCircle() throws InterruptedException {//works
         deals.navigateToBeautyTargetCircle();
         deals.validateNavigateToBeautyTargetCircle();
     }
     @Test
-    public void testNavigateToFoodTargetCircle() {//works
+    public void testNavigateToFoodTargetCircle() throws InterruptedException {//works
 
         deals.navigateToFoodTargetCircle();
         deals.validateNavigateToFoodTargetCircle();
     }
 
     @Test
-    public void testNavigateToHealthTargetCircle() {//works
+    public void testNavigateToHealthTargetCircle() throws InterruptedException {//works
         deals.navigateToHealthTargetCircle();
         deals.validateNavigateToHealthTargetCircle();
     }
 
 
     @Test
-    public void testNavigateToHomeTargetCircle() {//works
+    public void testNavigateToHomeTargetCircle() throws InterruptedException {//works
         deals.navigateToHomeTargetCircle();
         deals.validateNavigateToHomeTargetCircle();
     }
+
+
 }

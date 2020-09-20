@@ -22,6 +22,10 @@ public class HomePage extends WebAPI {
     public WebElement shampooText;
     @FindBy(how = How.XPATH, using = calculatorZeroToFifteenXPATHSWebElement)
     public WebElement calculator;
+    @FindBy(how = How.XPATH, using = searchHeadphonesXPATHSWebElement)
+    public WebElement searchHeadphones;
+    @FindBy(how = How.XPATH, using = searchHeadphonesHeartSignXPATHSWebElement)
+    public WebElement searchHeadphonesHeartSign;
     @FindBy(how = How.XPATH, using = deliveryXPATHSWebElement)
     public WebElement delivery;
     @FindBy(how = How.XPATH, using = calculatorXPATHSWebElement)
@@ -68,10 +72,13 @@ public class HomePage extends WebAPI {
     public WebElement harlemLocation;
     @FindBy(how = How.XPATH, using = searchButtonZipcodeXPathWebElement)
     public WebElement searchButtonZipcode;
-    @FindBy(how = How.XPATH, using = allTheThingsSchoolXPathWebElement)
-    public WebElement allTheThingsSchool;
-    @FindBy(how = How.XPATH, using = highLighterXPathWebElement)
-    public WebElement highLighter;
+    @FindBy(how = How.XPATH, using = schoolXPathWebElement)
+    public WebElement school;
+    @FindBy(how = How.XPATH, using = wifiAndNetworkingXPathWebElement)
+    public WebElement wifiAndNetworking;
+        @FindBy(how = How.XPATH, using = wifiAndNetworkingTextXPathWebElement)
+    public WebElement wifiAndNetworkingText;
+
     @FindBy(how = How.XPATH, using = sameDayDeliveryXPathWebElement)
     public WebElement sameDayDelivery;
     @FindBy(how = How.XPATH, using = sharpieXPathWebElement)
@@ -112,21 +119,24 @@ public class HomePage extends WebAPI {
      * add calculator to cart and validate the login button text
      */
     //action method
-    public void ItemsAddToCart() {
+    public void ItemsAddToCart() throws InterruptedException {
         //search calculator
         timeToBeClickable(5, searchBox);
         searchBox.sendKeys("calculator");
         //click enter
-        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+//        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+        sleepFor(5);
         searchBox.submit();
         //calculator click
-        timeToBeClickable(5, calculator);
+        sleepFor(5);
         calculator.click();
+        sleepFor(5);
         //click on free order pickup
-        timeToBeClickable(10, delivery);
+        sleepFor(5);
         delivery.click();
         //click on the desired calculator
-        timeToBeClickable(5, chooseCalc);
+        sleepFor(5);
+//        timeToBeClickable(5, chooseCalc);
         chooseCalc.click();
         //add to cart
         timeToBeClickable(5, addToRegistry);
@@ -242,27 +252,22 @@ public class HomePage extends WebAPI {
     /**
      * all the things in school
      * click highlight
-     * select same day delivery
-     * add to cart
-     * and validate order history text
+     *  and validate order history text
      */
 //action method
-    public void sharpieAddToCart() {
+    public void school1() throws InterruptedException {
         //use method to find sharpie
         allTheThingsSchool();
         //click on sharpie
-        timeToBeClickable(10, sharpie);
-        sharpie.click();
-        //click on deliver it
-        timeToBeClickable(10, deliverItSameDay);
-        deliverItSameDay.click();
+        sleepFor(5);
+
     }
     //validate method
 
-    public void validateSharpieAddToCart() {
+    public void validateSchool() {
         //validate the text for order history
-        timeToBeClickable(10, oderHistory);
-        Assert.assertEquals(oderHistory.getText(), "Order history");
+        String actualText=driver.getCurrentUrl();
+        Assert.assertEquals(actualText, "https://www.target.com/c/wi-fi-networking-electronics/-/N-5s7dv");
     }
 
     /**
@@ -406,21 +411,23 @@ public class HomePage extends WebAPI {
      * and validate shapie text
      */
 //action method
-    public void allTheThingsSchool() {
+    public void allTheThingsSchool() throws InterruptedException {
         //click on all the things school
-        allTheThingsSchool.click();
-        timeToBeClickable(10, highLighter);
+        scrollDown();
+        sleepFor(5);
+        school.click();
+        sleepFor(5);
+        //timeToBeClickable(10, highLighter);
         //click on highlighter
-        highLighter.click();
-        timeToBeClickable(10, sameDayDelivery);
-        //select same day delivery
-        sameDayDelivery.isSelected();
+        wifiAndNetworking.click();
+sleepFor(5);
     }
 
     //validate method
     public void validateAllTheThingsSchool() {
         //validate the text  for  sharpie
-        Assert.assertEquals(sharpie.getText(), sharpieText);
+        String actualtext= driver.getTitle();
+        Assert.assertEquals(actualtext, wifiAndNetworkingTitle);
     }
 
     /**
@@ -431,7 +438,7 @@ public class HomePage extends WebAPI {
 
     public void readyForSchool(){
         //click on all the things school
-        allTheThingsSchool.click();
+        school.click();
         //scroll down to the bottom
         scrollDown();
     }
@@ -447,21 +454,30 @@ public class HomePage extends WebAPI {
      * validate the title
      */
     //action methpd
-    public void kidsHeadPhone(){
+    public void kidsHeadPhone() throws InterruptedException {
         //click on all the things school
-        allTheThingsSchool.click();
-        //click on kidsHeadPhone
-        timeToBeClickable(10, kidsHeadPhone);
-        kidsHeadPhone.click();
-        //click on jBuddiesHeadPhone
-        timeToBeClickable(10, jBuddiesHeadPhone);
-        jBuddiesHeadPhone.click();
+        timeToBeClickable(5, searchBox);
+        searchBox.sendKeys("headphones");
+        //click enter
+//        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+        sleepFor(5);
+        searchBox.submit();
+        //calculator click
+        sleepFor(5);
+
+        //click on free order pickup
+//        delivery.click();
+        //click on the desired calculator
+        sleepFor(5);
+        searchHeadphones.click();
+        sleepFor(5);
 
     }
     //validate method
     public void validateKidsHeadPhone() {
         //validate the title
-        Assert.assertEquals(jBuddiesTitle.isDisplayed(),true);
+
+        Assert.assertEquals(searchHeadphonesHeartSign.isDisplayed(),true);
     }
     /**
      * click on all the things in school
@@ -472,7 +488,7 @@ public class HomePage extends WebAPI {
     //action methpd
     public void postIt() {
         //click on all the things school
-        allTheThingsSchool.click();
+        school.click();
         //click on listAssist
         timeToBeClickable(10, listAssist);
         listAssist.click();

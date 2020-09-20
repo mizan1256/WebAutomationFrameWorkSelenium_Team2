@@ -5,7 +5,9 @@ public class HomePageWebElement {
     public static final String searchBoxXPathWebElement = "//*[@id=\"search\"]";
     public static final String textXPATHSWebElement = "//h4[@class='FooterButton__StyledH4-mbwcwk-3 kMXxxr']";
     public static final String calculatorZeroToFifteenXPATHSWebElement = "//*[@id=\"mainContainer\"]/div[4]/div[1]/div/ul/li[1]/a/div[2]";
-    public static final String calculatorXPATHSWebElement = "//a[contains(text(),'Texas Instruments 30XIIS Scientific Calculator - B')]";
+    public static final String searchHeadphonesXPATHSWebElement = "//a[contains(text(),'Skullcandy Jib Wired Earbuds - Black')]";
+    public static final String searchHeadphonesHeartSignXPATHSWebElement = "//span[@class='sc-AxjAm bLenJb']//div[@class='sc-AxiKw eSbheu']//*[local-name()='svg']";
+    public static final String calculatorXPATHSWebElement = "//a[contains(text(),'Casio HS8VA Solar Powered Pocket Calculator - Silv')]";
     public static final String addToRegistryXPATHSWebElement = "//*[@id=\"viewport\"]/div[5]/div/div[2]/div[3]/div[2]/div/div/button";
     public static final String deliveryXPATHSWebElement = "//div[contains(text(),'Free Order Pickup')]";
     public static final String registryXPathWebElement = "//*[@id=\"header\"]/div[1]/div[2]/div/div[1]/ul/li[1]/a";
@@ -14,7 +16,7 @@ public class HomePageWebElement {
     public static final String ViewTheWeeklyAdXPathWebElement = "//button[@class='btn btn-primary ng-binding']";
     public static final String addTextXPathWebElement = "//*[@id=\"sectionCarousel\"]/div[3]/span/div/span[2]";
     public static final String loginTextCssSWebElement = "//*[@id=\"root\"]/div/div[1]/div/h2";
-    public static final String urlForOffersByCategory = "https://www.target.com/offers/target-circle/202";
+    public static final String urlForOffersByCategory = "https://www.target.com/offers/target-circle";
     public static final String addToCartXPathWebElement = "//*[@id=\"cart\"]/span[2]/div";
     public static final String addToCartTextXPathWebElement = "//span[contains(text(),'Have an account? Sign in to see your cart')]";
     public static final String heartButtonXPathWebElement = "//div[@class='h-display-inline-block h-margin-r-tiny']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']";
@@ -31,8 +33,10 @@ public class HomePageWebElement {
     public static final String storeLocationZipcodeXPathWebElement = "//input[@id='zipOrCityState']";
     public static final String searchButtonZipcodeXPathWebElement = "/html/body/div[8]/div/div/div/div/div/div/div/div[1]/div/div[3]/div[2]/button";
     public static final String harlemLocationXPathWebElement = "//h3[contains(text(),'Harlem')]";
-    public static final String allTheThingsSchoolXPathWebElement = "//div[contains(text(),'All things school')]";
-    public static final String highLighterXPathWebElement = "//div[contains(text(),'Highlighters')]";
+    public static final String schoolXPathWebElement = "//div[contains(text(),'Ready for School')]";
+    public static final String wifiAndNetworkingXPathWebElement = "//div[contains(text(),'Wi-Fi & Networking')]";
+    public static final String wifiAndNetworkingTextXPathWebElement = "//span[contains(text(),'Step up your Wi-Fi')]";
+    public static final String wifiAndNetworkingTitle = "Wi-Fi & Networking : Target";
     public static final String sameDayDeliveryXPathWebElement ="//div[contains(text(),'Same Day Delivery with Shipt')]";
     public static final String sharpieXPathWebElement ="//a[contains(text(),'12pk Highlighters Clearview Chisel Tip Multicolor')]";
     public static final String sharpieText ="12pk Highlighters Clearview Chisel Tip Multicolor - Sharpie";
