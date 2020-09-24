@@ -29,8 +29,32 @@ public class TripAdvisorWebElements {
 //    public static final String webElementsDate = "//select[@id='trip_date_month_year']";
     public static final String webElementsMark = "//input[@id='noFraud']";
     public static final String webElementsSubmit = "//span[contains(text(),'Submit your review')]";
-    public static final String webElementsValidateText = "//h2[@class='propertyname']";
+    public static final String webElementsValidateTexts = "//h2[@class='propertyname']";
 
+    public static final String webElementsAlerts = "//header[@class='_3wrX4B4P _1capNFED']//div[4]//a[1]";
+    public static final String webElementsAlertsValidateText ="//span[@class='separator_text']";
+    public static final String webElementsTrips = "//header[@class='_3wrX4B4P _1capNFED']//div[5]//a[1]";
+    public static final String webElementsTripsValidateText ="//a[@class='NyoN_AHk ui_link']";
 
+    public static final String webElementsThingsToDo ="//span[contains(text(),'Things to Do')]";
+    public static final String webElementsThingsToDoSearch ="//div[@class='i3bZ_gBa _2RTs3_Ee _3TPJs5_m _3awdcWrG']//input[@placeholder='Where to?']";
+    public static final String webElementsThingsToDoSearchButton ="//div[@class='i3bZ_gBa _2RTs3_Ee _3TPJs5_m _3awdcWrG']//span[@class='_2LyoLJ4U _2HBN-k68 _3LkX-HIr']";
+    public static final String webElementsThingsToDoValidateText ="//span[@class='_29RBjs3n title']";
 
+    public static final String webElementsMoreDropDown ="//span[contains(text(),'More')]";
+    public static final String webElementsHelpCenter ="//a[@class='_3AlNF7Wa'][contains(text(),'Help Center')]";
+    public static final String webElementsViewHelpCenter ="//a[@class='_3S6pHEQs gZ95jyA4 _3kZTl14J'][contains(text(),'Help Center')]";
+    public static final String webElementsHelpCenterValidateText ="//h3[@class='popular-article-title']";
+
+    public static final String webElementsPostDropDown ="//span[contains(text(),'Post')]";
+    public static final String webElementsPostDropDownPhoto ="//a[contains(text(),'Post photos')]";
+    public static final String webElementsPostHotel ="//input[@id='type_hotel']";
+    public static final String webElementsPostSearch ="//input[@id='query']";
+    public static final String webElementsPostSearchButton ="//span[@class='ui_icon search searchButtonIcon']";
+    public static final String webElementsPostSearchLikeToReview ="//input[@id='detail_87833']";
+    public static final String webElementsPostDropDownPostPhoto ="//span[contains(text(),'Post photos')]";
+    public static final String webElementsPostAddPhoto ="//div[@class='buttonTextDefault']//span[@class='ui_button primary']";
+    public static final String webElementsPostValidateText ="//div[@class='ui_button primary addPhotoBtn']";
+    //public static final String webElementsPostAddPhoto =
+    //Marriott's Grande Vista, Orlando
 }
