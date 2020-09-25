@@ -1,20 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="4" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="19" passed="12" failed="7" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Extent Report Directory/Users/mobassaratabassum/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/ATNT/target/surefire-reports/html]]>
     </line>
+    <line>
+      <![CDATA[ExploreMenuTest: test Explore Prepaid]]>
+    </line>
+    <line>
+      <![CDATA[ExploreMenuTest: test Explore Prepaid Mobile Plans]]>
+    </line>
+    <line>
+      <![CDATA[ExploreMenuTest: test Explore Prepaid Phones]]>
+    </line>
+    <line>
+      <![CDATA[ExploreMenuTest: test Explore Tv And Entertainment]]>
+    </line>
+    <line>
+      <![CDATA[ExploreMenuTest: test Explore Tv And Entertainment Bundles]]>
+    </line>
+    <line>
+      <![CDATA[ExploreMenuTest: test Explore Tv And Entertainment Direct TV]]>
+    </line>
+    <line>
+      <![CDATA[ExploreMenuTest: test Explore Tv And Entertainment International Packages]]>
+    </line>
+    <line>
+      <![CDATA[ExploreMenuTest: test Explore Tv And Entertainment Tv Accessories]]>
+    </line>
+    <line>
+      <![CDATA[ExploreMenuTest: test Explore Tv And Entertainment Uverse TV]]>
+    </line>
+    <line>
+      <![CDATA[ExploreMenuTest: test Explore Wire Less]]>
+    </line>
+    <line>
+      <![CDATA[ExploreMenuTest: test Explore Wireless Add A Device]]>
+    </line>
+    <line>
+      <![CDATA[ExploreMenuTest: test Explore Wireless Bring Your Device]]>
+    </line>
+    <line>
+      <![CDATA[ExploreMenuTest: test Explore Wireless Five G]]>
+    </line>
+    <line>
+      <![CDATA[ExploreMenuTest: test Explore Wireless International Option]]>
+    </line>
+    <line>
+      <![CDATA[ExploreMenuTest: test Explore Wireless Phones And Devices]]>
+    </line>
+    <line>
+      <![CDATA[ExploreMenuTest: test Explore Wireless Plan Discounts]]>
+    </line>
+    <line>
+      <![CDATA[ExploreMenuTest: test Explore Wireless Planes And Prices]]>
+    </line>
+    <line>
+      <![CDATA[ExploreMenuTest: test Explore Wireless Trade In Your Device]]>
+    </line>
+    <line>
+      <![CDATA[ExploreMenuTest: test Explore Wireless Upgrade Your Device]]>
+    </line>
   </reporter-output>
-  <suite started-at="2020-09-02T21:05:28 EDT" name="TestSuite" finished-at="2020-09-02T21:05:36 EDT" duration-ms="8284">
+  <suite started-at="2020-09-24T19:53:37 EDT" name="TestSuite" finished-at="2020-09-24T20:05:42 EDT" duration-ms="725227">
     <groups>
     </groups>
-    <test started-at="2020-09-02T21:05:28 EDT" name="ATNT Home" finished-at="2020-09-02T21:05:36 EDT" duration-ms="8284">
-      <class name="testSearch.SearchTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testSearch.SearchTest@5c90e579]" started-at="2020-09-02T21:05:28 EDT" name="extentSetup" finished-at="2020-09-02T21:05:28 EDT" duration-ms="164" status="PASS">
+    <test started-at="2020-09-24T19:53:37 EDT" name="ATNT Home" finished-at="2020-09-24T20:05:42 EDT" duration-ms="725227">
+      <class name="testExploreMenu.ExploreMenuTest">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:53:37 EDT" name="extentSetup" finished-at="2020-09-24T19:53:37 EDT" duration-ms="245" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@363a3d15]]>
+                <![CDATA[org.testng.TestRunner@38de5daf]]>
               </value>
             </param>
           </params>
@@ -24,7 +81,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSearch.SearchTest@5c90e579]" started-at="2020-09-02T21:05:28 EDT" name="setUp" finished-at="2020-09-02T21:05:35 EDT" duration-ms="7062" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:53:37 EDT" name="setUp" finished-at="2020-09-24T19:53:43 EDT" duration-ms="6454" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,42 +122,367 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testSearch.SearchTest@5c90e579]" started-at="2020-09-02T21:05:35 EDT" name="startExtent" finished-at="2020-09-02T21:05:35 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:53:43 EDT" name="startExtent" finished-at="2020-09-24T19:53:43 EDT" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testSearch.SearchTest.testSearchBoxCheckGetItemsListFromDB() throws java.lang.Exception]]>
+                <![CDATA[public void testExploreMenu.ExploreMenuTest.testExplorePrepaid() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="getInit()[pri:0, instance:testSearch.SearchTest@5c90e579]" started-at="2020-09-02T21:05:35 EDT" name="getInit" finished-at="2020-09-02T21:05:35 EDT" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:53:43 EDT" name="getInit" finished-at="2020-09-24T19:53:43 EDT" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getInit -->
-        <test-method signature="testSearchBoxCheckGetItemsListFromDB()[pri:0, instance:testSearch.SearchTest@5c90e579]" started-at="2020-09-02T21:05:35 EDT" name="testSearchBoxCheckGetItemsListFromDB" finished-at="2020-09-02T21:05:35 EDT" duration-ms="144" status="FAIL">
-          <exception class="java.sql.SQLNonTransientConnectionException">
+        <test-method signature="testExplorePrepaid()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:53:43 EDT" name="testExplorePrepaid" finished-at="2020-09-24T19:54:21 EDT" duration-ms="37325" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ExploreMenuTest: test Explore Prepaid]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExplorePrepaid -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:54:21 EDT" name="afterEachTestMethod" finished-at="2020-09-24T19:54:21 EDT" duration-ms="425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExplorePrepaid status=SUCCESS method=ExploreMenuTest.testExplorePrepaid()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425] output=ExploreMenuTest: test Explore Prepaid]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:54:21 EDT" name="cleanUp" finished-at="2020-09-24T19:54:21 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:54:21 EDT" name="setUp" finished-at="2020-09-24T19:54:26 EDT" duration-ms="4927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.att.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:54:26 EDT" name="getInit" finished-at="2020-09-24T19:54:26 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:54:26 EDT" name="startExtent" finished-at="2020-09-24T19:54:26 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testExploreMenu.ExploreMenuTest.testExplorePrepaidMobilePlans() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testExplorePrepaidMobilePlans()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:54:26 EDT" name="testExplorePrepaidMobilePlans" finished-at="2020-09-24T19:55:03 EDT" duration-ms="37246" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ExploreMenuTest: test Explore Prepaid Mobile Plans]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExplorePrepaidMobilePlans -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:55:03 EDT" name="afterEachTestMethod" finished-at="2020-09-24T19:55:04 EDT" duration-ms="177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExplorePrepaidMobilePlans status=SUCCESS method=ExploreMenuTest.testExplorePrepaidMobilePlans()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425] output=ExploreMenuTest: test Explore Prepaid Mobile Plans]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:55:04 EDT" name="cleanUp" finished-at="2020-09-24T19:55:04 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:55:04 EDT" name="setUp" finished-at="2020-09-24T19:55:08 EDT" duration-ms="4676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.att.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:55:08 EDT" name="startExtent" finished-at="2020-09-24T19:55:08 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testExploreMenu.ExploreMenuTest.testExplorePrepaidPhones() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:55:08 EDT" name="getInit" finished-at="2020-09-24T19:55:08 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testExplorePrepaidPhones()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:55:08 EDT" name="testExplorePrepaidPhones" finished-at="2020-09-24T19:55:46 EDT" duration-ms="37403" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ExploreMenuTest: test Explore Prepaid Phones]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExplorePrepaidPhones -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:55:46 EDT" name="afterEachTestMethod" finished-at="2020-09-24T19:55:46 EDT" duration-ms="158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExplorePrepaidPhones status=SUCCESS method=ExploreMenuTest.testExplorePrepaidPhones()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425] output=ExploreMenuTest: test Explore Prepaid Phones]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:55:46 EDT" name="cleanUp" finished-at="2020-09-24T19:55:46 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:55:46 EDT" name="setUp" finished-at="2020-09-24T19:55:49 EDT" duration-ms="3507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.att.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:55:49 EDT" name="getInit" finished-at="2020-09-24T19:55:49 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:55:49 EDT" name="startExtent" finished-at="2020-09-24T19:55:49 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testExploreMenu.ExploreMenuTest.testExploreTvAndEntertainment() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testExploreTvAndEntertainment()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:55:49 EDT" name="testExploreTvAndEntertainment" finished-at="2020-09-24T19:56:28 EDT" duration-ms="38256" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ExploreMenuTest: test Explore Tv And Entertainment]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExploreTvAndEntertainment -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:56:28 EDT" name="afterEachTestMethod" finished-at="2020-09-24T19:56:28 EDT" duration-ms="162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExploreTvAndEntertainment status=SUCCESS method=ExploreMenuTest.testExploreTvAndEntertainment()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425] output=ExploreMenuTest: test Explore Tv And Entertainment]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:56:28 EDT" name="cleanUp" finished-at="2020-09-24T19:56:28 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:56:28 EDT" name="setUp" finished-at="2020-09-24T19:56:31 EDT" duration-ms="3316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.att.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:56:31 EDT" name="getInit" finished-at="2020-09-24T19:56:31 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:56:31 EDT" name="startExtent" finished-at="2020-09-24T19:56:31 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testExploreMenu.ExploreMenuTest.testExploreTvAndEntertainmentBundles() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testExploreTvAndEntertainmentBundles()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:56:31 EDT" name="testExploreTvAndEntertainmentBundles" finished-at="2020-09-24T19:57:07 EDT" duration-ms="35458" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[Public Key Retrieval is not allowed]]>
+              <![CDATA[element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mobassaras-MBP', ip: 'fe80:0:0:0:67:9267:723:63d2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:65483}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2de35e843b77d66a82d03d47186e52dc]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
-at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
-at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
-at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
-at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
-at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
-at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
-at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
-at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
-at databases.ConnectToSqlDB.connectToSqlDatabase(ConnectToSqlDB.java:38)
-at databases.ConnectToSqlDB.readDataBase(ConnectToSqlDB.java:47)
-at dataDriven.DataSource.getItemsListFromDB(DataSource.java:38)
-at searchItem.Search.searchBoxCheckGetItemsListFromDB(Search.java:79)
-at testSearch.SearchTest.testSearchBoxCheckGetItemsListFromDB(SearchTest.java:36)
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mobassaras-MBP', ip: 'fe80:0:0:0:67:9267:723:63d2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:65483}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2de35e843b77d66a82d03d47186e52dc
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at common.WebAPI.clickOnElement(WebAPI.java:220)
+at exploreMenu.ExploreMenu.exploreTvAndEntertainmentBundles(ExploreMenu.java:299)
+at testExploreMenu.ExploreMenuTest.testExploreTvAndEntertainmentBundles(ExploreMenuTest.java:142)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -135,30 +517,1538 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.sql.SQLNonTransientConnectionException -->
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
+            <line>
+              <![CDATA[ExploreMenuTest: test Explore Tv And Entertainment Bundles]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- testSearchBoxCheckGetItemsListFromDB -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testSearch.SearchTest@5c90e579]" started-at="2020-09-02T21:05:35 EDT" name="afterEachTestMethod" finished-at="2020-09-02T21:05:36 EDT" duration-ms="1042" status="PASS">
+        </test-method> <!-- testExploreTvAndEntertainmentBundles -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:57:07 EDT" name="afterEachTestMethod" finished-at="2020-09-24T19:57:08 EDT" duration-ms="1291" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testSearchBoxCheckGetItemsListFromDB status=FAILURE method=SearchTest.testSearchBoxCheckGetItemsListFromDB()[pri:0, instance:testSearch.SearchTest@5c90e579] output={null}]]]>
+                <![CDATA[[TestResult name=testExploreTvAndEntertainmentBundles status=FAILURE method=ExploreMenuTest.testExploreTvAndEntertainmentBundles()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425] output=ExploreMenuTest: test Explore Tv And Entertainment Bundles]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testSearch.SearchTest@5c90e579]" started-at="2020-09-02T21:05:36 EDT" name="cleanUp" finished-at="2020-09-02T21:05:36 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:57:08 EDT" name="cleanUp" finished-at="2020-09-24T19:57:08 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:testSearch.SearchTest@5c90e579]" started-at="2020-09-02T21:05:36 EDT" name="generateReport" finished-at="2020-09-02T21:05:36 EDT" duration-ms="29" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:57:08 EDT" name="setUp" finished-at="2020-09-24T19:57:11 EDT" duration-ms="3583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.att.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:57:11 EDT" name="startExtent" finished-at="2020-09-24T19:57:11 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testExploreMenu.ExploreMenuTest.testExploreTvAndEntertainmentDirectTV() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:57:11 EDT" name="getInit" finished-at="2020-09-24T19:57:11 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testExploreTvAndEntertainmentDirectTV()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:57:11 EDT" name="testExploreTvAndEntertainmentDirectTV" finished-at="2020-09-24T19:57:47 EDT" duration-ms="35399" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mobassaras-MBP', ip: 'fe80:0:0:0:67:9267:723:63d2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:49330}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a48551992967d1a88fa954385a7a1e34]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mobassaras-MBP', ip: 'fe80:0:0:0:67:9267:723:63d2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:49330}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a48551992967d1a88fa954385a7a1e34
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at common.WebAPI.clickOnElement(WebAPI.java:220)
+at exploreMenu.ExploreMenu.exploreTvAndEntertainmentDirectTV(ExploreMenu.java:265)
+at testExploreMenu.ExploreMenuTest.testExploreTvAndEntertainmentDirectTV(ExploreMenuTest.java:127)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[ExploreMenuTest: test Explore Tv And Entertainment Direct TV]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExploreTvAndEntertainmentDirectTV -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:57:47 EDT" name="afterEachTestMethod" finished-at="2020-09-24T19:57:48 EDT" duration-ms="1285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExploreTvAndEntertainmentDirectTV status=FAILURE method=ExploreMenuTest.testExploreTvAndEntertainmentDirectTV()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425] output=ExploreMenuTest: test Explore Tv And Entertainment Direct TV]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:57:48 EDT" name="cleanUp" finished-at="2020-09-24T19:57:48 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:57:48 EDT" name="setUp" finished-at="2020-09-24T19:57:52 EDT" duration-ms="3510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.att.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:57:52 EDT" name="startExtent" finished-at="2020-09-24T19:57:52 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testExploreMenu.ExploreMenuTest.testExploreTvAndEntertainmentInternationalPackages() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:57:52 EDT" name="getInit" finished-at="2020-09-24T19:57:52 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testExploreTvAndEntertainmentInternationalPackages()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:57:52 EDT" name="testExploreTvAndEntertainmentInternationalPackages" finished-at="2020-09-24T19:58:12 EDT" duration-ms="20369" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mobassaras-MBP', ip: 'fe80:0:0:0:67:9267:723:63d2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:49555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0b4af10cea37d50558d119863c08430a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mobassaras-MBP', ip: 'fe80:0:0:0:67:9267:723:63d2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:49555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0b4af10cea37d50558d119863c08430a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at common.WebAPI.clickOnElement(WebAPI.java:220)
+at exploreMenu.ExploreMenu.exploreTvAndEntertainmentInternationalPackages(ExploreMenu.java:314)
+at testExploreMenu.ExploreMenuTest.testExploreTvAndEntertainmentInternationalPackages(ExploreMenuTest.java:150)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[ExploreMenuTest: test Explore Tv And Entertainment International Packages]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExploreTvAndEntertainmentInternationalPackages -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:58:12 EDT" name="afterEachTestMethod" finished-at="2020-09-24T19:58:13 EDT" duration-ms="863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExploreTvAndEntertainmentInternationalPackages status=FAILURE method=ExploreMenuTest.testExploreTvAndEntertainmentInternationalPackages()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425] output=ExploreMenuTest: test Explore Tv And Entertainment International Packages]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:58:13 EDT" name="setUp" finished-at="2020-09-24T19:58:16 EDT" duration-ms="3622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.att.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:58:13 EDT" name="cleanUp" finished-at="2020-09-24T19:58:13 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:58:16 EDT" name="startExtent" finished-at="2020-09-24T19:58:16 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testExploreMenu.ExploreMenuTest.testExploreTvAndEntertainmentTvAccessories() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:58:16 EDT" name="getInit" finished-at="2020-09-24T19:58:16 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testExploreTvAndEntertainmentTvAccessories()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:58:16 EDT" name="testExploreTvAndEntertainmentTvAccessories" finished-at="2020-09-24T19:58:55 EDT" duration-ms="38303" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ExploreMenuTest: test Explore Tv And Entertainment Tv Accessories]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExploreTvAndEntertainmentTvAccessories -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:58:55 EDT" name="afterEachTestMethod" finished-at="2020-09-24T19:58:55 EDT" duration-ms="146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExploreTvAndEntertainmentTvAccessories status=SUCCESS method=ExploreMenuTest.testExploreTvAndEntertainmentTvAccessories()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425] output=ExploreMenuTest: test Explore Tv And Entertainment Tv Accessories]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:58:55 EDT" name="setUp" finished-at="2020-09-24T19:58:58 EDT" duration-ms="3141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.att.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:58:55 EDT" name="cleanUp" finished-at="2020-09-24T19:58:55 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:58:58 EDT" name="startExtent" finished-at="2020-09-24T19:58:58 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testExploreMenu.ExploreMenuTest.testExploreTvAndEntertainmentUverseTV() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:58:58 EDT" name="getInit" finished-at="2020-09-24T19:58:58 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testExploreTvAndEntertainmentUverseTV()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:58:58 EDT" name="testExploreTvAndEntertainmentUverseTV" finished-at="2020-09-24T19:59:35 EDT" duration-ms="37043" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ExploreMenuTest: test Explore Tv And Entertainment Uverse TV]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExploreTvAndEntertainmentUverseTV -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:59:35 EDT" name="afterEachTestMethod" finished-at="2020-09-24T19:59:35 EDT" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExploreTvAndEntertainmentUverseTV status=SUCCESS method=ExploreMenuTest.testExploreTvAndEntertainmentUverseTV()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425] output=ExploreMenuTest: test Explore Tv And Entertainment Uverse TV]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:59:35 EDT" name="cleanUp" finished-at="2020-09-24T19:59:35 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:59:35 EDT" name="setUp" finished-at="2020-09-24T19:59:40 EDT" duration-ms="4528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.att.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:59:40 EDT" name="startExtent" finished-at="2020-09-24T19:59:40 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testExploreMenu.ExploreMenuTest.testExploreWireLess() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testExploreWireLess()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:59:40 EDT" name="testExploreWireLess" finished-at="2020-09-24T20:00:15 EDT" duration-ms="35484" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mobassaras-MBP', ip: 'fe80:0:0:0:67:9267:723:63d2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:50215}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5ee4d445200f97f2230968a53f20cbe5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mobassaras-MBP', ip: 'fe80:0:0:0:67:9267:723:63d2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:50215}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5ee4d445200f97f2230968a53f20cbe5
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at common.WebAPI.clickOnElement(WebAPI.java:220)
+at exploreMenu.ExploreMenu.exploreWireless(ExploreMenu.java:36)
+at testExploreMenu.ExploreMenuTest.testExploreWireLess(ExploreMenuTest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[ExploreMenuTest: test Explore Wire Less]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExploreWireLess -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T19:59:40 EDT" name="getInit" finished-at="2020-09-24T19:59:40 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:00:15 EDT" name="afterEachTestMethod" finished-at="2020-09-24T20:00:16 EDT" duration-ms="1226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExploreWireLess status=FAILURE method=ExploreMenuTest.testExploreWireLess()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425] output=ExploreMenuTest: test Explore Wire Less]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:00:16 EDT" name="cleanUp" finished-at="2020-09-24T20:00:16 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:00:16 EDT" name="setUp" finished-at="2020-09-24T20:00:20 EDT" duration-ms="3654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.att.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:00:20 EDT" name="startExtent" finished-at="2020-09-24T20:00:20 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testExploreMenu.ExploreMenuTest.testExploreWirelessAddADevice() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testExploreWirelessAddADevice()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:00:20 EDT" name="testExploreWirelessAddADevice" finished-at="2020-09-24T20:00:56 EDT" duration-ms="35733" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ExploreMenuTest: test Explore Wireless Add A Device]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExploreWirelessAddADevice -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:00:20 EDT" name="getInit" finished-at="2020-09-24T20:00:20 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:00:56 EDT" name="afterEachTestMethod" finished-at="2020-09-24T20:00:56 EDT" duration-ms="144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExploreWirelessAddADevice status=SUCCESS method=ExploreMenuTest.testExploreWirelessAddADevice()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425] output=ExploreMenuTest: test Explore Wireless Add A Device]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:00:56 EDT" name="cleanUp" finished-at="2020-09-24T20:00:56 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:00:56 EDT" name="setUp" finished-at="2020-09-24T20:00:59 EDT" duration-ms="2914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.att.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:00:59 EDT" name="startExtent" finished-at="2020-09-24T20:00:59 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testExploreMenu.ExploreMenuTest.testExploreWirelessBringYourDevice() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:00:59 EDT" name="getInit" finished-at="2020-09-24T20:00:59 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testExploreWirelessBringYourDevice()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:00:59 EDT" name="testExploreWirelessBringYourDevice" finished-at="2020-09-24T20:01:31 EDT" duration-ms="32129" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ExploreMenuTest: test Explore Wireless Bring Your Device]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExploreWirelessBringYourDevice -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:01:31 EDT" name="afterEachTestMethod" finished-at="2020-09-24T20:01:31 EDT" duration-ms="140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExploreWirelessBringYourDevice status=SUCCESS method=ExploreMenuTest.testExploreWirelessBringYourDevice()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425] output=ExploreMenuTest: test Explore Wireless Bring Your Device]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:01:31 EDT" name="cleanUp" finished-at="2020-09-24T20:01:31 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:01:31 EDT" name="setUp" finished-at="2020-09-24T20:01:35 EDT" duration-ms="3704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.att.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:01:35 EDT" name="startExtent" finished-at="2020-09-24T20:01:35 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testExploreMenu.ExploreMenuTest.testExploreWirelessFiveG() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:01:35 EDT" name="getInit" finished-at="2020-09-24T20:01:35 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testExploreWirelessFiveG()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:01:35 EDT" name="testExploreWirelessFiveG" finished-at="2020-09-24T20:02:07 EDT" duration-ms="31872" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ExploreMenuTest: test Explore Wireless Five G]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExploreWirelessFiveG -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:02:07 EDT" name="afterEachTestMethod" finished-at="2020-09-24T20:02:07 EDT" duration-ms="142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExploreWirelessFiveG status=SUCCESS method=ExploreMenuTest.testExploreWirelessFiveG()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425] output=ExploreMenuTest: test Explore Wireless Five G]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:02:07 EDT" name="cleanUp" finished-at="2020-09-24T20:02:07 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:02:07 EDT" name="setUp" finished-at="2020-09-24T20:02:11 EDT" duration-ms="4380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.att.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:02:11 EDT" name="startExtent" finished-at="2020-09-24T20:02:11 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testExploreMenu.ExploreMenuTest.testExploreWirelessInternationalOption() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:02:11 EDT" name="getInit" finished-at="2020-09-24T20:02:11 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testExploreWirelessInternationalOption()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:02:11 EDT" name="testExploreWirelessInternationalOption" finished-at="2020-09-24T20:02:47 EDT" duration-ms="35488" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mobassaras-MBP', ip: 'fe80:0:0:0:67:9267:723:63d2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:51116}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aea030e4edf23efd3ef05a026d94c092]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mobassaras-MBP', ip: 'fe80:0:0:0:67:9267:723:63d2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:51116}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aea030e4edf23efd3ef05a026d94c092
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at common.WebAPI.clickOnElement(WebAPI.java:220)
+at exploreMenu.ExploreMenu.exploreWirelessInternationalOption(ExploreMenu.java:103)
+at testExploreMenu.ExploreMenuTest.testExploreWirelessInternationalOption(ExploreMenuTest.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[ExploreMenuTest: test Explore Wireless International Option]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExploreWirelessInternationalOption -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:02:47 EDT" name="afterEachTestMethod" finished-at="2020-09-24T20:02:48 EDT" duration-ms="1239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExploreWirelessInternationalOption status=FAILURE method=ExploreMenuTest.testExploreWirelessInternationalOption()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425] output=ExploreMenuTest: test Explore Wireless International Option]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:02:48 EDT" name="cleanUp" finished-at="2020-09-24T20:02:48 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:02:48 EDT" name="setUp" finished-at="2020-09-24T20:02:52 EDT" duration-ms="3695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.att.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:02:52 EDT" name="startExtent" finished-at="2020-09-24T20:02:52 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testExploreMenu.ExploreMenuTest.testExploreWirelessPhonesAndDevices() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testExploreWirelessPhonesAndDevices()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:02:52 EDT" name="testExploreWirelessPhonesAndDevices" finished-at="2020-09-24T20:03:24 EDT" duration-ms="32421" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ExploreMenuTest: test Explore Wireless Phones And Devices]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExploreWirelessPhonesAndDevices -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:02:52 EDT" name="getInit" finished-at="2020-09-24T20:02:52 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:03:24 EDT" name="afterEachTestMethod" finished-at="2020-09-24T20:03:24 EDT" duration-ms="136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExploreWirelessPhonesAndDevices status=SUCCESS method=ExploreMenuTest.testExploreWirelessPhonesAndDevices()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425] output=ExploreMenuTest: test Explore Wireless Phones And Devices]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:03:24 EDT" name="cleanUp" finished-at="2020-09-24T20:03:24 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:03:24 EDT" name="setUp" finished-at="2020-09-24T20:03:27 EDT" duration-ms="3181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.att.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:03:27 EDT" name="startExtent" finished-at="2020-09-24T20:03:27 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testExploreMenu.ExploreMenuTest.testExploreWirelessPlanDiscounts() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testExploreWirelessPlanDiscounts()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:03:27 EDT" name="testExploreWirelessPlanDiscounts" finished-at="2020-09-24T20:03:59 EDT" duration-ms="31985" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ExploreMenuTest: test Explore Wireless Plan Discounts]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExploreWirelessPlanDiscounts -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:03:27 EDT" name="getInit" finished-at="2020-09-24T20:03:27 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:03:59 EDT" name="afterEachTestMethod" finished-at="2020-09-24T20:04:00 EDT" duration-ms="137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExploreWirelessPlanDiscounts status=SUCCESS method=ExploreMenuTest.testExploreWirelessPlanDiscounts()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425] output=ExploreMenuTest: test Explore Wireless Plan Discounts]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:04:00 EDT" name="cleanUp" finished-at="2020-09-24T20:04:00 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:04:00 EDT" name="setUp" finished-at="2020-09-24T20:04:03 EDT" duration-ms="3524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.att.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:04:03 EDT" name="startExtent" finished-at="2020-09-24T20:04:03 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testExploreMenu.ExploreMenuTest.testExploreWirelessPlanesAndPrices() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:04:03 EDT" name="getInit" finished-at="2020-09-24T20:04:03 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method signature="testExploreWirelessPlanesAndPrices()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:04:03 EDT" name="testExploreWirelessPlanesAndPrices" finished-at="2020-09-24T20:04:24 EDT" duration-ms="20528" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tab-desktop-menu"]/li[1]/a/span[1]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mobassaras-MBP', ip: 'fe80:0:0:0:67:9267:723:63d2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:51795}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ade561d9f1eebce1e3b3dbc04cc7a7dc
+*** Element info: {Using=xpath, value=//*[@id="tab-desktop-menu"]/li[1]/a/span[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tab-desktop-menu"]/li[1]/a/span[1]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mobassaras-MBP', ip: 'fe80:0:0:0:67:9267:723:63d2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:51795}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ade561d9f1eebce1e3b3dbc04cc7a7dc
+*** Element info: {Using=xpath, value=//*[@id="tab-desktop-menu"]/li[1]/a/span[1]}
+at jdk.internal.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at common.WebAPI.clickOnElement(WebAPI.java:220)
+at exploreMenu.ExploreMenu.exploreWirelessPlanesAndPrices(ExploreMenu.java:68)
+at testExploreMenu.ExploreMenuTest.testExploreWirelessPlanesAndPrices(ExploreMenuTest.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[ExploreMenuTest: test Explore Wireless Planes And Prices]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExploreWirelessPlanesAndPrices -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:04:24 EDT" name="afterEachTestMethod" finished-at="2020-09-24T20:04:24 EDT" duration-ms="826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExploreWirelessPlanesAndPrices status=FAILURE method=ExploreMenuTest.testExploreWirelessPlanesAndPrices()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425] output=ExploreMenuTest: test Explore Wireless Planes And Prices]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:04:24 EDT" name="cleanUp" finished-at="2020-09-24T20:04:24 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:04:24 EDT" name="setUp" finished-at="2020-09-24T20:04:28 EDT" duration-ms="3145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.att.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testExploreWirelessTradeInYourDevice()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:04:28 EDT" name="testExploreWirelessTradeInYourDevice" finished-at="2020-09-24T20:05:03 EDT" duration-ms="35412" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mobassaras-MBP', ip: 'fe80:0:0:0:67:9267:723:63d2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:51968}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e7e70fb45f7f561bd7decd9c7471db00]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mobassaras-MBP', ip: 'fe80:0:0:0:67:9267:723:63d2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:51968}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e7e70fb45f7f561bd7decd9c7471db00
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at common.WebAPI.clickOnElement(WebAPI.java:220)
+at exploreMenu.ExploreMenu.exploreWirelessTradeInYourDevice(ExploreMenu.java:167)
+at testExploreMenu.ExploreMenuTest.testExploreWirelessTradeInYourDevice(ExploreMenuTest.java:82)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[ExploreMenuTest: test Explore Wireless Trade In Your Device]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExploreWirelessTradeInYourDevice -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:04:28 EDT" name="getInit" finished-at="2020-09-24T20:04:28 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:04:28 EDT" name="startExtent" finished-at="2020-09-24T20:04:28 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testExploreMenu.ExploreMenuTest.testExploreWirelessTradeInYourDevice() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:05:03 EDT" name="afterEachTestMethod" finished-at="2020-09-24T20:05:04 EDT" duration-ms="562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExploreWirelessTradeInYourDevice status=FAILURE method=ExploreMenuTest.testExploreWirelessTradeInYourDevice()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425] output=ExploreMenuTest: test Explore Wireless Trade In Your Device]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:05:04 EDT" name="cleanUp" finished-at="2020-09-24T20:05:04 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:05:04 EDT" name="setUp" finished-at="2020-09-24T20:05:07 EDT" duration-ms="3213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.att.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getInit()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:05:07 EDT" name="getInit" finished-at="2020-09-24T20:05:07 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInit -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:05:07 EDT" name="startExtent" finished-at="2020-09-24T20:05:07 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testExploreMenu.ExploreMenuTest.testExploreWirelessUpgradeYourDevice() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testExploreWirelessUpgradeYourDevice()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:05:07 EDT" name="testExploreWirelessUpgradeYourDevice" finished-at="2020-09-24T20:05:42 EDT" duration-ms="35244" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ExploreMenuTest: test Explore Wireless Upgrade Your Device]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExploreWirelessUpgradeYourDevice -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:05:42 EDT" name="afterEachTestMethod" finished-at="2020-09-24T20:05:42 EDT" duration-ms="149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExploreWirelessUpgradeYourDevice status=SUCCESS method=ExploreMenuTest.testExploreWirelessUpgradeYourDevice()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425] output=ExploreMenuTest: test Explore Wireless Upgrade Your Device]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:05:42 EDT" name="cleanUp" finished-at="2020-09-24T20:05:42 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:testExploreMenu.ExploreMenuTest@175b9425]" started-at="2020-09-24T20:05:42 EDT" name="generateReport" finished-at="2020-09-24T20:05:42 EDT" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-      </class> <!-- testSearch.SearchTest -->
+      </class> <!-- testExploreMenu.ExploreMenuTest -->
     </test> <!-- ATNT Home -->
   </suite> <!-- TestSuite -->
 </testng-results>

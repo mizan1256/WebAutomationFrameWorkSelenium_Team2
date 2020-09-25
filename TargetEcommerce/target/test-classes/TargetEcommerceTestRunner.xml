@@ -20,9 +20,9 @@
         <parameter name="browserName" value="chrome"/>
         <parameter name="browserVersion" value="84"/>
         <classes>
-<!--                <class name="testDeals.DealsPageTest"></class>-->
-<!--                <class name="testGiftCard.GiftCardPageTest"></class>-->
-<!--                <class name="testHome.HomePageTest"></class>-->
+                <class name="testDeals.DealsPageTest"></class>
+                <class name="testGiftCard.GiftCardPageTest"></class>
+                <class name="testHome.HomePageTest"></class>
                 <class name="testRegistration.RegistrationTest"></class>
 <!--                <class name="testDeals.DealsPageTest"></class>-->
 <!--                <class name="testDeals.DealsPageTest"></class>-->

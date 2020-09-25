@@ -1,5 +1,7 @@
+exploreMenu/ExploreMenuWebElement.class
 registration/RegistrationWebElement.class
 searchItem/SearchWebElement.class
 dataDriven/DataSource.class
 searchItem/Search.class
 registration/Registration.class
+exploreMenu/ExploreMenu.class

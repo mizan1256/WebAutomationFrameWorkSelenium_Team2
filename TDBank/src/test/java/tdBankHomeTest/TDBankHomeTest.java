@@ -15,29 +15,29 @@ public class TDBankHomeTest extends WebAPI {
         tdBankHome = PageFactory.initElements(driver, TDBankHome.class);
     }
 
-//    @Test
-//    public void TestLogin() throws InterruptedException {
-//        tdBankHome.login();
-//        tdBankHome.testLogin();
-//    }
+    @Test
+    public void TestLogin() throws InterruptedException {
+        tdBankHome.login();
+        tdBankHome.testLogin();
+    }
 
-//    @Test
-//    public void TestSmallBusiness() throws InterruptedException {
-//        tdBankHome.smallBusiness();
-//        tdBankHome.verifySmallBusiness();
-//
-//    }
-//    @Test
-//    public void TestProductsOption() throws InterruptedException {
-//        tdBankHome.productsOption();
-//        tdBankHome.verifyProductsOption();
-//    }
-//    @Test
-//    public void TestClickCommercial() throws InterruptedException {
-//        tdBankHome.clickCommercial();
-//        tdBankHome.verifyClickCommercial();
-//
-//    }
+    @Test
+    public void TestSmallBusiness() throws InterruptedException {
+        tdBankHome.smallBusiness();
+        tdBankHome.verifySmallBusiness();
+
+    }
+    @Test
+    public void TestProductsOption() throws InterruptedException {
+        tdBankHome.productsOption();
+        tdBankHome.verifyProductsOption();
+    }
+    @Test
+    public void TestClickCommercial() throws InterruptedException {
+        tdBankHome.clickCommercial();
+        tdBankHome.verifyClickCommercial();
+
+    }
     @Test
     public void TestExplorePersonal() throws InterruptedException {
         tdBankHome.ExplorePersonal();

@@ -49,4 +49,8 @@ public class HomePageWebElement {
     public static final String freeOrderPickupXPathWebElement ="//div[contains(text(),'Free Order Pickup')]";
     public static final String postItXPathWebElement ="//div[contains(text(),'Post-it')]";
     public static final String postItCurrentUrl = "https://www.target.com/b/post-it/-/N-mqegq";
+
+
+
+
 }

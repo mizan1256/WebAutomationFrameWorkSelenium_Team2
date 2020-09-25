@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="8.747" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="725.967" tests="19" errors="0" skipped="0" failures="7">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -7,7 +7,7 @@
     <property name="webdriver.chrome.driver" value="../Generic/BrowserDriver/mac/chromedriver"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/mobassaratabassum/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/ATNT/target/test-classes:/Users/mobassaratabassum/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/ATNT/target/classes:/Users/mobassaratabassum/.m2/repository/com/qa/Generic/1.0-SNAPSHOT/Generic-1.0-SNAPSHOT.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/mobassaratabassum/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/mobassaratabassum/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/mobassaratabassum/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/mobassaratabassum/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/mobassaratabassum/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/mobassaratabassum/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/mobassaratabassum/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/mobassaratabassum/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/mobassaratabassum/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/mobassaratabassum/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/Users/mobassaratabassum/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/mobassaratabassum/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/mobassaratabassum/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/mobassaratabassum/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/mobassaratabassum/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/mobassaratabassum/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/mobassaratabassum/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.0/webdrivermanager-4.2.0.jar:/Users/mobassaratabassum/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/mobassaratabassum/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/mobassaratabassum/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/mobassaratabassum/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/mobassaratabassum/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/mobassaratabassum/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/mobassaratabassum/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/mobassaratabassum/.m2/repository/org/mongodb/mongo-java-driver/3.12.7/mongo-java-driver-3.12.7.jar:/Users/mobassaratabassum/.m2/repository/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar:/Users/mobassaratabassum/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:/Users/mobassaratabassum/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/mobassaratabassum/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/mobassaratabassum/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/mobassaratabassum/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/mobassaratabassum/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/mobassaratabassum/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/mobassaratabassum/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/mobassaratabassum/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/mobassaratabassum/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/mobassaratabassum/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/mobassaratabassum/.m2/repository/com/aventstack/extentreports/5.0.3/extentreports-5.0.3.jar:/Users/mobassaratabassum/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/mobassaratabassum/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/mobassaratabassum/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/mobassaratabassum/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/mobassaratabassum/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/mobassaratabassum/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/mobassaratabassum/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/mobassaratabassum/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/mobassaratabassum/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/mobassaratabassum/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/mobassaratabassum/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:"/>
+    <property name="java.class.path" value="/Users/mobassaratabassum/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/ATNT/target/test-classes:/Users/mobassaratabassum/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/ATNT/target/classes:/Users/mobassaratabassum/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/Generic/target/classes:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/mobassaratabassum/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/mobassaratabassum/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/mobassaratabassum/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/mobassaratabassum/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/mobassaratabassum/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/mobassaratabassum/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/mobassaratabassum/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/mobassaratabassum/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/mobassaratabassum/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/mobassaratabassum/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/Users/mobassaratabassum/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/mobassaratabassum/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/mobassaratabassum/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/mobassaratabassum/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/mobassaratabassum/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/mobassaratabassum/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/mobassaratabassum/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.0/webdrivermanager-4.2.0.jar:/Users/mobassaratabassum/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/mobassaratabassum/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/mobassaratabassum/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/mobassaratabassum/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/mobassaratabassum/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/mobassaratabassum/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/mobassaratabassum/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/mobassaratabassum/.m2/repository/org/mongodb/mongo-java-driver/3.12.7/mongo-java-driver-3.12.7.jar:/Users/mobassaratabassum/.m2/repository/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar:/Users/mobassaratabassum/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:/Users/mobassaratabassum/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/mobassaratabassum/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/mobassaratabassum/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/mobassaratabassum/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/mobassaratabassum/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/mobassaratabassum/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/mobassaratabassum/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/mobassaratabassum/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/mobassaratabassum/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/mobassaratabassum/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/mobassaratabassum/.m2/repository/com/aventstack/extentreports/5.0.3/extentreports-5.0.3.jar:/Users/mobassaratabassum/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/mobassaratabassum/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/mobassaratabassum/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/mobassaratabassum/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/mobassaratabassum/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/mobassaratabassum/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/mobassaratabassum/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/mobassaratabassum/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/mobassaratabassum/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/mobassaratabassum/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/mobassaratabassum/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://openjdk.java.net/"/>
@@ -17,10 +17,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.8.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/mobassaratabassum/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/ATNT/target/surefire/surefirebooter14814840620259142200.jar /Users/mobassaratabassum/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/ATNT/target/surefire 2020-09-02T21-05-27_711-jvmRun1 surefire4844812954561592537tmp surefire_03864728240453762673tmp"/>
+    <property name="sun.java.command" value="/Users/mobassaratabassum/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/ATNT/target/surefire/surefirebooter9865205533048418413.jar /Users/mobassaratabassum/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/ATNT/target/surefire 2020-09-24T19-53-30_789-jvmRun1 surefire3882835076466910507tmp surefire_35941969688880551408tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/mobassaratabassum/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/ATNT/target/test-classes:/Users/mobassaratabassum/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/ATNT/target/classes:/Users/mobassaratabassum/.m2/repository/com/qa/Generic/1.0-SNAPSHOT/Generic-1.0-SNAPSHOT.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/mobassaratabassum/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/mobassaratabassum/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/mobassaratabassum/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/mobassaratabassum/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/mobassaratabassum/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/mobassaratabassum/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/mobassaratabassum/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/mobassaratabassum/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/mobassaratabassum/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/mobassaratabassum/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/Users/mobassaratabassum/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/mobassaratabassum/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/mobassaratabassum/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/mobassaratabassum/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/mobassaratabassum/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/mobassaratabassum/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/mobassaratabassum/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.0/webdrivermanager-4.2.0.jar:/Users/mobassaratabassum/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/mobassaratabassum/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/mobassaratabassum/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/mobassaratabassum/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/mobassaratabassum/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/mobassaratabassum/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/mobassaratabassum/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/mobassaratabassum/.m2/repository/org/mongodb/mongo-java-driver/3.12.7/mongo-java-driver-3.12.7.jar:/Users/mobassaratabassum/.m2/repository/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar:/Users/mobassaratabassum/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:/Users/mobassaratabassum/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/mobassaratabassum/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/mobassaratabassum/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/mobassaratabassum/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/mobassaratabassum/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/mobassaratabassum/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/mobassaratabassum/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/mobassaratabassum/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/mobassaratabassum/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/mobassaratabassum/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/mobassaratabassum/.m2/repository/com/aventstack/extentreports/5.0.3/extentreports-5.0.3.jar:/Users/mobassaratabassum/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/mobassaratabassum/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/mobassaratabassum/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/mobassaratabassum/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/mobassaratabassum/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/mobassaratabassum/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/mobassaratabassum/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/mobassaratabassum/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/mobassaratabassum/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/mobassaratabassum/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/mobassaratabassum/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/mobassaratabassum/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/ATNT/target/test-classes:/Users/mobassaratabassum/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/ATNT/target/classes:/Users/mobassaratabassum/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/Generic/target/classes:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/mobassaratabassum/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/mobassaratabassum/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/mobassaratabassum/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/mobassaratabassum/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/mobassaratabassum/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/mobassaratabassum/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/mobassaratabassum/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/mobassaratabassum/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/mobassaratabassum/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/Users/mobassaratabassum/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/mobassaratabassum/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/mobassaratabassum/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/Users/mobassaratabassum/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/mobassaratabassum/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/mobassaratabassum/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/mobassaratabassum/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/mobassaratabassum/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/mobassaratabassum/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/mobassaratabassum/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.0/webdrivermanager-4.2.0.jar:/Users/mobassaratabassum/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/mobassaratabassum/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/mobassaratabassum/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/mobassaratabassum/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/mobassaratabassum/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/mobassaratabassum/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/mobassaratabassum/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/mobassaratabassum/.m2/repository/org/mongodb/mongo-java-driver/3.12.7/mongo-java-driver-3.12.7.jar:/Users/mobassaratabassum/.m2/repository/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar:/Users/mobassaratabassum/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:/Users/mobassaratabassum/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/mobassaratabassum/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/mobassaratabassum/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/mobassaratabassum/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/mobassaratabassum/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/mobassaratabassum/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/mobassaratabassum/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/mobassaratabassum/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/mobassaratabassum/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/mobassaratabassum/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/mobassaratabassum/.m2/repository/com/aventstack/extentreports/5.0.3/extentreports-5.0.3.jar:/Users/mobassaratabassum/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/mobassaratabassum/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/mobassaratabassum/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/mobassaratabassum/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/mobassaratabassum/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/mobassaratabassum/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/mobassaratabassum/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/mobassaratabassum/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/mobassaratabassum/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/mobassaratabassum/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/mobassaratabassum/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/mobassaratabassum"/>
     <property name="user.language" value="en"/>
@@ -35,7 +35,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="idea.version2020.1.3" value="true"/>
-    <property name="surefire.real.class.path" value="/Users/mobassaratabassum/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/ATNT/target/surefire/surefirebooter14814840620259142200.jar"/>
+    <property name="surefire.real.class.path" value="/Users/mobassaratabassum/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/ATNT/target/surefire/surefirebooter9865205533048418413.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.8+10-LTS"/>
@@ -63,65 +63,293 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="testSearchBoxCheckGetItemsListFromDB" classname="testSearch.SearchTest" time="0.146">
-    <failure message="Public Key Retrieval is not allowed" type="java.sql.SQLNonTransientConnectionException"><![CDATA[java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
-	at testSearch.SearchTest.testSearchBoxCheckGetItemsListFromDB(SearchTest.java:36)
-]]></failure>
+  <testcase name="testExplorePrepaid" classname="testExploreMenu.ExploreMenuTest" time="37.318">
     <system-out><![CDATA[Extent Report Directory/Users/mobassaratabassum/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/ATNT/target/surefire-reports/html
+ExploreMenuTest: test Explore Prepaid
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 22321
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 3613
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 02, 2020 9:05:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 24, 2020 7:53:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
-	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
-	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
-	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
-	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
-	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
-	at databases.ConnectToSqlDB.connectToSqlDatabase(ConnectToSqlDB.java:38)
-	at databases.ConnectToSqlDB.insertDataFromArrayListToSqlTable(ConnectToSqlDB.java:165)
-	at dataDriven.DataSource.insertDataIntoDB(DataSource.java:19)
-	at searchItem.Search.searchBoxCheckGetItemsListFromDB(Search.java:77)
-	at testSearch.SearchTest.testSearchBoxCheckGetItemsListFromDB(SearchTest.java:36)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-	at org.testng.TestNG.runSuites(TestNG.java:1039)
-	at org.testng.TestNG.run(TestNG.java:1007)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="testExplorePrepaidMobilePlans" classname="testExploreMenu.ExploreMenuTest" time="37.238">
+    <system-out><![CDATA[ExploreMenuTest: test Explore Prepaid Mobile Plans
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 3006
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 24, 2020 7:54:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testExplorePrepaidPhones" classname="testExploreMenu.ExploreMenuTest" time="37.389">
+    <system-out><![CDATA[ExploreMenuTest: test Explore Prepaid Phones
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 48410
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 24, 2020 7:55:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testExploreTvAndEntertainment" classname="testExploreMenu.ExploreMenuTest" time="38.252">
+    <system-out><![CDATA[ExploreMenuTest: test Explore Tv And Entertainment
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 16637
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 24, 2020 7:55:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testExploreTvAndEntertainmentBundles" classname="testExploreMenu.ExploreMenuTest" time="35.462">
+    <failure message="element not interactable&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mobassaras-MBP&apos;, ip: &apos;fe80:0:0:0:67:9267:723:63d2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:65483}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2de35e843b77d66a82d03d47186e52dc" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mobassaras-MBP', ip: 'fe80:0:0:0:67:9267:723:63d2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:65483}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2de35e843b77d66a82d03d47186e52dc
+	at testExploreMenu.ExploreMenuTest.testExploreTvAndEntertainmentBundles(ExploreMenuTest.java:142)
+]]></failure>
+    <system-out><![CDATA[ExploreMenuTest: test Explore Tv And Entertainment Bundles
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 32654
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 24, 2020 7:56:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testExploreTvAndEntertainmentDirectTV" classname="testExploreMenu.ExploreMenuTest" time="35.397">
+    <failure message="element not interactable&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mobassaras-MBP&apos;, ip: &apos;fe80:0:0:0:67:9267:723:63d2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:49330}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: a48551992967d1a88fa954385a7a1e34" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mobassaras-MBP', ip: 'fe80:0:0:0:67:9267:723:63d2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:49330}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a48551992967d1a88fa954385a7a1e34
+	at testExploreMenu.ExploreMenuTest.testExploreTvAndEntertainmentDirectTV(ExploreMenuTest.java:127)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+ExploreMenuTest: test Explore Tv And Entertainment Direct TV
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 22294
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 24, 2020 7:57:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testExploreTvAndEntertainmentInternationalPackages" classname="testExploreMenu.ExploreMenuTest" time="20.367">
+    <failure message="element not interactable&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mobassaras-MBP&apos;, ip: &apos;fe80:0:0:0:67:9267:723:63d2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:49555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 0b4af10cea37d50558d119863c08430a" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mobassaras-MBP', ip: 'fe80:0:0:0:67:9267:723:63d2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:49555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0b4af10cea37d50558d119863c08430a
+	at testExploreMenu.ExploreMenuTest.testExploreTvAndEntertainmentInternationalPackages(ExploreMenuTest.java:150)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+ExploreMenuTest: test Explore Tv And Entertainment International Packages
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 40519
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 24, 2020 7:57:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testExploreTvAndEntertainmentTvAccessories" classname="testExploreMenu.ExploreMenuTest" time="38.299">
+    <system-out><![CDATA[Screenshot captured
+ExploreMenuTest: test Explore Tv And Entertainment Tv Accessories
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 41464
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 24, 2020 7:58:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testExploreTvAndEntertainmentUverseTV" classname="testExploreMenu.ExploreMenuTest" time="37.042">
+    <system-out><![CDATA[ExploreMenuTest: test Explore Tv And Entertainment Uverse TV
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 19950
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 24, 2020 7:58:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testExploreWireLess" classname="testExploreMenu.ExploreMenuTest" time="35.482">
+    <failure message="element not interactable&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mobassaras-MBP&apos;, ip: &apos;fe80:0:0:0:67:9267:723:63d2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:50215}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 5ee4d445200f97f2230968a53f20cbe5" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mobassaras-MBP', ip: 'fe80:0:0:0:67:9267:723:63d2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:50215}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5ee4d445200f97f2230968a53f20cbe5
+	at testExploreMenu.ExploreMenuTest.testExploreWireLess(ExploreMenuTest.java:23)
+]]></failure>
+    <system-out><![CDATA[ExploreMenuTest: test Explore Wire Less
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 40414
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 24, 2020 7:59:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testExploreWirelessAddADevice" classname="testExploreMenu.ExploreMenuTest" time="35.731">
+    <system-out><![CDATA[Screenshot captured
+ExploreMenuTest: test Explore Wireless Add A Device
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 24945
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 24, 2020 8:00:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testExploreWirelessBringYourDevice" classname="testExploreMenu.ExploreMenuTest" time="32.126">
+    <system-out><![CDATA[ExploreMenuTest: test Explore Wireless Bring Your Device
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 19241
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 24, 2020 8:00:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testExploreWirelessFiveG" classname="testExploreMenu.ExploreMenuTest" time="31.871">
+    <system-out><![CDATA[ExploreMenuTest: test Explore Wireless Five G
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 18049
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 24, 2020 8:01:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testExploreWirelessInternationalOption" classname="testExploreMenu.ExploreMenuTest" time="35.485">
+    <failure message="element not interactable&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mobassaras-MBP&apos;, ip: &apos;fe80:0:0:0:67:9267:723:63d2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:51116}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: aea030e4edf23efd3ef05a026d94c092" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mobassaras-MBP', ip: 'fe80:0:0:0:67:9267:723:63d2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:51116}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aea030e4edf23efd3ef05a026d94c092
+	at testExploreMenu.ExploreMenuTest.testExploreWirelessInternationalOption(ExploreMenuTest.java:53)
+]]></failure>
+    <system-out><![CDATA[ExploreMenuTest: test Explore Wireless International Option
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 48188
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 24, 2020 8:02:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testExploreWirelessPhonesAndDevices" classname="testExploreMenu.ExploreMenuTest" time="32.419">
+    <system-out><![CDATA[Screenshot captured
+ExploreMenuTest: test Explore Wireless Phones And Devices
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 34008
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 24, 2020 8:02:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testExploreWirelessPlanDiscounts" classname="testExploreMenu.ExploreMenuTest" time="31.982">
+    <system-out><![CDATA[ExploreMenuTest: test Explore Wireless Plan Discounts
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 8191
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 24, 2020 8:03:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testExploreWirelessPlanesAndPrices" classname="testExploreMenu.ExploreMenuTest" time="20.525">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;tab-desktop-menu&quot;]/li[1]/a/span[1]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mobassaras-MBP&apos;, ip: &apos;fe80:0:0:0:67:9267:723:63d2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:51795}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: ade561d9f1eebce1e3b3dbc04cc7a7dc&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;tab-desktop-menu&quot;]/li[1]/a/span[1]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tab-desktop-menu"]/li[1]/a/span[1]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mobassaras-MBP', ip: 'fe80:0:0:0:67:9267:723:63d2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:51795}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ade561d9f1eebce1e3b3dbc04cc7a7dc
+*** Element info: {Using=xpath, value=//*[@id="tab-desktop-menu"]/li[1]/a/span[1]}
+	at testExploreMenu.ExploreMenuTest.testExploreWirelessPlanesAndPrices(ExploreMenuTest.java:37)
+]]></failure>
+    <system-out><![CDATA[ExploreMenuTest: test Explore Wireless Planes And Prices
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 25257
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 24, 2020 8:04:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testExploreWirelessTradeInYourDevice" classname="testExploreMenu.ExploreMenuTest" time="35.41">
+    <failure message="element not interactable&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mobassaras-MBP&apos;, ip: &apos;fe80:0:0:0:67:9267:723:63d2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:51968}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: e7e70fb45f7f561bd7decd9c7471db00" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mobassaras-MBP', ip: 'fe80:0:0:0:67:9267:723:63d2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/ks/7_957m_d2c5...}, goog:chromeOptions: {debuggerAddress: localhost:51968}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e7e70fb45f7f561bd7decd9c7471db00
+	at testExploreMenu.ExploreMenuTest.testExploreWirelessTradeInYourDevice(ExploreMenuTest.java:82)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+ExploreMenuTest: test Explore Wireless Trade In Your Device
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 30289
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 24, 2020 8:04:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testExploreWirelessUpgradeYourDevice" classname="testExploreMenu.ExploreMenuTest" time="35.244">
+    <system-out><![CDATA[Screenshot captured
+ExploreMenuTest: test Explore Wireless Upgrade Your Device
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 26136
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 24, 2020 8:05:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
 </testsuite>

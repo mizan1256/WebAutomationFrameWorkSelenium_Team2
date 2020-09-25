@@ -9,18 +9,24 @@
     <parameter name="browserVersion" value="84"/>
     <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="testSearch.SearchTest">
+      <class name="testExploreMenu.ExploreMenuTest">
         <methods>
+          <include name="testExploreTvAndEntertainmentDirectTV"/>
+          <include name="testExploreTvAndEntertainmentInternationalPackages"/>
+          <include name="testExploreWirelessInternationalOption"/>
           <include name="afterEachTestMethod"/>
-          <include name="getInit"/>
+          <include name="testExploreWirelessPlanesAndPrices"/>
           <include name="setUp"/>
-          <include name="testSearchBoxCheckGetItemsListFromDB"/>
           <include name="startExtent"/>
-          <include name="generateReport"/>
+          <include name="testExploreTvAndEntertainmentBundles"/>
           <include name="cleanUp"/>
+          <include name="testExploreWirelessTradeInYourDevice"/>
           <include name="extentSetup"/>
+          <include name="getInit"/>
+          <include name="testExploreWireLess"/>
+          <include name="generateReport"/>
         </methods>
-      </class> <!-- testSearch.SearchTest -->
+      </class> <!-- testExploreMenu.ExploreMenuTest -->
     </classes>
   </test> <!-- ATNT Home(failed) -->
 </suite> <!-- Failed suite [TestSuite] -->
