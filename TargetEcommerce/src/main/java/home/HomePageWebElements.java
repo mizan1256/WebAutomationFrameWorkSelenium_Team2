@@ -27,6 +27,10 @@ public class HomePageWebElements {
     public static final String WebEleHarlemLocationText_Xp = "//h3[text()='Harlem']";
     public static final String WebEleSpringHillFloridaLocationText_Xp = "//h3[text()='Spring Hill East']";
 
+    public static final String targetSearchBox_xp = "//input[@id='search']";
+    public static final String faceMaskText_xp = "//*[@id=\"mainContainer\"]/div[4]/div[2]/div/div[2]/div[3]/div[1]/div[1]/div[1]/h2";
+
+    public static final String searchText_xp = "//h2[@class='Heading__StyledHeading-sc-1m9kw5a-0 hdEoFP h-display-block h-margin-b-tiny']";
 
 
 

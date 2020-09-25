@@ -1,10 +1,13 @@
 package home;
 
 import common.WebAPI;
+import datadriven.DataSource;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import timeUtility.TimeUtil;
+
+import java.util.List;
 
 import static home.HomePageWebElements.*;
 
@@ -74,6 +77,15 @@ public class HomePage extends WebAPI {
     @FindBy(xpath = WebEleSpringHillFloridaLocationText_Xp)
     WebElement SpringHillFlorida;
 
+    @FindBy(xpath = targetSearchBox_xp)
+    WebElement targetSearchBox;
+
+    @FindBy(xpath = faceMaskText_xp)
+    WebElement faceMaskText;
+
+    @FindBy(xpath = searchText_xp)
+    WebElement searchText;
+
 
     //Action Method
 
@@ -140,12 +152,12 @@ public class HomePage extends WebAPI {
 
     }
 
-    public void checkSelectStorePageIsDisplayed(){
+    public void checkSelectStorePageIsDisplayed() {
         selectStoreBtn.click();
         TimeUtil.waitFor(2000);
     }
 
-    public void lookupStoreWithInvalidLocationInput(String invalidLocationInput){
+    public void lookupStoreWithInvalidLocationInput(String invalidLocationInput) {
         selectStoreBtn.click();
         TimeUtil.waitFor(2000);
         addressLookupBox.sendKeys(invalidLocationInput);
@@ -153,7 +165,7 @@ public class HomePage extends WebAPI {
         addressLookupBtn.click();
     }
 
-    public void lookupStoreWithZipCode(String zipCode){
+    public void lookupStoreWithZipCode(String zipCode) {
         selectStoreBtn.click();
         TimeUtil.waitFor(2000);
         addressLookupBox.sendKeys(zipCode);
@@ -161,7 +173,7 @@ public class HomePage extends WebAPI {
         addressLookupBtn.click();
     }
 
-    public void lookupStoreWithCityName(String cityName){
+    public void lookupStoreWithCityName(String cityName) {
         selectStoreBtn.click();
         TimeUtil.waitFor(2000);
         addressLookupBox.sendKeys(cityName);
@@ -169,7 +181,7 @@ public class HomePage extends WebAPI {
         addressLookupBtn.click();
     }
 
-    public void lookupStoreWithStateName(String stateName){
+    public void lookupStoreWithStateName(String stateName) {
         selectStoreBtn.click();
         TimeUtil.waitFor(2000);
         addressLookupBox.sendKeys(stateName);
@@ -177,12 +189,65 @@ public class HomePage extends WebAPI {
         addressLookupBtn.click();
     }
 
+    public void searchBoxCheck(String searchItem) {
+        targetSearchBox.sendKeys(searchItem);
+        targetSearchBox.submit();
+    }
+
+    public void searchBoxCheckUsingGetItemValue() {
+        List<String> itemList = DataSource.getItemValue();
+
+        for (String st : itemList) {
+
+            targetSearchBox.sendKeys(st);
+            sleepFor(3);
+            targetSearchBox.submit();
+            sleepFor(3);
+            targetSearchBox.clear();
+            sleepFor(7);
+        }
+
+    }
 
 
+    public void searchBoxCheckGetItemsListFromExcel() throws Exception {
+        List<String> itemList= DataSource.getItemsListFromExcel();
+        for (int i=1; i<itemList.size();i++){
+            String item=itemList.get(i);
+            targetSearchBox.sendKeys(item);
+            targetSearchBox.submit();
+            String expectedResult="\""+item+"\"";
+            System.out.println("Expected Result : "+expectedResult);
+            String actualResult = searchText.getText();
+            System.out.println("Actual Result : "+actualResult);
+            Assert.assertEquals(actualResult, expectedResult, "Search Item not match");
+            sleepFor(3);
+            targetSearchBox.clear();
+        }
+
+    }
+    public void searchBoxCheckGetItemsListFromDB() throws Exception {
+        // Insert Data to a Database table
+        DataSource.insertDataIntoDB();
+        // Get Data From Database Table
+        List<String> itemList = DataSource.getItemsListFromDB();
+        for (int i = 1; i < itemList.size(); i++) {
+            String item = itemList.get(i);
+            targetSearchBox.sendKeys(item);
+            targetSearchBox.submit();
+            String expectedResult = "\"" + item + "\"";
+            System.out.println("Expected Result : " + expectedResult);
+            String actualResult = searchText.getText();
+            System.out.println("Actual Result : " + actualResult);
+            //Assert.assertEquals(actualResult, expectedResult, "Search Item not match");
+            sleepFor(5);
+            targetSearchBox.clear();
+            sleepFor(5);
+        }
+    }
 
 
-
-    //Validate Method
+        //Validate Method
     public void validateLoginPageIsDisplayed() {
         String actualText = loginPageText.getText();
         String expectedText = "Sign into your Target account";
@@ -219,43 +284,48 @@ public class HomePage extends WebAPI {
         Assert.assertEquals(actualText, expectedText, "Text doesn't match");
     }
 
-    public void validateSelectStorePageIsDisplayed(){
+    public void validateSelectStorePageIsDisplayed() {
         String actualText = selectStoreText.getText();
         String expectedText = "Select a store";
-        Assert.assertEquals(actualText,expectedText,"Text doesn't match");
+        Assert.assertEquals(actualText, expectedText, "Text doesn't match");
 
     }
 
-    public void validateInvalidLocationOfStore(){
+    public void validateInvalidLocationOfStore() {
         String actualText = invalidLocationText.getText();
         String expectedText = "please enter a valid location";
-        Assert.assertEquals(actualText,expectedText,"Text doesn't match");
+        Assert.assertEquals(actualText, expectedText, "Text doesn't match");
 
     }
 
-    public void validateZipCodeLocation(){
+    public void validateZipCodeLocation() {
         String actualText = forestHillsLocation.getText();
         String expectedText = "Forest Hills";
-        Assert.assertEquals(actualText,expectedText,"Text doesn't match");
+        Assert.assertEquals(actualText, expectedText, "Text doesn't match");
 
     }
 
-    public void validateCityLocation(){
+    public void validateCityLocation() {
         String actualText = HarlemLocationAstoria.getText();
         String expectedText = "Harlem";
-        Assert.assertEquals(actualText,expectedText,"Text doesn't match");
+        Assert.assertEquals(actualText, expectedText, "Text doesn't match");
 
     }
 
-    public void validateStateLocation(){
+    public void validateStateLocation() {
         String actualText = SpringHillFlorida.getText();
         String expectedText = "Spring Hill East";
-        Assert.assertEquals(actualText,expectedText,"Text doesn't match");
+        Assert.assertEquals(actualText, expectedText, "Text doesn't match");
 
     }
 
+    public void validateSearchBox() {
+        String actualText = faceMaskText.getText();
+        String expectedText = "“face mask”";
+        Assert.assertEquals(actualText, expectedText, "Text doesn't match");
 
-
+    }
 
 
 }
+

@@ -8,9 +8,9 @@
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <!--<parameter name="cloudEnvName" value="saucelab"/>-->
-    <parameter name="os" value="windows"/>
-    <!-- <parameter name="os" value="OS X"/>-->
-    <parameter name="os_version" value="10"/>
+<!--    <parameter name="os" value="windows"/>-->
+     <parameter name="os" value="OS X"/>
+<!--    <parameter name="os_version" value="10"/>-->
     <!--    <parameter name="os_version" value="Sierra"/>-->
     <!--    <parameter name="browserName" value="chrome"/>-->
     <!--    <parameter name="browserVersion" value="84"/>-->
@@ -18,9 +18,9 @@
 
     <test name="CNN Home">
         <parameter name="browserName" value="chrome"/>
-        <parameter name="browserVersion" value="84"/>
+        <parameter name="browserVersion" value="85"/>
         <classes>
-            <class name="cnntesthome.CnnHomeTest">
+            <class name="cnntesthome.CnnHomePageTest">
                 <methods>
                     <exclude name="testSearchBoxCheck"></exclude>
                     <exclude name="testSearchBoxCheck1"></exclude>

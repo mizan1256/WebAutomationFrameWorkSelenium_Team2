@@ -8,27 +8,29 @@
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <!--<parameter name="cloudEnvName" value="saucelab"/>-->
-    <parameter name="os" value="windows"/>
-    <!-- <parameter name="os" value="OS X"/>-->
-    <parameter name="os_version" value="10"/>
+<!--    <parameter name="os" value="windows"/>-->
+     <parameter name="os" value="OS X"/>
+<!--    <parameter name="os_version" value="10"/>-->
     <!--    <parameter name="os_version" value="Sierra"/>-->
-    <!--    <parameter name="browserName" value="chrome"/>-->
-    <!--    <parameter name="browserVersion" value="84"/>-->
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="browserVersion" value="85"/>
     <parameter name="url" value="https://www.att.com/"/>
 
     <test name="ATNT Home">
         <parameter name="browserName" value="chrome"/>
-        <parameter name="browserVersion" value="84"/>
+        <parameter name="browserVersion" value="85"/>
         <classes>
-            <class name="atnthometest.AtntHomeTest">
-                <methods>
-                    <exclude name="testSearchBoxCheck"></exclude>
-                    <exclude name="testSearchBoxCheck1"></exclude>
-                    <!--                    <exclude name="testSearchBoxCheckUsingGetItemValue"></exclude>-->
-                    <!--                    <exclude name="testSearchBoxCheckGetItemsListFromExcel"></exclude>-->
-                    <!--                    <exclude name="testSearchBoxCheckGetItemsListFromDB"></exclude>-->
-                    <!--                    <include name="testSearchBoxCheckGetItemsListFromExcel"></include>-->
-                </methods>
+            <class name="atnthometest.AtntHomePageTest"></class>
+            <class name="testExploreMenu.ExploreMenuTest"></class>
+            <class name="testRegistration.RegistrationTest">
+
+<!--                <methods>-->
+<!--                    <exclude name="testSearchBoxCheck"></exclude>-->
+<!--                    <exclude name="testSearchBoxCheck1"></exclude>-->
+<!--                    &lt;!&ndash;                    <exclude name="testSearchBoxCheckUsingGetItemValue"></exclude>&ndash;&gt;-->
+<!--                    &lt;!&ndash;                    <include name="testSearchBoxCheckGetItemsListFromExcel"></include>&ndash;&gt;-->
+<!--                </methods>-->
+
             </class>
 
             <!--            <class name="testhome.RegistrationPageTest"></class>-->

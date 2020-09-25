@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="38.645" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="119.616" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.8.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/syedhussain/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/target/surefire/surefirebooter700373593522093807.jar /Users/syedhussain/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/target/surefire 2020-09-01T01-38-09_421-jvmRun1 surefire10087465573336043655tmp surefire_18349063564085797747tmp"/>
+    <property name="sun.java.command" value="/Users/syedhussain/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/target/surefire/surefirebooter8567120371947374534.jar /Users/syedhussain/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/target/surefire 2020-09-02T03-40-12_443-jvmRun1 surefire6017710110658052850tmp surefire_12351029344675443740tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/syedhussain/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/target/test-classes:/Users/syedhussain/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/target/classes:/Users/syedhussain/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/Generic/target/classes:/Users/syedhussain/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/syedhussain/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/syedhussain/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/syedhussain/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/syedhussain/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/syedhussain/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/syedhussain/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/syedhussain/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/syedhussain/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/syedhussain/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/syedhussain/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/syedhussain/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/syedhussain/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/syedhussain/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/syedhussain/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/syedhussain/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/syedhussain/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/syedhussain/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/syedhussain/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/syedhussain/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/syedhussain/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/Users/syedhussain/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/syedhussain/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/syedhussain/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/Users/syedhussain/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/syedhussain/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/syedhussain/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/syedhussain/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/syedhussain/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/syedhussain/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/syedhussain/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.0/webdrivermanager-4.2.0.jar:/Users/syedhussain/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/syedhussain/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/syedhussain/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/syedhussain/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/syedhussain/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/syedhussain/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/syedhussain/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/syedhussain/.m2/repository/org/mongodb/mongo-java-driver/3.12.7/mongo-java-driver-3.12.7.jar:/Users/syedhussain/.m2/repository/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar:/Users/syedhussain/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:/Users/syedhussain/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/syedhussain/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/syedhussain/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/syedhussain/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/syedhussain/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/syedhussain/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/syedhussain/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/syedhussain/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/syedhussain/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/syedhussain/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/syedhussain/.m2/repository/com/aventstack/extentreports/5.0.3/extentreports-5.0.3.jar:/Users/syedhussain/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/syedhussain/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/syedhussain/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/syedhussain/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/syedhussain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/syedhussain/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/syedhussain/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/syedhussain/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/syedhussain/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/syedhussain/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/syedhussain/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/syedhussain/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/target/surefire/surefirebooter700373593522093807.jar"/>
+    <property name="surefire.real.class.path" value="/Users/syedhussain/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/target/surefire/surefirebooter8567120371947374534.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.8+10-LTS"/>
@@ -62,34 +62,104 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="testLocationWithCityName" classname="testhome.HomePageTest" time="4.995">
+  <testcase name="testForgotPasswordPageIsDisplayed" classname="testhome.HomePageTest" time="7.51">
     <system-out><![CDATA[Extent Report Directory/Users/syedhussain/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/target/surefire-reports/html
 ]]></system-out>
-    <system-err><![CDATA[Sep 01, 2020 1:38:13 AM com.relevantcodes.extentreports.ExtentReports loadConfig
-WARNING: Unable to perform report configuration. The file /Users/syedhussain/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/report-config.xml was not found.
-Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 35283
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 25393
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 01, 2020 1:38:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 02, 2020 3:40:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="testLocationWithStateName" classname="testhome.HomePageTest" time="4.713">
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 16012
+  <testcase name="testLocationWithCityName" classname="testhome.HomePageTest" time="4.783">
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 37961
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 01, 2020 1:38:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 02, 2020 3:40:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="testLoginWithInvalidEmailAndPassword" classname="testhome.HomePageTest" time="10.051">
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 46493
+  <testcase name="testLocationWithStateName" classname="testhome.HomePageTest" time="4.642">
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 25055
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 01, 2020 1:38:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 02, 2020 3:40:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testLocationWithZipCode" classname="testhome.HomePageTest" time="4.599">
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 29737
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 02, 2020 3:40:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginPageIsDisplayed" classname="testhome.HomePageTest" time="5.335">
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 11025
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 02, 2020 3:41:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginWithInvalidEmail" classname="testhome.HomePageTest" time="6.484">
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 46570
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 02, 2020 3:41:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginWithInvalidEmailAndPassword" classname="testhome.HomePageTest" time="10.556">
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 7813
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 02, 2020 3:41:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginWithInvalidPassword" classname="testhome.HomePageTest" time="5.643">
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 20542
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 02, 2020 3:41:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testLookupStoreWithInvalidLocationInput" classname="testhome.HomePageTest" time="4.716">
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 14802
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 02, 2020 3:41:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testResetPasswordWithInvalidEmail" classname="testhome.HomePageTest" time="5.879">
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 2575
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 02, 2020 3:41:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testSelectStorePageIsDisplayed" classname="testhome.HomePageTest" time="2.214">
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 20071
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 02, 2020 3:42:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

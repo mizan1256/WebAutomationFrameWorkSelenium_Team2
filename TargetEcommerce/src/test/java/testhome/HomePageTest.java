@@ -16,6 +16,7 @@ public class HomePageTest extends WebAPI {
     }
 
 
+
     @Test(enabled = true)
     public void testLoginPageIsDisplayed() {
         homePage.checkLoginPageIsDisplayed();
@@ -81,6 +82,30 @@ public class HomePageTest extends WebAPI {
         homePage.lookupStoreWithStateName("Florida");
         homePage.validateStateLocation();
     }
+
+    @Test
+    public void testSearchBox(){
+        homePage.searchBoxCheck("face mask");
+        homePage.validateSearchBox();
+    }
+
+    @Test
+    public void testSearchBoxCheckUsingGetItemValue(){
+        homePage.searchBoxCheckUsingGetItemValue();
+    }
+
+    @Test
+    public void testSearchBoxCheckGetItemsListFromExcel() throws Exception {
+        homePage.searchBoxCheckGetItemsListFromExcel();
+    }
+
+    @Test
+    public void testSearchBoxCheckGetItemsListFromDB() throws Exception {
+        homePage.searchBoxCheckGetItemsListFromDB();
+    }
+
+
+
 
 
 
