@@ -1,4 +1,218 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.423 s - in TestSuite
+Tests run: 31, Failures: 18, Errors: 0, Skipped: 0, Time elapsed: 496.107 s <<< FAILURE! - in TestSuite
+testhome.HomePageTest.TestNoteBook  Time elapsed: 10.098 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'All things school')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BDKIAK2', ip: '192.168.98.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\yeasm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55349}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 797947298e5884fb52fc7b6caa9a92fd
+*** Element info: {Using=xpath, value=//div[contains(text(),'All things school')]}
+	at testhome.HomePageTest.TestNoteBook(HomePageTest.java:174)
+
+testhome.HomePageTest.allThingsSchoolClickable  Time elapsed: 10.049 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'All things school')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BDKIAK2', ip: '192.168.98.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\yeasm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55395}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c611ac2efed4abc43e54ac344e05873f
+*** Element info: {Using=xpath, value=//div[contains(text(),'All things school')]}
+	at testhome.HomePageTest.allThingsSchoolClickable(HomePageTest.java:169)
+
+testhome.HomePageTest.chooseBackToClassGiftCard  Time elapsed: 8.483 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mainContainer"]/div[3]/div/div[2]/div/div[1]/button/div[1]/div/div/div/div[3]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BDKIAK2', ip: '192.168.98.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\yeasm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fb617867da3bd95582ff3b53f00953ea
+*** Element info: {Using=xpath, value=//*[@id="mainContainer"]/div[3]/div/div[2]/div/div[1]/button/div[1]/div/div/div/div[3]}
+	at testhome.HomePageTest.chooseBackToClassGiftCard(HomePageTest.java:124)
+
+testhome.HomePageTest.navToTargetCircleOffer  Time elapsed: 10.383 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='Row-uds8za-0 iFzQdH'][contains(text(),'Target Circle Offers')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BDKIAK2', ip: '192.168.98.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\yeasm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4d60a01e0bda27828a7320100c1144a4
+*** Element info: {Using=xpath, value=//div[@class='Row-uds8za-0 iFzQdH'][contains(text(),'Target Circle Offers')]}
+	at testhome.HomePageTest.navToTargetCircleOffer(HomePageTest.java:153)
+
+testhome.HomePageTest.navigateToRedCards  Time elapsed: 10.427 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='Link-sc-1khjl8b-0 kPdxNk'][contains(text(),'RedCard')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BDKIAK2', ip: '192.168.98.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\yeasm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55550}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 05fce6c6588ea65a9a0d8e64a338e360
+*** Element info: {Using=xpath, value=//a[@class='Link-sc-1khjl8b-0 kPdxNk'][contains(text(),'RedCard')]}
+	at testhome.HomePageTest.navigateToRedCards(HomePageTest.java:138)
+
+testhome.HomePageTest.navigateToSetAsMyStore  Time elapsed: 7.77 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[11]/div/div/div/div/div/div/div/div[1]/div/div[3]/div[2]/button"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BDKIAK2', ip: '192.168.98.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\yeasm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55595}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 04392ff7d2afeac223a53106d5b15327
+*** Element info: {Using=xpath, value=/html/body/div[11]/div/div/div/div/div/div/div/div[1]/div/div[3]/div[2]/button}
+	at testhome.HomePageTest.navigateToSetAsMyStore(HomePageTest.java:108)
+
+testhome.HomePageTest.redCardExclusive  Time elapsed: 1.474 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div class="Row-uds8za-0 kRWFss">...</div> is not clickable at point (245, 144). Other element would receive the click: <div class="Row-uds8za-0 kRWFss">...</div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BDKIAK2', ip: '192.168.98.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\yeasm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: dfcf0dc3b766bfeaa94e512186cd5a3e
+	at testhome.HomePageTest.redCardExclusive(HomePageTest.java:148)
+
+testhome.HomePageTest.testFindAStore  Time elapsed: 10.062 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='Link-sc-1khjl8b-0 kPdxNk'][contains(text(),'Find Stores')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BDKIAK2', ip: '192.168.98.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\yeasm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55791}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 31e0ca546dc81d9497cfebe4eb7499c9
+*** Element info: {Using=xpath, value=//a[@class='Link-sc-1khjl8b-0 kPdxNk'][contains(text(),'Find Stores')]}
+	at testhome.HomePageTest.testFindAStore(HomePageTest.java:84)
+
+testhome.HomePageTest.testGiftCardForSchool  Time elapsed: 8.09 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mainContainer"]/div[3]/div/div[2]/div/div[1]/button/div[1]/div/div/div/div[3]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BDKIAK2', ip: '192.168.98.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\yeasm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 97665cf969fe69508c688c03c61259b2
+*** Element info: {Using=xpath, value=//*[@id="mainContainer"]/div[3]/div/div[2]/div/div[1]/button/div[1]/div/div/div/div[3]}
+	at testhome.HomePageTest.testGiftCardForSchool(HomePageTest.java:119)
+
+testhome.HomePageTest.testGooglePlayGC  Time elapsed: 7.62 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mainContainer"]/div[3]/div/div[2]/div/div[1]/button/div[1]/div/div/div/div[3]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BDKIAK2', ip: '192.168.98.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\yeasm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55938}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ab1bdee8f03a8f1a0c1dc184fb906503
+*** Element info: {Using=xpath, value=//*[@id="mainContainer"]/div[3]/div/div[2]/div/div[1]/button/div[1]/div/div/div/div[3]}
+	at testhome.HomePageTest.testGooglePlayGC(HomePageTest.java:129)
+
+testhome.HomePageTest.testHouseHoldEssential  Time elapsed: 11.717 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BDKIAK2', ip: '192.168.98.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\yeasm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56042}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6c3e40d5cc2a3f041a6cc606f25d071c
+	at testhome.HomePageTest.testHouseHoldEssential(HomePageTest.java:60)
+
+testhome.HomePageTest.testOrders  Time elapsed: 7.853 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='Link-sc-1khjl8b-0 kPdxNk'][contains(text(),'Orders')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BDKIAK2', ip: '192.168.98.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\yeasm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 19efcad89da45a99a247983c617f55e5
+*** Element info: {Using=xpath, value=//a[@class='Link-sc-1khjl8b-0 kPdxNk'][contains(text(),'Orders')]}
+	at testhome.HomePageTest.testOrders(HomePageTest.java:90)
+
+testhome.HomePageTest.testSameDayDelivery  Time elapsed: 10.524 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='SameDayLink__StyledLinkText-cdh2k4-1 cvOROU']//span[contains(text(),'Same Day Delivery')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BDKIAK2', ip: '192.168.98.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\yeasm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 56eb034540cad095805f70d077b1f0db
+*** Element info: {Using=xpath, value=//span[@class='SameDayLink__StyledLinkText-cdh2k4-1 cvOROU']//span[contains(text(),'Same Day Delivery')]}
+	at testhome.HomePageTest.testSameDayDelivery(HomePageTest.java:164)
+
+testhome.HomePageTest.testSearchBoxCheckGetItemsListFromDB  Time elapsed: 0.035 s  <<< FAILURE!
+java.io.FileNotFoundException: ..\Generic\src\main\secret.properties (The system cannot find the file specified)
+	at testhome.HomePageTest.testSearchBoxCheckGetItemsListFromDB(HomePageTest.java:187)
+
+testhome.HomePageTest.testSearchBoxCheckUsingGetItemsListFromExcel  Time elapsed: 0 s  <<< FAILURE!
+java.io.FileNotFoundException: ..\TargetEcommerce\DataTest\TargetEcommerce.xlsx (The system cannot find the file specified)
+	at testhome.HomePageTest.testSearchBoxCheckUsingGetItemsListFromExcel(HomePageTest.java:183)
+
+testhome.HomePageTest.testShoppingCart  Time elapsed: 20.149 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[@class='sc-AxjAm hhuVxr']//div[@class='sc-AxiKw eSbheu']' (tried for 10 second(s) with 500 milliseconds interval)
+	at testhome.HomePageTest.testShoppingCart(HomePageTest.java:78)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='sc-AxjAm hhuVxr']//div[@class='sc-AxiKw eSbheu']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BDKIAK2', ip: '192.168.98.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\yeasm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56371}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e62b266565f19eef5ceb417e2ea01f
+*** Element info: {Using=xpath, value=//span[@class='sc-AxjAm hhuVxr']//div[@class='sc-AxiKw eSbheu']}
+	at testhome.HomePageTest.testShoppingCart(HomePageTest.java:78)
+
+testhome.HomePageTest.verifyManageRedCard  Time elapsed: 10.022 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='Link-sc-1khjl8b-0 kPdxNk'][contains(text(),'RedCard')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BDKIAK2', ip: '192.168.98.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\yeasm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56694}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7740aad21a7dd467a76f6e39339ed80a
+*** Element info: {Using=xpath, value=//a[@class='Link-sc-1khjl8b-0 kPdxNk'][contains(text(),'RedCard')]}
+	at testhome.HomePageTest.verifyManageRedCard(HomePageTest.java:143)
+
+testhome.HomePageTest.verifyOffersByCategoriesAll  Time elapsed: 12.263 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='Row-uds8za-0 iFzQdH'][contains(text(),'Target Circle Offers')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BDKIAK2', ip: '192.168.98.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\yeasm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56736}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e9ed72a51c447dcf11a2954b90afccb0
+*** Element info: {Using=xpath, value=//div[@class='Row-uds8za-0 iFzQdH'][contains(text(),'Target Circle Offers')]}
+	at testhome.HomePageTest.verifyOffersByCategoriesAll(HomePageTest.java:159)
+

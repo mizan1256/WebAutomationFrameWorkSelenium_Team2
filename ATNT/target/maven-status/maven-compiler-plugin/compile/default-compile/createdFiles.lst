@@ -1,1 +1,8 @@
-atnthome/AtntHome.class
+registration\RegistrationWebElement.class
+exploreMenu\ExploreMenu.class
+registration\Registration.class
+searchItem\Search.class
+dataDriven\DataSource.class
+searchItem\SearchWebElement.class
+atnthome\AtntHome.class
+exploreMenu\ExploreMenuWebElement.class

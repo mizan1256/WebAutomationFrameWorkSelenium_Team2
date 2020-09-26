@@ -22,8 +22,8 @@
         <classes>
             <class name="tripAdvisorHomeTest.TripAdvisorHomeTest">
                 <methods>
-                    <exclude name="testSearchBoxCheck"></exclude>
-                    <exclude name="testSearchBoxCheck1"></exclude>
+<!--                    <exclude name="testSearchBoxCheck"></exclude>-->
+<!--                    <exclude name="testSearchBoxCheck1"></exclude>-->
                     <!--                    <exclude name="testSearchBoxCheckUsingGetItemValue"></exclude>-->
                     <!--                    <exclude name="testSearchBoxCheckGetItemsListFromExcel"></exclude>-->
                     <!--                    <exclude name="testSearchBoxCheckGetItemsListFromDB"></exclude>-->

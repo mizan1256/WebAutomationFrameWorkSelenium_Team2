@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="windows"/>
+  <parameter name="os_version" value="10"/>
+  <parameter name="cloudEnvName" value="browserstack"/>
+  <parameter name="url" value="https://www.target.com"/>
+  <test thread-count="5" name="Target Home(failed)" verbose="0">
+    <parameter name="browserVersion" value="84"/>
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="testhome.HomePageTest">
+        <methods>
+          <include name="verifyOffersByCategoriesAll"/>
+          <include name="navigateToSetAsMyStore"/>
+          <include name="startExtent"/>
+          <include name="testHouseHoldEssential"/>
+          <include name="testShoppingCart"/>
+          <include name="testSearchBoxCheckGetItemsListFromDB"/>
+          <include name="testGooglePlayGC"/>
+          <include name="testSameDayDelivery"/>
+          <include name="generateReport"/>
+          <include name="navigateToRedCards"/>
+          <include name="navToTargetCircleOffer"/>
+          <include name="testFindAStore"/>
+          <include name="afterEachTestMethod"/>
+          <include name="allThingsSchoolClickable"/>
+          <include name="TestNoteBook"/>
+          <include name="setUp"/>
+          <include name="redCardExclusive"/>
+          <include name="verifyManageRedCard"/>
+          <include name="testGiftCardForSchool"/>
+          <include name="testSearchBoxCheckUsingGetItemsListFromExcel"/>
+          <include name="cleanUp"/>
+          <include name="testOrders"/>
+          <include name="extentSetup"/>
+          <include name="chooseBackToClassGiftCard"/>
+          <include name="getInit"/>
+        </methods>
+      </class> <!-- testhome.HomePageTest -->
+    </classes>
+  </test> <!-- Target Home(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
