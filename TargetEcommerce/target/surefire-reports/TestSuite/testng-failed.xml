@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="OS X"/>
+  <parameter name="os_version" value="Catalina"/>
+  <parameter name="browserVersion" value="85"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="cloudEnvName" value="browserstack"/>
+  <parameter name="url" value="https://www.target.com"/>
+  <test thread-count="5" name="Target Home(failed)" verbose="0">
+    <parameter name="browserVersion" value="79"/>
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="testHome.TargetHomeTest">
+        <methods>
+          <include name="testTargetWebElementsDriveUp"/>
+          <include name="testTargetWebElementsGetYourHalloween"/>
+          <include name="testTargetWebElementsCategories"/>
+          <include name="testTargetLogoDisplayCheck"/>
+          <include name="testTargetWebElementsHouseHole"/>
+          <include name="testTargetWebElementsHelpButton"/>
+          <include name="testTargetWebElementsWhatsNew"/>
+          <include name="startExtent"/>
+          <include name="testTargetWebElementsForSchool"/>
+          <include name="testTargetShoppingCardIsClickable"/>
+          <include name="testTargetWebElementsGiftCard"/>
+          <include name="testTargetWebElementsCreateAccount"/>
+          <include name="testTargetWebElementsLoungeSeating"/>
+          <include name="testTargetWeeklyAdIsClickable"/>
+          <include name="testWebElementsWallPaper"/>
+          <include name="testTargetWebElementsSameDayDeliver"/>
+          <include name="testTargetWebElementsSheetSets"/>
+          <include name="generateReport"/>
+          <include name="testTargetWebElementsTopDeals"/>
+          <include name="getInIt"/>
+          <include name="testTargetWebElementsOrder"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testTargetWebElementsSocial"/>
+          <include name="testTargetWebElementsMyStore"/>
+          <include name="testTargetWebElementsAtHomeLearning"/>
+          <include name="setUp"/>
+          <include name="testTargetWebElementsSignIn"/>
+          <include name="cleanUp"/>
+          <include name="testTargetWebElementsDealsDropDown"/>
+          <include name="testTargetWebElementsBuyItAgain"/>
+          <include name="testTargetWebElementsTopRated"/>
+          <include name="extentSetup"/>
+          <include name="testTargetWebElementsPampers"/>
+          <include name="testTargetWebElementsText"/>
+          <include name="testTargetWebElementsFreshFallLook"/>
+          <include name="testTargetWebElementsTargetCard"/>
+          <include name="testTargetLogoIsClickable"/>
+          <include name="testTargetWebElementsStorageClubs"/>
+          <include name="testTargetWebElementsRedCardApplyNow"/>
+          <include name="testTargetWebElementsCircle"/>
+          <include name="testTargetWebElementsCollegeReady"/>
+          <include name="testTargetWebElementsFavorites"/>
+        </methods>
+      </class> <!-- testHome.TargetHomeTest -->
+    </classes>
+  </test> <!-- Target Home(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

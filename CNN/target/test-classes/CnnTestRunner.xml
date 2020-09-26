@@ -17,8 +17,8 @@
     <parameter name="url" value="https://www.cnn.com"/>
 
     <test name="CNN Home">
-<!--        <parameter name="browserName" value="chrome"/>-->
-<!--        <parameter name="browserVersion" value="84"/>-->
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="browserVersion" value="79"/>
         <classes>
             <class name="cnntesthome.CnnHomeTest">
                 <methods>

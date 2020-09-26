@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.699" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="576.073" tests="50" errors="0" skipped="0" failures="35">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.7.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/arman430/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/target/surefire/surefirebooter13640985842283315547.jar /Users/arman430/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/target/surefire 2020-08-31T04-46-35_268-jvmRun1 surefire16178815295102286053tmp surefire_113162299271646777260tmp"/>
+    <property name="sun.java.command" value="/Users/arman430/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/target/surefire/surefirebooter11845829453127821616.jar /Users/arman430/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/target/surefire 2020-09-26T04-32-06_330-jvmRun1 surefire381783615603975043tmp surefire_18980299941859511443tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/arman430/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/target/test-classes:/Users/arman430/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/target/classes:/Users/arman430/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/Generic/target/classes:/Users/arman430/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/arman430/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/arman430/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/arman430/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/arman430/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/arman430/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/arman430/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/arman430/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/arman430/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/arman430/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/arman430/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/arman430/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/arman430/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/arman430/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/arman430/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/arman430/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/arman430/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/arman430/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/arman430/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/arman430/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/arman430/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/Users/arman430/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/arman430/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/arman430/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/Users/arman430/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/arman430/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/arman430/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/arman430/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/arman430/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/arman430/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/arman430/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.0/webdrivermanager-4.2.0.jar:/Users/arman430/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/arman430/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/arman430/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/arman430/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/arman430/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/arman430/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/arman430/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/arman430/.m2/repository/org/mongodb/mongo-java-driver/3.12.7/mongo-java-driver-3.12.7.jar:/Users/arman430/.m2/repository/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar:/Users/arman430/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:/Users/arman430/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/arman430/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/arman430/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/arman430/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/arman430/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/arman430/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/arman430/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/arman430/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/arman430/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/arman430/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/arman430/.m2/repository/com/aventstack/extentreports/5.0.3/extentreports-5.0.3.jar:/Users/arman430/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/arman430/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/arman430/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/arman430/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/arman430/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/arman430/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/arman430/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/arman430/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/arman430/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/arman430/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/arman430/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:"/>
@@ -34,7 +34,8 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/arman430/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/target/surefire/surefirebooter13640985842283315547.jar"/>
+    <property name="idea.version2020.1.3" value="true"/>
+    <property name="surefire.real.class.path" value="/Users/arman430/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/target/surefire/surefirebooter11845829453127821616.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.7+8-LTS"/>
@@ -62,27 +63,935 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="testTargetLogoDisplayCheck" classname="testHome.TargetHomeTest" time="0.143">
+  <testcase name="testTargetLogoDisplayCheck" classname="testHome.TargetHomeTest" time="10.043">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;sc-AxjAm gpxuTj&apos;]//div[@class=&apos;sc-AxiKw eSbheu&apos;]//*[local-name()=&apos;svg&apos;]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: a78b24d5bb05350ddb1e57e212195ff9&#10;*** Element info: {Using=xpath, value=//span[@class=&apos;sc-AxjAm gpxuTj&apos;]//div[@class=&apos;sc-AxiKw eSbheu&apos;]//*[local-name()=&apos;svg&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='sc-AxjAm gpxuTj']//div[@class='sc-AxiKw eSbheu']//*[local-name()='svg']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a78b24d5bb05350ddb1e57e212195ff9
+*** Element info: {Using=xpath, value=//span[@class='sc-AxjAm gpxuTj']//div[@class='sc-AxiKw eSbheu']//*[local-name()='svg']}
+	at testHome.TargetHomeTest.testTargetLogoDisplayCheck(TargetHomeTest.java:21)
+]]></failure>
     <system-out><![CDATA[Extent Report Directory/Users/arman430/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/target/surefire-reports/html
 ]]></system-out>
-    <system-err><![CDATA[Aug 31, 2020 4:46:37 AM com.relevantcodes.extentreports.ExtentReports loadConfig
-WARNING: Unable to perform report configuration. The file /Users/arman430/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/report-config.xml was not found.
-Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 39588
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 19443
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1598863598.586][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
-Aug 31, 2020 4:46:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 26, 2020 4:32:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="testTargetLogoIsClickable" classname="testHome.TargetHomeTest" time="0.245">
-    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 20469
+  <testcase name="testTargetLogoIsClickable" classname="testHome.TargetHomeTest" time="10.039">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;sc-AxjAm gpxuTj&apos;]//div[@class=&apos;sc-AxiKw eSbheu&apos;]//*[local-name()=&apos;svg&apos;]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52286}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: a306e9edaf7fa6fe577e035b74445d83&#10;*** Element info: {Using=xpath, value=//span[@class=&apos;sc-AxjAm gpxuTj&apos;]//div[@class=&apos;sc-AxiKw eSbheu&apos;]//*[local-name()=&apos;svg&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='sc-AxjAm gpxuTj']//div[@class='sc-AxiKw eSbheu']//*[local-name()='svg']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52286}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a306e9edaf7fa6fe577e035b74445d83
+*** Element info: {Using=xpath, value=//span[@class='sc-AxjAm gpxuTj']//div[@class='sc-AxiKw eSbheu']//*[local-name()='svg']}
+	at testHome.TargetHomeTest.testTargetLogoIsClickable(TargetHomeTest.java:26)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 22910
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1598863602.598][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
-Aug 31, 2020 4:46:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 26, 2020 4:32:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetShoppingCardIsClickable" classname="testHome.TargetHomeTest" time="10.161">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;sc-AxjAm hhuVxr&apos;]//div[@class=&apos;sc-AxiKw eSbheu&apos;]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52329}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 0311e29d03c3003ddc7aaa269a461741&#10;*** Element info: {Using=xpath, value=//span[@class=&apos;sc-AxjAm hhuVxr&apos;]//div[@class=&apos;sc-AxiKw eSbheu&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='sc-AxjAm hhuVxr']//div[@class='sc-AxiKw eSbheu']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52329}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0311e29d03c3003ddc7aaa269a461741
+*** Element info: {Using=xpath, value=//span[@class='sc-AxjAm hhuVxr']//div[@class='sc-AxiKw eSbheu']}
+	at testHome.TargetHomeTest.testTargetShoppingCardIsClickable(TargetHomeTest.java:32)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 19987
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:32:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsAtHomeLearning" classname="testHome.TargetHomeTest" time="10.249">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h3[contains(text(),&apos;At-home learning&apos;)]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52373}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: a09e5432bf000e37d6b841e57b751f3a&#10;*** Element info: {Using=xpath, value=//h3[contains(text(),&apos;At-home learning&apos;)]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'At-home learning')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52373}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a09e5432bf000e37d6b841e57b751f3a
+*** Element info: {Using=xpath, value=//h3[contains(text(),'At-home learning')]}
+	at testHome.TargetHomeTest.testTargetWebElementsAtHomeLearning(TargetHomeTest.java:217)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 9369
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:32:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsBuyItAgain" classname="testHome.TargetHomeTest" time="10.284">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52419}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 12a8d443efbc6db0c05cc809181c61c1&#10;*** Element info: {Using=xpath, value=//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52419}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 12a8d443efbc6db0c05cc809181c61c1
+*** Element info: {Using=xpath, value=//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']}
+	at testHome.TargetHomeTest.testTargetWebElementsBuyItAgain(TargetHomeTest.java:189)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 5322
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:33:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsCategories" classname="testHome.TargetHomeTest" time="4.207">
+    <failure message="element click intercepted: Element is not clickable at point (113, 6897)&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52466}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 61f97e553af0cbca1f30d5d2540b862c" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (113, 6897)
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52466}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 61f97e553af0cbca1f30d5d2540b862c
+	at testHome.TargetHomeTest.testTargetWebElementsCategories(TargetHomeTest.java:95)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 10114
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:33:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsCircle" classname="testHome.TargetHomeTest" time="10.034">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: c799ec3ec65cfc64e62dfaa828831d65&#10;*** Element info: {Using=xpath, value=//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c799ec3ec65cfc64e62dfaa828831d65
+*** Element info: {Using=xpath, value=//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']}
+	at testHome.TargetHomeTest.testTargetWebElementsCircle(TargetHomeTest.java:174)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 47703
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:33:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsCollegeReady" classname="testHome.TargetHomeTest" time="10.065">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;College Ready&apos;)]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 03c7c5f07ee7d6e64b96441aa6a3bbbd&#10;*** Element info: {Using=xpath, value=//div[contains(text(),&apos;College Ready&apos;)]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'College Ready')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 03c7c5f07ee7d6e64b96441aa6a3bbbd
+*** Element info: {Using=xpath, value=//div[contains(text(),'College Ready')]}
+	at testHome.TargetHomeTest.testTargetWebElementsCollegeReady(TargetHomeTest.java:239)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 17942
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:33:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsCreateAccount" classname="testHome.TargetHomeTest" time="10.015">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52595}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 0a347f3bbcf5b469f186bb5c57184210&#10;*** Element info: {Using=xpath, value=//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52595}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0a347f3bbcf5b469f186bb5c57184210
+*** Element info: {Using=xpath, value=//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']}
+	at testHome.TargetHomeTest.testTargetWebElementsCreateAccount(TargetHomeTest.java:164)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 22547
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:33:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsDealsDropDown" classname="testHome.TargetHomeTest" time="13.17">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;Row-uds8za-0 iFzQdH&apos;][contains(text(),&apos;Clearance&apos;)]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 327185584db0b151f6dd1d19a1617847&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;Row-uds8za-0 iFzQdH&apos;][contains(text(),&apos;Clearance&apos;)]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='Row-uds8za-0 iFzQdH'][contains(text(),'Clearance')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 327185584db0b151f6dd1d19a1617847
+*** Element info: {Using=xpath, value=//div[@class='Row-uds8za-0 iFzQdH'][contains(text(),'Clearance')]}
+	at testHome.TargetHomeTest.testTargetWebElementsDealsDropDown(TargetHomeTest.java:70)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 6298
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:34:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsDriveUp" classname="testHome.TargetHomeTest" time="10.048">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;mainContainer&apos;]//div[5]//div[1]//div[2]//div[1]//div[1]//a[1]//div[1]//div[1]//div[1]//div[1]//div[2]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 19e563adc5f3f477884ad1c316fdd242&#10;*** Element info: {Using=xpath, value=//div[@id=&apos;mainContainer&apos;]//div[5]//div[1]//div[2]//div[1]//div[1]//a[1]//div[1]//div[1]//div[1]//div[1]//div[2]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='mainContainer']//div[5]//div[1]//div[2]//div[1]//div[1]//a[1]//div[1]//div[1]//div[1]//div[1]//div[2]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 19e563adc5f3f477884ad1c316fdd242
+*** Element info: {Using=xpath, value=//div[@id='mainContainer']//div[5]//div[1]//div[2]//div[1]//div[1]//a[1]//div[1]//div[1]//div[1]//div[1]//div[2]}
+	at testHome.TargetHomeTest.testTargetWebElementsDriveUp(TargetHomeTest.java:199)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 28935
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:34:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsElectronics" classname="testHome.TargetHomeTest" time="0.273">
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 26139
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:34:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsFavorites" classname="testHome.TargetHomeTest" time="10.023">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;h-display-inline-block h-margin-r-tiny&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 7b2b7066a09b863caf073ef594da6d91&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;h-display-inline-block h-margin-r-tiny&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='h-display-inline-block h-margin-r-tiny']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7b2b7066a09b863caf073ef594da6d91
+*** Element info: {Using=xpath, value=//div[@class='h-display-inline-block h-margin-r-tiny']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']}
+	at testHome.TargetHomeTest.testTargetWebElementsFavorites(TargetHomeTest.java:207)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 44354
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:34:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsForSchool" classname="testHome.TargetHomeTest" time="10.165">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;Button-bwu3xu-0 fAsnro&apos;]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 238c1d2dfc07c1487173bd69b2447138&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;Button-bwu3xu-0 fAsnro&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='Button-bwu3xu-0 fAsnro']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 238c1d2dfc07c1487173bd69b2447138
+*** Element info: {Using=xpath, value=//div[@class='Button-bwu3xu-0 fAsnro']}
+	at testHome.TargetHomeTest.testTargetWebElementsForSchool(TargetHomeTest.java:65)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 15925
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:34:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsFreshFallLook" classname="testHome.TargetHomeTest" time="13.179">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;Fresh Fall Looks&apos;)]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52852}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: b62bc19b60b24f6663214554417b7838&#10;*** Element info: {Using=xpath, value=//div[contains(text(),&apos;Fresh Fall Looks&apos;)]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Fresh Fall Looks')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52852}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b62bc19b60b24f6663214554417b7838
+*** Element info: {Using=xpath, value=//div[contains(text(),'Fresh Fall Looks')]}
+	at testHome.TargetHomeTest.testTargetWebElementsFreshFallLook(TargetHomeTest.java:123)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 38153
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:35:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsGetYourHalloween" classname="testHome.TargetHomeTest" time="10.045">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[9]//div[1]//div[2]//div[1]//div[2]//a[1]//div[1]//div[1]//div[1]//div[1]//div[2]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 52e3aa131ab5e59e1515186b68a40793&#10;*** Element info: {Using=xpath, value=//div[9]//div[1]//div[2]//div[1]//div[2]//a[1]//div[1]//div[1]//div[1]//div[1]//div[2]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[9]//div[1]//div[2]//div[1]//div[2]//a[1]//div[1]//div[1]//div[1]//div[1]//div[2]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 52e3aa131ab5e59e1515186b68a40793
+*** Element info: {Using=xpath, value=//div[9]//div[1]//div[2]//div[1]//div[2]//a[1]//div[1]//div[1]//div[1]//div[1]//div[2]}
+	at testHome.TargetHomeTest.testTargetWebElementsGetYourHalloween(TargetHomeTest.java:222)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 30117
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:35:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsGiftCard" classname="testHome.TargetHomeTest" time="10.021">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52937}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 32cdbc74d2d506cec0f8dbc90ca17abc&#10;*** Element info: {Using=xpath, value=//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52937}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 32cdbc74d2d506cec0f8dbc90ca17abc
+*** Element info: {Using=xpath, value=//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']}
+	at testHome.TargetHomeTest.testTargetWebElementsGiftCard(TargetHomeTest.java:179)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 43447
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:35:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsHelpButton" classname="testHome.TargetHomeTest" time="10.122">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;select-15&apos;]//button[@class=&apos;Button-bwu3xu-0 SelectBox__SelectButtonWithValidation-sc-6gt3w9-1 kBVzxM&apos;]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52982}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 793f03f9c66812a13cdc06836c55e769&#10;*** Element info: {Using=xpath, value=//div[@id=&apos;select-15&apos;]//button[@class=&apos;Button-bwu3xu-0 SelectBox__SelectButtonWithValidation-sc-6gt3w9-1 kBVzxM&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='select-15']//button[@class='Button-bwu3xu-0 SelectBox__SelectButtonWithValidation-sc-6gt3w9-1 kBVzxM']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:52982}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 793f03f9c66812a13cdc06836c55e769
+*** Element info: {Using=xpath, value=//div[@id='select-15']//button[@class='Button-bwu3xu-0 SelectBox__SelectButtonWithValidation-sc-6gt3w9-1 kBVzxM']}
+	at testHome.TargetHomeTest.testTargetWebElementsHelpButton(TargetHomeTest.java:263)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 47812
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:35:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsHomeNewArrivals" classname="testHome.TargetHomeTest" time="6.069">
+    <system-out><![CDATA[Screenshot captured
+Home New Arrivals : Target
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 5968
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:36:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsHouseHole" classname="testHome.TargetHomeTest" time="10.105">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Categories&apos;)]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:53098}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 6e02746d8feee8f5ecf907c6481ccc95&#10;*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Categories&apos;)]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Categories')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:53098}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6e02746d8feee8f5ecf907c6481ccc95
+*** Element info: {Using=xpath, value=//span[contains(text(),'Categories')]}
+	at testHome.TargetHomeTest.testTargetWebElementsHouseHole(TargetHomeTest.java:99)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 20665
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:36:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsKidsNewArrivals" classname="testHome.TargetHomeTest" time="6.085">
+    <system-out><![CDATA[Screenshot captured
+Kids' New Arrivals : Target
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 4931
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:36:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsLoungeSeating" classname="testHome.TargetHomeTest" time="4.306">
+    <failure message="expected [30% off Halloween Costumes : Target] but found [Dorm Furniture : Target]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [30% off Halloween Costumes : Target] but found [Dorm Furniture : Target]
+	at testHome.TargetHomeTest.testTargetWebElementsLoungeSeating(TargetHomeTest.java:255)
+]]></failure>
+    <system-out><![CDATA[30% off Halloween Costumes : Target
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 18249
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:36:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsMore" classname="testHome.TargetHomeTest" time="5.395">
+    <system-out><![CDATA[Screenshot captured
+Shipping & Order Services : Target
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 15963
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:36:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsMyStore" classname="testHome.TargetHomeTest" time="10.283">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:53306}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 241fb7eea2a0f9c098100afa73c0a980&#10;*** Element info: {Using=xpath, value=//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:53306}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 241fb7eea2a0f9c098100afa73c0a980
+*** Element info: {Using=xpath, value=//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']}
+	at testHome.TargetHomeTest.testTargetWebElementsMyStore(TargetHomeTest.java:194)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 1813
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:36:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsNewInBeauty" classname="testHome.TargetHomeTest" time="5.397">
+    <system-out><![CDATA[Screenshot captured
+New in Beauty : Target
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 18427
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:37:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsNewInWomen" classname="testHome.TargetHomeTest" time="5.259">
+    <system-out><![CDATA[Clothing New Arrivals for Women : Target
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 37706
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:37:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsOrder" classname="testHome.TargetHomeTest" time="10.03">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:53462}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: ded92b158733bc1bf38decd298568d5a&#10;*** Element info: {Using=xpath, value=//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:53462}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ded92b158733bc1bf38decd298568d5a
+*** Element info: {Using=xpath, value=//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']}
+	at testHome.TargetHomeTest.testTargetWebElementsOrder(TargetHomeTest.java:169)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 35650
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:37:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsPampers" classname="testHome.TargetHomeTest" time="10.006">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[8]//div[1]//div[2]//div[1]//div[3]//a[1]//div[1]//div[1]//div[1]//div[1]//div[2]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:53504}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 48ad9e27aa7c7ed9b5e8a575f97c76cf&#10;*** Element info: {Using=xpath, value=//div[8]//div[1]//div[2]//div[1]//div[3]//a[1]//div[1]//div[1]//div[1]//div[1]//div[2]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[8]//div[1]//div[2]//div[1]//div[3]//a[1]//div[1]//div[1]//div[1]//div[1]//div[2]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:53504}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 48ad9e27aa7c7ed9b5e8a575f97c76cf
+*** Element info: {Using=xpath, value=//div[8]//div[1]//div[2]//div[1]//div[3]//a[1]//div[1]//div[1]//div[1]//div[1]//div[2]}
+	at testHome.TargetHomeTest.testTargetWebElementsPampers(TargetHomeTest.java:235)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 45041
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:37:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsPharmacy" classname="testHome.TargetHomeTest" time="5.402">
+    <system-out><![CDATA[Screenshot captured
+Pharmacy : Target
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 20354
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:37:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsRedCard" classname="testHome.TargetHomeTest" time="5.226">
+    <system-out><![CDATA[RedCard : Save 5% at Target
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 4400
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:37:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsRedCardApplyNow" classname="testHome.TargetHomeTest" time="10.102">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:53662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: daff379bae2f56c25a1c31a1302215ea&#10;*** Element info: {Using=xpath, value=//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:53662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: daff379bae2f56c25a1c31a1302215ea
+*** Element info: {Using=xpath, value=//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']}
+	at testHome.TargetHomeTest.testTargetWebElementsRedCardApplyNow(TargetHomeTest.java:184)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 48681
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:38:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsSameDayDeliver" classname="testHome.TargetHomeTest" time="10.013">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;mainContainer&apos;]//div[5]//div[1]//div[2]//div[1]//div[2]//a[1]//div[1]//div[1]//div[1]//div[1]//div[2]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:53707}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: e941ca115b2fdb03a52cc9668725edc4&#10;*** Element info: {Using=xpath, value=//div[@id=&apos;mainContainer&apos;]//div[5]//div[1]//div[2]//div[1]//div[2]//a[1]//div[1]//div[1]//div[1]//div[1]//div[2]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='mainContainer']//div[5]//div[1]//div[2]//div[1]//div[2]//a[1]//div[1]//div[1]//div[1]//div[1]//div[2]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:53707}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e941ca115b2fdb03a52cc9668725edc4
+*** Element info: {Using=xpath, value=//div[@id='mainContainer']//div[5]//div[1]//div[2]//div[1]//div[2]//a[1]//div[1]//div[1]//div[1]//div[1]//div[2]}
+	at testHome.TargetHomeTest.testTargetWebElementsSameDayDeliver(TargetHomeTest.java:203)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 17680
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:38:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsSearchBox" classname="testHome.TargetHomeTest" time="0.739">
+    <system-out><![CDATA[Screenshot captured
+Target : Expect More. Pay Less.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 46458
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:38:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsSheetSets" classname="testHome.TargetHomeTest" time="3.503">
+    <failure message="expected [30% off Halloween Candy : Target] but found [Dorm Bedding : Target]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [30% off Halloween Candy : Target] but found [Dorm Bedding : Target]
+	at testHome.TargetHomeTest.testTargetWebElementsSheetSets(TargetHomeTest.java:245)
+]]></failure>
+    <system-out><![CDATA[30% off Halloween Candy : Target
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 46679
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:38:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsShopAll" classname="testHome.TargetHomeTest" time="3.386">
+    <system-out><![CDATA[Screenshot captured
+Shop All Categories : Target
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 43494
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:38:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsSignIn" classname="testHome.TargetHomeTest" time="10.042">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:53900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 42d05a7b38fd5d6862e2c2bcef5e1ea1&#10;*** Element info: {Using=xpath, value=//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:53900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 42d05a7b38fd5d6862e2c2bcef5e1ea1
+*** Element info: {Using=xpath, value=//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']}
+	at testHome.TargetHomeTest.testTargetWebElementsSignIn(TargetHomeTest.java:159)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 23141
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:38:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsSocial" classname="testHome.TargetHomeTest" time="10.14">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;select-18&apos;]//button[@class=&apos;Button-bwu3xu-0 SelectBox__SelectButtonWithValidation-sc-6gt3w9-1 kBVzxM&apos;]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:53942}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: fefc40b9b3efe5cada4f20b9e5755649&#10;*** Element info: {Using=xpath, value=//div[@id=&apos;select-18&apos;]//button[@class=&apos;Button-bwu3xu-0 SelectBox__SelectButtonWithValidation-sc-6gt3w9-1 kBVzxM&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='select-18']//button[@class='Button-bwu3xu-0 SelectBox__SelectButtonWithValidation-sc-6gt3w9-1 kBVzxM']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:53942}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fefc40b9b3efe5cada4f20b9e5755649
+*** Element info: {Using=xpath, value=//div[@id='select-18']//button[@class='Button-bwu3xu-0 SelectBox__SelectButtonWithValidation-sc-6gt3w9-1 kBVzxM']}
+	at testHome.TargetHomeTest.testTargetWebElementsSocial(TargetHomeTest.java:212)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 40181
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:38:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsStorageClubs" classname="testHome.TargetHomeTest" time="10.057">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h3[contains(text(),&apos;Storage cubes starting at $4&apos;)]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:53986}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: a45ecd8a9ab9f41e7bb15c454f62a695&#10;*** Element info: {Using=xpath, value=//h3[contains(text(),&apos;Storage cubes starting at $4&apos;)]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Storage cubes starting at $4')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:53986}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a45ecd8a9ab9f41e7bb15c454f62a695
+*** Element info: {Using=xpath, value=//h3[contains(text(),'Storage cubes starting at $4')]}
+	at testHome.TargetHomeTest.testTargetWebElementsStorageClubs(TargetHomeTest.java:249)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 28199
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:39:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsTargetApp" classname="testHome.TargetHomeTest" time="5.301">
+    <system-out><![CDATA[Screenshot captured
+Target App - Your Shopping and Saving Sidekick
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 18801
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:39:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsTargetCard" classname="testHome.TargetHomeTest" time="13.171">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;Row-uds8za-0 iFzQdH&apos;][contains(text(),&apos;Target Circle Offers&apos;)]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:54071}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 1d2a99edfcf694edf29f3b83d2464407&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;Row-uds8za-0 iFzQdH&apos;][contains(text(),&apos;Target Circle Offers&apos;)]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='Row-uds8za-0 iFzQdH'][contains(text(),'Target Circle Offers')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:54071}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1d2a99edfcf694edf29f3b83d2464407
+*** Element info: {Using=xpath, value=//div[@class='Row-uds8za-0 iFzQdH'][contains(text(),'Target Circle Offers')]}
+	at testHome.TargetHomeTest.testTargetWebElementsTargetCard(TargetHomeTest.java:90)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 15815
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:39:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsTargetFinds" classname="testHome.TargetHomeTest" time="7.014">
+    <system-out><![CDATA[Screenshot captured
+Target Finds
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 37705
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:39:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsText" classname="testHome.TargetHomeTest" time="10.061">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;More ways to save&apos;)]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:54160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 68caf49bd5debb3bebb5409edb74b9bf&#10;*** Element info: {Using=xpath, value=//span[contains(text(),&apos;More ways to save&apos;)]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'More ways to save')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:54160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 68caf49bd5debb3bebb5409edb74b9bf
+*** Element info: {Using=xpath, value=//span[contains(text(),'More ways to save')]}
+	at testHome.TargetHomeTest.testTargetWebElementsText(TargetHomeTest.java:231)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 39315
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:40:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsTopDeals" classname="testHome.TargetHomeTest" time="15.189">
+    <failure message="element not interactable&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:54202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 9c1f02e0840d20869605c2972091f334" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:54202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9c1f02e0840d20869605c2972091f334
+	at testHome.TargetHomeTest.testTargetWebElementsTopDeals(TargetHomeTest.java:80)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 38386
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:40:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsTopRated" classname="testHome.TargetHomeTest" time="10.047">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Top rated in Fall Ideas, Inspiration &amp; Trends&apos;)]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:54246}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 3aa597746e1886625b546e7ebb40df2b&#10;*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Top rated in Fall Ideas, Inspiration &amp; Trends&apos;)]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Top rated in Fall Ideas, Inspiration & Trends')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:54246}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3aa597746e1886625b546e7ebb40df2b
+*** Element info: {Using=xpath, value=//span[contains(text(),'Top rated in Fall Ideas, Inspiration & Trends')]}
+	at testHome.TargetHomeTest.testTargetWebElementsTopRated(TargetHomeTest.java:259)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 30186
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:40:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsToyIsClickable" classname="testHome.TargetHomeTest" time="0.642">
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 17995
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:40:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsWeeklyAd1" classname="testHome.TargetHomeTest" time="6.669">
+    <system-out><![CDATA[Weekly Deals In Stores Now : Target Weekly Ad
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 40477
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:40:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsWhatNow" classname="testHome.TargetHomeTest" time="7.502">
+    <system-out><![CDATA[#TargetStyle : Target Finds
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 40263
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:40:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWebElementsWhatsNew" classname="testHome.TargetHomeTest" time="5.647">
+    <failure message="expected [Gift Ideas : Target] but found [Gift Ideas : Target Finds]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Gift Ideas : Target] but found [Gift Ideas : Target Finds]
+	at testHome.TargetHomeTest.testTargetWebElementsWhatsNew(TargetHomeTest.java:155)
+]]></failure>
+    <system-out><![CDATA[Gift Ideas : Target
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 1815
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:41:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTargetWeeklyAdIsClickable" classname="testHome.TargetHomeTest" time="10.059">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Weekly Ad&apos;)]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:54500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 390d6384f15b814c764e8e43f6fcace5&#10;*** Element info: {Using=xpath, value=//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Weekly Ad&apos;)]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='Link-sc-1khjl8b-0 kPdxNk'][contains(text(),'Weekly Ad')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:54500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 390d6384f15b814c764e8e43f6fcace5
+*** Element info: {Using=xpath, value=//a[@class='Link-sc-1khjl8b-0 kPdxNk'][contains(text(),'Weekly Ad')]}
+	at testHome.TargetHomeTest.testTargetWeeklyAdIsClickable(TargetHomeTest.java:38)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 22274
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:41:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testWebElementsWallPaper" classname="testHome.TargetHomeTest" time="10.116">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;Link-sc-1khjl8b-0 bTKAgl storycard--link&apos;]//img&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Armans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:81a:dac2:801d:6907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:54543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 24d2dd407c4ad2edb26b84590e268aa0&#10;*** Element info: {Using=xpath, value=//a[@class=&apos;Link-sc-1khjl8b-0 bTKAgl storycard--link&apos;]//img}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='Link-sc-1khjl8b-0 bTKAgl storycard--link']//img"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:54543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 24d2dd407c4ad2edb26b84590e268aa0
+*** Element info: {Using=xpath, value=//a[@class='Link-sc-1khjl8b-0 bTKAgl storycard--link']//img}
+	at testHome.TargetHomeTest.testWebElementsWallPaper(TargetHomeTest.java:61)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 4428
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2020 4:41:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

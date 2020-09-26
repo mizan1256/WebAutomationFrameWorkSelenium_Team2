@@ -17,8 +17,8 @@
     <parameter name="url" value="https://www.target.com"/>
 
     <test name="Target Home">
-<!--        <parameter name="browserName" value="chrome"/>-->
-<!--        <parameter name="browserVersion" value="85"/>-->
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="browserVersion" value="79"/>
         <classes>
             <class name="testHome.TargetHomeTest">
                 <methods>
