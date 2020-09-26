@@ -5,7 +5,7 @@
     <!--    thread-count="2" parallel="tests"-->
     <!--    Cross Browser Testing-->
     <!--    Parameter to pass the value to WebAPI-->
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <!--<parameter name="cloudEnvName" value="saucelab"/>-->
 <!--    <parameter name="os" value="windows"/>-->
@@ -20,14 +20,10 @@
         <parameter name="browserName" value="chrome"/>
         <parameter name="browserVersion" value="84"/>
         <classes>
-<!--            <class name="tripAdvisorHomeTest.TripAdvisorHomeTest"/>-->
+            <class name="tripAdvisorHomeTest.TripAdvisorHomeTest"/>
             <class name="tripAdvisorHomeTest.TripAvdRegiHomeTest">
                 <methods>
                     <exclude name="testSearchBoxCheck"></exclude>
-                    <exclude name="testSearchBoxCheck1"></exclude>
-                    <!--                    <exclude name="testSearchBoxCheckUsingGetItemValue"></exclude>-->
-                    <!--                    <exclude name="testSearchBoxCheckGetItemsListFromExcel"></exclude>-->
-                    <!--                    <exclude name="testSearchBoxCheckGetItemsListFromDB"></exclude>-->
                     <!--                    <include name="testSearchBoxCheckGetItemsListFromExcel"></include>-->
                 </methods>
             </class>

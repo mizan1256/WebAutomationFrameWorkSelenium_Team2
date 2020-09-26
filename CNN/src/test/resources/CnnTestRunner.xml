@@ -20,7 +20,7 @@
         <parameter name="browserName" value="chrome"/>
         <parameter name="browserVersion" value="84"/>
         <classes>
-            <class name="cnntesthome.CnnHomeTest">
+            <class name="cnntest.CnnHomeTest">
                 <methods>
                     <exclude name="testSearchBoxCheck"></exclude>
                     <exclude name="testSearchBoxCheck1"></exclude>
