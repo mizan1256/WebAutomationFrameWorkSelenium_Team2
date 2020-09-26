@@ -20,15 +20,12 @@
 <!--        <parameter name="browserName" value="chrome"/>-->
 <!--        <parameter name="browserVersion" value="85"/>-->
         <classes>
-            <class name="testAtnt.TestAtntHomePage">
-<!--            <class name="testAtnt.TestAtntCookies">-->
+            <class name="testAtnt.TestAtntHomePage"></class>
+            <class name="testAtnt.TestAtntCookies">
 
             <methods>
                     <exclude name="public void testBurgerButtonCheck"></exclude>
-                    <exclude name="public void testSearchBoxCheckAndGetItemValue"></exclude>
-                    <!--                    <exclude name="testSearchBoxCheckUsingGetItemValue"></exclude>-->
-                    <!--                    <exclude name="testSearchBoxCheckGetItemsListFromExcel"></exclude>-->
-                    <!--                    <exclude name="testSearchBoxCheckGetItemsListFromDB"></exclude>-->
+
                     <!--                    <include name="testSearchBoxCheckGetItemsListFromExcel"></include>-->
                 </methods>
             </class>

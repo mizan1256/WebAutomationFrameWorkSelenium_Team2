@@ -21,14 +21,11 @@
         <!--        <parameter name="browserVersion" value="85"/>-->
         <classes>
             <class name="testAetna.testAetnaHomePage">
-                <!--            <class name="testAtnt.TestAtntCookies">-->
+
 
                 <methods>
                     <exclude name="public void testBurgerButtonCheck"></exclude>
-                    <exclude name="public void testSearchBoxCheckAndGetItemValue"></exclude>
-                    <!--                    <exclude name="testSearchBoxCheckUsingGetItemValue"></exclude>-->
-                    <!--                    <exclude name="testSearchBoxCheckGetItemsListFromExcel"></exclude>-->
-                    <!--                    <exclude name="testSearchBoxCheckGetItemsListFromDB"></exclude>-->
+
                     <!--                    <include name="testSearchBoxCheckGetItemsListFromExcel"></include>-->
                 </methods>
             </class>

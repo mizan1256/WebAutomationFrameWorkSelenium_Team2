@@ -20,8 +20,8 @@
 <!--        <parameter name="browserName" value="chrome"/>-->
 <!--        <parameter name="browserVersion" value="85"/>-->
         <classes>
-            <class name="tripAdvisorHomeTest.TripAdvisorHomeTest">
-<!--                <class name="tripAdvisorHomeTest.TestTripAdvisorRegistration">-->
+            <class name="tripAdvisorHomeTest.TripAdvisorHomeTest"></class>
+                <class name="tripAdvisorHomeTest.TestTripAdvisorRegistration">
                 <methods>
                     <exclude name="testSearchBoxCheck"></exclude>
                     <exclude name="testSearchBoxCheck1"></exclude>

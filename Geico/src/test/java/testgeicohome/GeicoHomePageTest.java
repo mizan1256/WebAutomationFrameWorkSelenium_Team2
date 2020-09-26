@@ -17,6 +17,31 @@ public class GeicoHomePageTest extends WebAPI {
     }
 
     @Test
+    public void testGeicologo() throws InterruptedException {
+        geicoHomePage.checkGeicologo();
+        geicoHomePage.validateCheckGeicologo("COVID-19 Updates");
+    }
+    @Test
+    public void testCheckGeicoCareerButton() throws InterruptedException {
+        geicoHomePage.checkGeicoCareerButton();
+        geicoHomePage.validateCheckGeicoCareerButton("");
+    }
+    @Test
+    public void testCheckTDLearningButton() throws InterruptedException {
+        geicoHomePage.checkGeicoCareerButton();
+        geicoHomePage.validateCheckGeicoCareerButton("");
+    }
+    @Test
+    public void testCheckGeicoContactUsButton() throws InterruptedException {
+        geicoHomePage.checkGeicoContactUsButton();
+        geicoHomePage.validateCheckGeicoContactUsButton(driver.getTitle());
+    }
+    @Test
+    public void testCheckGeicoPrivacyButton() throws InterruptedException {
+        geicoHomePage.checkGeicoPrivacyButton();
+        geicoHomePage.validateCheckGeicoPrivacyButton(driver.getTitle());
+    }
+    @Test
     public void testLogoIsDisplayed() throws InterruptedException {
         geicoHomePage.logoIsDisplayed();
     }

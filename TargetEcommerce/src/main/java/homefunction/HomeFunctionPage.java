@@ -104,8 +104,8 @@ public class HomeFunctionPage extends WebAPI {
     useLastName.sendKeys("Islam");
     useMobile.sendKeys("7180000000");
     usePassword.sendKeys("pnt30235");
-    Thread.sleep(2000);
     useSignInAccount.click();
+    Thread.sleep(4000);
     }
     //    Positive Test Sign In Account
     public void useLogIn() throws InterruptedException {

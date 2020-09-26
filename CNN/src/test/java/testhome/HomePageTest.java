@@ -16,31 +16,31 @@ public class HomePageTest extends WebAPI {
         homePage = PageFactory.initElements(driver, HomePage.class);
     }
 
-    @Test (enabled = false)
+    @Test
     public void testCnnLogoIsDisplayed(){
         homePage.cnnLogoIsDisplayed();
     }
-    @Test (enabled = false)
+    @Test
     public void testOpinionButton(){
         homePage.opinionButton();
         homePage.validateOpinionButton();
     }
-    @Test (enabled = false)
+    @Test
     public void testUsButton(){
         homePage.usButton();
         homePage.validateUsButton();
     }
-    @Test(enabled = false)
+    @Test
     public void testDropDownEditionButton(){
         homePage.dropDownEditionButton();
         homePage.validateDropDownEditionButton();
     }
-    @Test(enabled = false)
+    @Test
     public void testDropDownArabic(){
         homePage.dropDownArabic();
         homePage.validateDropDownArabic();
     }
-    @Test (enabled = false)
+    @Test
     public void testBurgerButtonCheck() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

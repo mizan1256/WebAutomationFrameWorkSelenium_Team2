@@ -16,7 +16,9 @@ public class TripAdvisorWebElements extends WebAPI{
     public static final String tripAdvisorVacationRentalsTitleMatchText = "//span[@class='title-match']";
     public static final String tripAdvisorGageHotelCheck ="//span[contains(text(),'Gage Hotel')]";
     public static final String tripAdvisorGageHotelCheckText = "//h1[@id='HEADING']";
-    public static final String tripAdvisorGageHotelCheckIn = "//button[@class='_1-dEgTFQ _3Z2f9tu1']//div[@class='_1fwLpEHv']";
+    public static final String tripAdvisorGageHotelCheckIn = "//*[@id=\"component_46\"]/div[1]/div/div[1]/button[1]/div/span[1]";
+    public static final String trpAdvGageHotelText ="//*[@id=\"HEADING\"]";
+    public static final String trpAdvCalanderDate = "//*[@id=\"BODY_BLOCK_JQUERY_REFLOW\"]/div[12]/div[2]/div/div[2]/div/div[2]/div/div[2]/div[1]/div[3]/div[3]/div[7]";
 //    public static final String
 //    public static final String
 //    public static final String

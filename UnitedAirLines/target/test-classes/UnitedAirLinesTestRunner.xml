@@ -20,7 +20,9 @@
 <!--        <parameter name="browserName" value="chrome"/>-->
 <!--        <parameter name="browserVersion" value="85"/>-->
         <classes>
-            <class name="unitedAirLinesTest.UnitedAirLinesHomePageTest">
+            <class name="unitedAirLinesTest.UnitedAirLinesHomePageTest"></class>
+            <class name="unitedAirLinesTest.UnitedAirlinesRegistrationPageTest">
+
                 <methods>
                     <exclude name="testSearchBoxCheck"></exclude>
                     <exclude name="testSearchBoxCheck1"></exclude>

@@ -21,42 +21,42 @@ public void getInIt(){
     liveTvHome.liveTvButtonCheck();
     liveTvHome.validateLiveTvButtoncheck("Covid-19 latest");
 }
-@Test (enabled = false)
+@Test
     public void testTvChannelButton() throws InterruptedException {
     TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
     liveTvHome.tvChannelButton();
     liveTvHome.validateTvChannelButton("Login");
 }
-    @Test (enabled = false)
+    @Test
     public void testChannelCloseOption() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         liveTvHome.channelCloseOption();
         liveTvHome.validateChannelCloseOption("News Shows");
     }
-    @Test(enabled = false)
+    @Test
     public void testLindaVoiceVideoCheck() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         liveTvHome.lindaVoiceVideoCheck();
         liveTvHome.validatelindaVoiceVideoCheck("US");
     }
-    @Test(enabled = false)
+    @Test
     public void testLiveTvPlayButton() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         liveTvHome.liveTvPlayButton();
 //        liveTvHome.validatelindaVoiceVideoCheck("US");
     }
-    @Test(enabled = false)
+    @Test
     public void testSetLocation() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         liveTvHome.setLocation();
         liveTvHome.validateSetLocation("Register");
     }
-    @Test(enabled = false)
+    @Test
     public void testSetLocationSignUp() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

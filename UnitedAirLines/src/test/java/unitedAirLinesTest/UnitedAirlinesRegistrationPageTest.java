@@ -28,7 +28,7 @@ public class UnitedAirlinesRegistrationPageTest extends WebAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         unitedAirlinesRegistrationPage.findFlightDestination();
-        unitedAirlinesRegistrationPage.validateFindFlightDestination("Map Search");
+        unitedAirlinesRegistrationPage.validateFindFlightDestination("One-way");
     }
 
     @Test
@@ -36,7 +36,7 @@ public class UnitedAirlinesRegistrationPageTest extends WebAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         unitedAirlinesRegistrationPage.findFlightDateCheck();
-        unitedAirlinesRegistrationPage.validatefindFlightDateCheck("Map Search");
+        unitedAirlinesRegistrationPage.validatefindFlightDateCheck("One-way");
     }
 
     @Test
