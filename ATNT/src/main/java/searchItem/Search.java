@@ -19,6 +19,7 @@ public class Search extends WebAPI {
     public WebElement searchBox;
     @FindBy(how = How.XPATH, using = searchTextWebElement)
     public WebElement searchText;
+    String textVerificationPreMessage = "Showing results for ";
 
     //action method
     public void searchItem() {
@@ -84,6 +85,51 @@ public class Search extends WebAPI {
             searchBox.submit();
             String expectedResult = textVarificatePre + "\"" + item + "\"" + ".";
             System.out.println("Expected Result : " + expectedResult);
+            String actualResult = searchText.getText();
+            System.out.println("Actual Result : " + actualResult);
+            Assert.assertEquals(actualResult, expectedResult, "Search Item not match");
+            sleepFor(3);
+            searchBox.clear();
+        }
+
+    }
+
+    //search items form db list
+    public void searchItemsFromDBList() throws Exception {
+        //connect to db
+        DataSource.insertDataIntoDB();
+        //get the
+        List<String> itemList = DataSource.getItemsListFromDB();
+        for (String st : itemList) {
+            typeOnElementNEnter(searchBoxXpathWebElement,st,driver);
+
+//            searchBox.sendKeys(st);
+//            searchBox.submit();
+            String expectedResult = textVerificationPreMessage + "\"" + st + "\"" + ".";
+            sleepFor(3);
+            String actualResult = searchText.getText();
+            System.out.println("Actual Result : " + actualResult);
+            Assert.assertEquals(actualResult, expectedResult, "Search Item not match");
+            sleepFor(3);
+            searchBox.clear();
+        }
+    }
+
+
+
+    //search items from the excel sheet
+    public void SearchItemsFromExcel() throws Exception {
+        List<String> itemList = DataSource.getItemsListFromExcel();
+        for (int i = 1; i < itemList.size(); i++) {
+            String item = itemList.get(i);
+            typeOnElementNEnter(searchBoxXpathWebElement,item,driver);
+
+//            searchBox.sendKeys(item);
+//            searchBox.submit();
+
+            String expectedResult = textVerificationPreMessage + "\"" + item + "\"" + ".";
+            System.out.println("Expected Result : " + expectedResult);
+            sleepFor(5);
             String actualResult = searchText.getText();
             System.out.println("Actual Result : " + actualResult);
             Assert.assertEquals(actualResult, expectedResult, "Search Item not match");

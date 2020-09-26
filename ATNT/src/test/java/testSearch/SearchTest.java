@@ -41,8 +41,24 @@ public class SearchTest extends WebAPI {
         }.getClass().getEnclosingMethod().getName()));
         search.searchBoxCheckGetItemsListFromDB();
     }
+    @Test
+    public void testSearchItemsFromExcel() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        search.SearchItemsFromExcel();
+    }
 
+    @Test
+    public void testSearchItemsFromDBList() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        search.searchItemsFromDBList();
+    }
 
-
-
+    @Test
+    public void testSearchItemsFromDataSourceClass() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        search.searchBoxCheckUsingGetItemValue();
+    }
 }

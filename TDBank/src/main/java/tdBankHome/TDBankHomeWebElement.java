@@ -21,5 +21,17 @@ public class TDBankHomeWebElement {
     public static final String boxCityXpathWebElement = "//*[@id=\"city\"]";
     public static final String boxCityChooseXpathWebElement = "//*[@id=\"city\"]/option[10]";
 
+//
+
+
+    public static final String homePageCommercialTab = "//div[@class='td-segments']//a[contains(text(),'Commercial')]";
+    public static final String homePageCommTabLearnButton = "//button[@class='btn btn-block btn btn-block td-button td-button-primary']";
+    public static final String homePageCommTabCheckText = "//strong[contains(text(),'1-855-847-0664')]";
+    public static final String homePageCommTabLearnBox = "//span[contains(text(),'Forgiveness')]";
+    public static final String homePageCommTabLearnBoxCheckText = "//strong[contains(text(),'An Overview of PPP Loan Forgiveness')]";
+    public static final String homePageInvestingWealthTab = "//div[@class='td-segments']//a[contains(text(),'Investing & Wealth')]";
+    public static final String investingWealthIndividualFamily = "//div[@class='td-tabs-carousel-tab-content icon-link']//p[contains(text(),'Individuals & Families')]";
+    public static final String investingWealthCheckText = "//p[@class='td-footer-social-heading']";
+
 
 }

@@ -486,11 +486,12 @@ sleepFor(5);
      * validate the  current url
      */
     //action methpd
-    public void postIt() {
+    public void postIt() throws InterruptedException {
         //click on all the things school
         school.click();
         //click on listAssist
-        timeToBeClickable(10, listAssist);
+        sleepFor(5);
+//        timeToBeClickable(10, listAssist);
         listAssist.click();
         //click on post it
         timeToBeClickable(10, postIt);

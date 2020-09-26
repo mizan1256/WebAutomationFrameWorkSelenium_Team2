@@ -16,7 +16,7 @@ public class RegistrationTest extends WebAPI {
     }
 
     @Test
-    public void testSignIn() {
+    public void testSignIn() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         registration.signIn();

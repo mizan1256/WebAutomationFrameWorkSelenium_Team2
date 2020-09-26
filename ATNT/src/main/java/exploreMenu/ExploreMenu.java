@@ -73,7 +73,7 @@ public class ExploreMenu extends WebAPI {
 //validate method
     public void validateExploreWirelessPlanesAndPrices(){
         String actualTitle=driver.getTitle();
-        String expectedTitle="AT&T Wireless Plans - Explore Our Best Cell Phone Plans";
+        String expectedTitle="AT&T Wireless Plans | Official Site";
         Assert.assertEquals(actualTitle,expectedTitle);
     }
 

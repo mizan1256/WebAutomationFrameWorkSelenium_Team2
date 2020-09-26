@@ -97,6 +97,7 @@ public class TDBankHome extends WebAPI {
     //test 5:
     public void ExplorePersonal() throws InterruptedException {
         //click checking
+        sleepFor(5);
         clickByXpath(checkingXpathWebElement);
         sleepFor(5);
         clickByXpath(beyondCheckingXpathWebElement);
@@ -114,7 +115,75 @@ public class TDBankHome extends WebAPI {
 //validate method
     public void verifyExplorePersonal(){
         String actual=driver.getTitle();
-        Assert.assertEquals(actual,"TD Beyond Checking");
+        Assert.assertEquals(actual,"Interest Checking Account & No ATM Fees | TD Bank Beyond Checking");
     }
+
+
+    //    Action Method
+    public void tdBankCommercialTab() throws InterruptedException {
+        clickOnElement(homePageCommercialTab);
+        clickOnElement(homePageCommTabLearnButton);
+        Thread.sleep(2000);
+    }
+
+    //  Validate Method
+    public void validateTDBankCommercialTab(String expectedResult) {
+        String actualResult = getTextByXpath(homePageCommTabCheckText);
+        Assert.assertEquals(actualResult, expectedResult);
+        System.out.println("PASSED");
+    }
+
+    //  Action Method
+    public void tdBankCommercialLearnBox() throws InterruptedException {
+        tdBankCommercialTab();
+        clickOnElement(homePageCommTabLearnBox);
+        //  clickOnElement(homePageCommTabLearnButton);
+        Thread.sleep(2000);
+    }
+
+    //  Validate Method
+    public void validateTDBankCommercialLearnBox(String expectedResult) {
+        String actualResult = getTextByXpath(homePageCommTabLearnBoxCheckText);
+        Assert.assertEquals(actualResult, expectedResult);
+        System.out.println("PASSED");
+    }
+
+    // Action Method
+    public void investingAndWealthTab(String expectedResult) {
+        clickOnElement(homePageInvestingWealthTab);
+        clickOnElement(investingWealthIndividualFamily);
+        //  validate
+        String actualResult = getTextByXpath(investingWealthCheckText);
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+
+
+//    //  Action Method
+//    public void tdBankCommercialLearnBox() throws InterruptedException {
+//        tdBankCommercialTab();
+//        clickOnElement(homePageCommTabLearnBox);
+//        //  clickOnElement(homePageCommTabLearnButton);
+//        Thread.sleep(2000);
+//    }
+//
+//    //  Validate Method
+//    public void validateTDBankCommercialLearnBox(String expectedResult) {
+//        String actualResult = getTextByXpath(homePageCommTabLearnBoxCheckText);
+//        Assert.assertEquals(actualResult, expectedResult);
+//        System.out.println("PASSED");
+//    }
+//
+//    // Action Method
+//    public void investingAndWealthTab(String expectedResult) {
+//        clickOnElement(homePageInvestingWealthTab);
+//        clickOnElement(investingWealthIndividualFamily);
+//        //  validate
+//        String actualResult = getTextByXpath(investingWealthCheckText);
+//        Assert.assertEquals(actualResult, expectedResult);
+//    }
+
+
 
 }

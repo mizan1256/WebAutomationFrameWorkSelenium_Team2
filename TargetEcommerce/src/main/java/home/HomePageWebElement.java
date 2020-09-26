@@ -25,7 +25,7 @@ public class HomePageWebElement {
     public static final String targetAppXPathWebElement = "//div[contains(text(),'Target App')]";
     public static final String pharmacyXPathWebElement = "//*[@id=\"more-pharmacy\"]/a/div";
     public static final String whatsNewXPathWebElement = "//div[contains(text(),'s New')]";
-    public static final String urlForMoreWhatsNew ="https://www.target.com/finds/gift-ideas";
+    public static final String urlForMoreWhatsNew ="https://www.target.com/c/gift-ideas/-/N-96d2i";
     public static final String whatsNewTrendsXPathWebElement = "//span[contains(text(),'Trends')]";
     public static final String urlForMoreWhatsNewTrends ="https://www.target.com/finds/gift-ideas";
     public static final String whatsNewSpotLightXPathWebElement = "//span[contains(text(),'Spotlight')]";

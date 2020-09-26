@@ -91,8 +91,10 @@ public class GeicoHome extends WebAPI {
         clickByXpath(nextButtonXPathWebElement);
     }
 
-    public void verifyExplore() {
+    public void verifyExplore() throws InterruptedException {
+        sleepFor(5);
         String actual = WrongAddressText.getText();
+
         Assert.assertEquals(actual, "We need your address in Bronx, NY (10472).");
     }
 

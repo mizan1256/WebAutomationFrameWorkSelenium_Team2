@@ -34,7 +34,8 @@ public class Registration extends WebAPI {
         //clickOnElement(signInButtonCSSWebElement);
     }
 //validate method
-    public void validateSignIn(){
+    public void validateSignIn() throws InterruptedException {
+        sleepFor(5);
         boolean actual=doubleCheckMessageForSignIn.isDisplayed();
         Assert.assertEquals(actual,true);
     }

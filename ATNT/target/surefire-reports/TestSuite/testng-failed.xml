@@ -11,20 +11,32 @@
     <classes>
       <class name="testExploreMenu.ExploreMenuTest">
         <methods>
-          <include name="testExploreTvAndEntertainmentDirectTV"/>
-          <include name="testExploreTvAndEntertainmentInternationalPackages"/>
           <include name="testExploreWirelessInternationalOption"/>
-          <include name="afterEachTestMethod"/>
           <include name="testExploreWirelessPlanesAndPrices"/>
-          <include name="setUp"/>
           <include name="startExtent"/>
-          <include name="testExploreTvAndEntertainmentBundles"/>
-          <include name="cleanUp"/>
           <include name="testExploreWirelessTradeInYourDevice"/>
-          <include name="extentSetup"/>
-          <include name="getInit"/>
+          <include name="testExploreTvAndEntertainmentTvAccessories"/>
           <include name="testExploreWireLess"/>
           <include name="generateReport"/>
+          <include name="testExploreTvAndEntertainmentDirectTV"/>
+          <include name="testExploreTvAndEntertainmentInternationalPackages"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testExplorePrepaid"/>
+          <include name="setUp"/>
+          <include name="testExploreTvAndEntertainmentUverseTV"/>
+          <include name="testExploreWirelessUpgradeYourDevice"/>
+          <include name="testExplorePrepaidPhones"/>
+          <include name="testExploreTvAndEntertainmentBundles"/>
+          <include name="cleanUp"/>
+          <include name="extentSetup"/>
+          <include name="testExploreWirelessFiveG"/>
+          <include name="testExploreTvAndEntertainment"/>
+          <include name="testExplorePrepaidMobilePlans"/>
+          <include name="testExploreWirelessPlanDiscounts"/>
+          <include name="testExploreWirelessAddADevice"/>
+          <include name="testExploreWirelessBringYourDevice"/>
+          <include name="getInit"/>
+          <include name="testExploreWirelessPhonesAndDevices"/>
         </methods>
       </class> <!-- testExploreMenu.ExploreMenuTest -->
     </classes>

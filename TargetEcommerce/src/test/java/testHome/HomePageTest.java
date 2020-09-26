@@ -119,7 +119,7 @@ public class HomePageTest extends WebAPI {
     }
 
     @Test
-    public void TestPostIt() {//works
+    public void TestPostIt() throws InterruptedException {//works
         homePage.postIt();
         homePage.validatePostIt();
 

@@ -394,7 +394,7 @@ sleepFor(5);
      */
 
     //action method
-    public void navigateToHealthTargetCircle() {
+    public void navigateToHealthTargetCircle() throws InterruptedException {
         //click on deals
         deals.click();
         timeToBeClickable(5, targetCircleOffers);
@@ -407,7 +407,8 @@ sleepFor(5);
         timeToBeClickable(5, healthItem);
         healthItem.click();
         //click saveOffer
-        timeToBeClickable(5, saveOffer);
+        sleepFor(5);
+//        timeToBeClickable(5, saveOffer);
         saveOffer.click();
 
     }
@@ -435,7 +436,8 @@ sleepFor(5);
 //        timeToBeClickable(5, 5home);
         home.click();
         //click on homeItem
-        timeToBeClickable(5, homeItem);
+        sleepFor(5);
+//        timeToBeClickable(5, homeItem);
         homeItem.click();
 
     }
