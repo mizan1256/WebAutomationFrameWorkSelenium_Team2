@@ -1,1 +1,15 @@
+findStores/FindStoresHomePage.class
+targetHome/TargetHomeWebElements.class
+registry/RegistryHomePage.class
 targetHome/TargetHome.class
+redCard/RedCardHomePageWebElement.class
+datadriven/DataSource.class
+redCard/RedCardHomePage.class
+giftCards/GiftCardHomePage.class
+home/HomePage.class
+registry/RegistryHomePageElements.class
+targetsigninpage/SignInPageWebElements.class
+targetsigninpage/SignInPage.class
+giftCards/GiftCardHomePageElements.class
+findStores/FindStoresHomePageElements.class
+home/HomePageWebElement.class

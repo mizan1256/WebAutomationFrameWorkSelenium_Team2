@@ -1,1 +1,7 @@
-testHome/TargetHomeTest.class
+registryButtonTest/RegistryHomePageTest.class
+giftCardTest/GiftCardHomePageTest.class
+signinpagetest/SignInPageTest.class
+testhome/RedCardTest.class
+testhome/HomePageTest.class
+findStoreTest/FindStoresHomePageTest.class
+testhome/TargetEcommerceHomeTest.class
