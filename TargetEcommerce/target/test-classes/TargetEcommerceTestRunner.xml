@@ -20,7 +20,12 @@
         <parameter name="browserName" value="chrome"/>
         <parameter name="browserVersion" value="85"/>
         <classes>
-            <class name="testHome.TargetHomeTest">
+            <class name="testHome.TargetHomeTest"/>
+            <class name="testHome.FindStoresHomePageTest"/>
+            <class name="testHome.GiftCardHomePageTest"/>
+            <class name="testHome.RegistryHomePageTest"/>
+            <class name="testHome.SignInPageTest">
+
                 <methods>
                     <exclude name="testSearchBoxCheck"></exclude>
                     <exclude name="testSearchBoxCheck1"></exclude>

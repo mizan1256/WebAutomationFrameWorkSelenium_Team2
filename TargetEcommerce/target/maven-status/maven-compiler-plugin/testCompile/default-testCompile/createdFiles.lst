@@ -1,5 +1,5 @@
-signinpagetest\SignInPageTest.class
+testHome\GiftCardHomePageTest.class
+testHome\SignInPageTest.class
 testHome\TargetHomeTest.class
-findStoreTest\FindStoresHomePageTest.class
-registryButtonTest\RegistryHomePageTest.class
-giftCardTest\GiftCardHomePageTest.class
+testHome\FindStoresHomePageTest.class
+testHome\RegistryHomePageTest.class

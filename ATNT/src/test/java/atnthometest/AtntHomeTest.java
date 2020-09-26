@@ -36,6 +36,6 @@ public class AtntHomeTest extends WebAPI {
     @Test
     public void testCheckAttPrepaidButton() throws InterruptedException {
         atntHome.checkAttPrepaidButton();
-        atntHome.validateCheckAttPrepaidButton("AT&T PREPAIDSM");
+        atntHome.validateCheckAttPrepaidButton("$25/mo. with AT&T PREPAIDSM");
     }
 }

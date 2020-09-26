@@ -12,27 +12,27 @@ public class CnnHomeTest extends WebAPI {
     public void getInit()
     {cnnHome= PageFactory.initElements(driver,CnnHome.class);
     }
-    @Test(enabled = false)
+    @Test
     public void testCheckCnnLogo() throws InterruptedException {
         cnnHome.checkUSButton();
         cnnHome.validateUSButton();
     }
-    @Test(enabled = false)
+    @Test
     public void testDisplayCnnLogo() throws InterruptedException {
         cnnHome.displayCnnLogo();
         cnnHome.validateDisplayCnnLogo();
     }
-    @Test(enabled = false)
+    @Test
     public void testCheckCnnMiddleEastButton() throws InterruptedException {
         cnnHome.checkCnnMiddleEastButton();
         cnnHome.validateCnnMiddleEastButton();
     }
-    @Test(enabled = false)
+    @Test
     public void testCheckCnnZipBox() throws InterruptedException {
      cnnHome.checkCnnZipBox();
      cnnHome.validateCheckCnnZipBox();
     }
-    @Test(enabled = false)
+    @Test
     public void testCheckCnnEntertainmentButton() throws InterruptedException {
         cnnHome.checkCnnEntertainmentButton();
         cnnHome.validateCnnEntertainmentButton();

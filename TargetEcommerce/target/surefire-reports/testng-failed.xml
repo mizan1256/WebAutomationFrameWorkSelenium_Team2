@@ -7,26 +7,91 @@
   <parameter name="cloudEnvName" value="browserstack"/>
   <parameter name="url" value="https://www.target.com"/>
   <test thread-count="5" name="Target Home(failed)" verbose="0">
-    <parameter name="browserVersion" value="84"/>
+    <parameter name="browserVersion" value="85"/>
     <parameter name="browserName" value="chrome"/>
     <classes>
+      <class name="testHome.FindStoresHomePageTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="testQueenStore"/>
+          <include name="setUp"/>
+          <include name="getInit"/>
+          <include name="startExtent"/>
+          <include name="testSearchLakeStreetStore"/>
+          <include name="cleanUp"/>
+          <include name="testSearchElmontStoreHoursInfo"/>
+          <include name="testZipBox"/>
+          <include name="extentSetup"/>
+          <include name="validateSearchElmontStoreInfo"/>
+          <include name="testElmontStore"/>
+          <include name="generateReport"/>
+          <include name="testSearchFindStores"/>
+        </methods>
+      </class> <!-- testHome.FindStoresHomePageTest -->
+      <class name="testHome.RegistryHomePageTest">
+        <methods>
+          <include name="testCheckHouseWarmingBrands"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testCheckFindList"/>
+          <include name="setUp"/>
+          <include name="getInit"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+          <include name="testCheckRegistry"/>
+          <include name="extentSetup"/>
+          <include name="testCheckReadyForSchool"/>
+          <include name="testCheckRegistrySignINButton"/>
+          <include name="testCheckHouseWarmingRegistry"/>
+          <include name="testCreateRegistry"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- testHome.RegistryHomePageTest -->
+      <class name="testHome.GiftCardHomePageTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="testClickContinueShippingButton"/>
+          <include name="setUp"/>
+          <include name="testClickShiptDealButton"/>
+          <include name="testClickVisaPreparedCard"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+          <include name="testClickVisaGiftCard"/>
+          <include name="extentSetup"/>
+          <include name="testClickVisaPreparedShiptButton"/>
+          <include name="getInit"/>
+          <include name="generateReport"/>
+          <include name="testCliCkGiftCardButton"/>
+          <include name="testClickTargetGiftCard"/>
+        </methods>
+      </class> <!-- testHome.GiftCardHomePageTest -->
       <class name="testHome.TargetHomeTest">
         <methods>
           <include name="testClickSameDayDelivery"/>
-          <include name="testSearchBoxIsDisplayed"/>
+          <include name="testSearchBoxCheck"/>
           <include name="afterEachTestMethod"/>
           <include name="setUp"/>
-          <include name="testClickMensButton"/>
+          <include name="testTargetSearchBoxCheckGetItemValue"/>
           <include name="startExtent"/>
-          <include name="cleanUp"/>
-          <include name="extentSetup"/>
-          <include name="testSearchCartDisplayed"/>
+          <include name="testClickCollegeButton"/>
           <include name="generateReport"/>
+          <include name="cleanUp"/>
           <include name="testSearchNewArrivals"/>
-          <include name="testGetHomePageLogo"/>
           <include name="getInit"/>
+          <include name="extentSetup"/>
         </methods>
       </class> <!-- testHome.TargetHomeTest -->
+      <class name="testHome.SignInPageTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="testCheckCreateAccount"/>
+          <include name="getInit"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- testHome.SignInPageTest -->
     </classes>
   </test> <!-- Target Home(failed) -->
 </suite> <!-- Failed suite [TestSuite] -->

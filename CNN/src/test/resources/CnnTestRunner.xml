@@ -21,6 +21,7 @@
 <!--        <parameter name="browserVersion" value="85"/>-->
         <classes>
 <!--            <class name="cnntest.CnnHomeTest">-->
+            <class name="cnntest.CnnHomeTest"/>
             <class name="cnntest.TestRegistrationPage">
 
 
