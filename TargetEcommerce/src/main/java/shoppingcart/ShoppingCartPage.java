@@ -25,7 +25,7 @@ public class ShoppingCartPage extends WebAPI {
 
     public void shoppingCartLogoIsDisplay() {
         shoppInCartLogo.isDisplayed();
-        System.out.println("Shoping cart logo is displayed :" + shoppInCartLogo.isDisplayed());
+        System.out.println("Shopping cart logo is displayed :" + shoppInCartLogo.isDisplayed());
     }
 
     public void shoppingCartLogoIsClickable() {
@@ -37,12 +37,12 @@ public class ShoppingCartPage extends WebAPI {
         String actualResult = shoppingCartText.getText();
         System.out.println(shoppingCartText.getText());
         Thread.sleep(3000);
-        String expectedresult = "Your cart is empty";
-        Assert.assertEquals(actualResult, expectedresult, "Test case not match");
+        String expectedResult = "Your cart is empty";
+        Assert.assertEquals(actualResult, expectedResult, "Test case not match");
     }
 
     /**
-     * Shopping Cart Fanctional test
+     * Shopping Cart Functional test
      */
     public void shoppingInCartLogIn() throws InterruptedException {
         shoppingCartLogoIsClickable();
@@ -53,7 +53,7 @@ public class ShoppingCartPage extends WebAPI {
         Thread.sleep(3000);
     }
 
-    public void validateShoppInCartLogIn() {
+    public void validateShoppingCartLogIn() {
         Assert.assertEquals("Target : Expect More. Pay Less.", driver.getTitle());
     }
 }

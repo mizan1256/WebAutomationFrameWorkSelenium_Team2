@@ -1,4 +1,9 @@
+shoppingcart/ShoppingCartWebElement.class
+weeklyad/WeeklyAdWebElement.class
+giftcard/GiftCardPage.class
+datadriven/DataSource.class
 home/HomePageWebElements.class
 home/HomePage.class
+shoppingcart/ShoppingCartPage.class
 giftcard/GiftCardWebElements.class
-giftcard/GiftCardPage.class
+weeklyad/WeeklyAdPage.class

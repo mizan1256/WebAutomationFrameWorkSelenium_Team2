@@ -1,0 +1,2225 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 26 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TestSuite" class="navigator-link">
+              <span class="suite-name border-failed">TestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TestSuite" class="navigator-link ">
+                    <span>TargetEcommerceTestRunner.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TestSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods, 26 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TestSuite" class="hide-methods failed suite-TestSuite"> (hide)</a> <!-- hide-methods failed suite-TestSuite -->
+                      <a href="#" panel-name="suite-TestSuite" class="show-methods failed suite-TestSuite"> (show)</a> <!-- show-methods failed suite-TestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-TestSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.HomePageTest" class="method navigator-link" hash-for-method="testCreateTargetAccount">testCreateTargetAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.HomePageTest" class="method navigator-link" hash-for-method="testCreateTargetAccountForNegativeTest">testCreateTargetAccountForNegativeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.GiftCardPageTest" class="method navigator-link" hash-for-method="testGcpGiftCardForSchShoBagLogoIsDisplay">testGcpGiftCardForSchShoBagLogoIsDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.GiftCardPageTest" class="method navigator-link" hash-for-method="testGcpGiftCardForSchoolShoppingBagLogo">testGcpGiftCardForSchoolShoppingBagLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.GiftCardPageTest" class="method navigator-link" hash-for-method="testGcpGiftForSchoolChooseOption">testGcpGiftForSchoolChooseOption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.GiftCardPageTest" class="method navigator-link" hash-for-method="testGcpShiptButtonIsClickable">testGcpShiptButtonIsClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.GiftCardPageTest" class="method navigator-link" hash-for-method="testGcpShiptButtonIsDisplay">testGcpShiptButtonIsDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.GiftCardPageTest" class="method navigator-link" hash-for-method="testGcpShiptImageIsClickAble">testGcpShiptImageIsClickAble</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.GiftCardPageTest" class="method navigator-link" hash-for-method="testGiftCardButton">testGiftCardButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.HomePageTest" class="method navigator-link" hash-for-method="testSearchBoxCheck">testSearchBoxCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.HomePageTest" class="method navigator-link" hash-for-method="testSearchBoxCheckGetItemsListFromDB">testSearchBoxCheckGetItemsListFromDB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.HomePageTest" class="method navigator-link" hash-for-method="testSearchBoxCheckUsingGetItemsListFromExcel">testSearchBoxCheckUsingGetItemsListFromExcel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.GiftCardPageTest" class="method navigator-link" hash-for-method="testShiptImageDisplay">testShiptImageDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.ShoppingCartTest" class="method navigator-link" hash-for-method="testShoppingCartLogIn">testShoppingCartLogIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.ShoppingCartTest" class="method navigator-link" hash-for-method="testShoppingCartLogoIsClickable">testShoppingCartLogoIsClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.ShoppingCartTest" class="method navigator-link" hash-for-method="testShoppingCartLogoIsDisplay">testShoppingCartLogoIsDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.HomePageTest" class="method navigator-link" hash-for-method="testSignInTargetUserAccount">testSignInTargetUserAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.HomePageTest" class="method navigator-link" hash-for-method="testSignInTargetUserAccountUsingInvalidCredentials">testSignInTargetUserAccountUsingInvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.WeeklyAdTest" class="method navigator-link" hash-for-method="testViewWeeklyAdIsClickable">testViewWeeklyAdIsClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.WeeklyAdTest" class="method navigator-link" hash-for-method="testViewWeeklyAdIsDisplay">testViewWeeklyAdIsDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.WeeklyAdTest" class="method navigator-link" hash-for-method="testWeeklyAdBottomMenuTermsLinkIsClickable">testWeeklyAdBottomMenuTermsLinkIsClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.WeeklyAdTest" class="method navigator-link" hash-for-method="testWeeklyAdBottomTargetLogoIsDisplay">testWeeklyAdBottomTargetLogoIsDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.WeeklyAdTest" class="method navigator-link" hash-for-method="testWeeklyAdButtonIsClickable">testWeeklyAdButtonIsClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.WeeklyAdTest" class="method navigator-link" hash-for-method="testWeeklyAdButtonIsDisplay">testWeeklyAdButtonIsDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.WeeklyAdTest" class="method navigator-link" hash-for-method="testWeeklyAdPageFooterMenuTermsLinkIsClickable">testWeeklyAdPageFooterMenuTermsLinkIsClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.WeeklyAdTest" class="method navigator-link" hash-for-method="testWeeklyAsPageInterestBasedAdLinkIsActive">testWeeklyAsPageInterestBasedAdLinkIsActive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TestSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestSuite" class="hide-methods passed suite-TestSuite"> (hide)</a> <!-- hide-methods passed suite-TestSuite -->
+                      <a href="#" panel-name="suite-TestSuite" class="show-methods passed suite-TestSuite"> (show)</a> <!-- show-methods passed suite-TestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-TestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.HomePageTest" class="method navigator-link" hash-for-method="testSearchBoxCheckUsingGetItemValue">testSearchBoxCheckUsingGetItemValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testhome.HomePageTest" class="method navigator-link" hash-for-method="testSearchBoxIsDisplayed">testSearchBoxIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestSuite" class="panel TestSuite">
+          <div class="suite-TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testhome.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateTargetAccount">
+                  </a> <!-- testCreateTargetAccount -->
+                  <span class="method-name">testCreateTargetAccount</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]//*[name()=&apos;path&apos; and contains(@d,&apos;M14.063 14&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:54183}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: df758fb2191e2d0c6ebf53a8e17bc596
+*** Element info: {Using=xpath, value=//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]//*[name()=&apos;path&apos; and contains(@d,&apos;M14.063 14&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at home.HomePage.createTargetAccount(HomePage.java:85)
+	at testhome.HomePageTest.testCreateTargetAccount(HomePageTest.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateTargetAccountForNegativeTest">
+                  </a> <!-- testCreateTargetAccountForNegativeTest -->
+                  <span class="method-name">testCreateTargetAccountForNegativeTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]//*[name()=&apos;path&apos; and contains(@d,&apos;M14.063 14&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:54243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ca138c2d5f065866d7d300ef3e9d1670
+*** Element info: {Using=xpath, value=//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]//*[name()=&apos;path&apos; and contains(@d,&apos;M14.063 14&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at home.HomePage.createTargetAccountForNegativeTest(HomePage.java:97)
+	at testhome.HomePageTest.testCreateTargetAccountForNegativeTest(HomePageTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBoxCheck">
+                  </a> <!-- testSearchBoxCheck -->
+                  <span class="method-name">testSearchBoxCheck</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&apos;SearchInputButton-sc-1opoijs-0 gpTjzt&apos;]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:54302}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: dc0a60418c70ee0b6457c9adb06ff7bf
+*** Element info: {Using=xpath, value=//button[@class=&apos;SearchInputButton-sc-1opoijs-0 gpTjzt&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at home.HomePage.searchBoxCheck(HomePage.java:70)
+	at testhome.HomePageTest.testSearchBoxCheck(HomePageTest.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBoxCheckGetItemsListFromDB">
+                  </a> <!-- testSearchBoxCheckGetItemsListFromDB -->
+                  <span class="method-name">testSearchBoxCheckGetItemsListFromDB</span>
+                  <div class="stack-trace">java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.&lt;init&gt;(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at databases.ConnectToSqlDB.connectToSqlDatabase(ConnectToSqlDB.java:38)
+	at databases.ConnectToSqlDB.readDataBase(ConnectToSqlDB.java:47)
+	at datadriven.DataSource.getItemsListFromDB(DataSource.java:38)
+	at home.HomePage.searchBoxCheckGetItemsListFromDB(HomePage.java:175)
+	at testhome.HomePageTest.testSearchBoxCheckGetItemsListFromDB(HomePageTest.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBoxCheckUsingGetItemsListFromExcel">
+                  </a> <!-- testSearchBoxCheckUsingGetItemsListFromExcel -->
+                  <span class="method-name">testSearchBoxCheckUsingGetItemsListFromExcel</span>
+                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:458)
+	at datadriven.DataSource.getItemsListFromExcel(DataSource.java:52)
+	at home.HomePage.searchBoxCheckUsingGetItemsListFromExcel(HomePage.java:156)
+	at testhome.HomePageTest.testSearchBoxCheckUsingGetItemsListFromExcel(HomePageTest.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignInTargetUserAccount">
+                  </a> <!-- testSignInTargetUserAccount -->
+                  <span class="method-name">testSignInTargetUserAccount</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]//*[name()=&apos;path&apos; and contains(@d,&apos;M14.063 14&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:54648}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 34870e093b62b75e2e88159153f258f1
+*** Element info: {Using=xpath, value=//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]//*[name()=&apos;path&apos; and contains(@d,&apos;M14.063 14&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at home.HomePage.signInTargetUserAccount(HomePage.java:113)
+	at testhome.HomePageTest.testSignInTargetUserAccount(HomePageTest.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignInTargetUserAccountUsingInvalidCredentials">
+                  </a> <!-- testSignInTargetUserAccountUsingInvalidCredentials -->
+                  <span class="method-name">testSignInTargetUserAccountUsingInvalidCredentials</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]//*[name()=&apos;path&apos; and contains(@d,&apos;M14.063 14&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:54706}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 014feb14a5769eeda7dc85d2230a500c
+*** Element info: {Using=xpath, value=//span[@class=&apos;sc-AxirZ cWICNE&apos;]//div[@class=&apos;sc-AxhCb eSwYtm&apos;]//*[local-name()=&apos;svg&apos;]//*[name()=&apos;path&apos; and contains(@d,&apos;M14.063 14&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at home.HomePage.signInTargetUserAccountUsingInvalidCredentials(HomePage.java:126)
+	at testhome.HomePageTest.testSignInTargetUserAccountUsingInvalidCredentials(HomePageTest.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-failed -->
+          <div class="suite-TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testhome.WeeklyAdTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testViewWeeklyAdIsClickable">
+                  </a> <!-- testViewWeeklyAdIsClickable -->
+                  <span class="method-name">testViewWeeklyAdIsClickable</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Weekly Ad&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:54947}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ae62b8b1604a4624817c4a45d32fe356
+*** Element info: {Using=xpath, value=//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Weekly Ad&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at weeklyad.WeeklyAdPage.weeklyAdButtonIsClickable(WeeklyAdPage.java:31)
+	at weeklyad.WeeklyAdPage.viewWeeklyAdIsClickable(WeeklyAdPage.java:46)
+	at testhome.WeeklyAdTest.testViewWeeklyAdIsClickable(WeeklyAdTest.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testViewWeeklyAdIsDisplay">
+                  </a> <!-- testViewWeeklyAdIsDisplay -->
+                  <span class="method-name">testViewWeeklyAdIsDisplay</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Weekly Ad&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:55006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7ebbc29170cb057dfde98a0a066972f6
+*** Element info: {Using=xpath, value=//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Weekly Ad&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at weeklyad.WeeklyAdPage.weeklyAdButtonIsClickable(WeeklyAdPage.java:31)
+	at weeklyad.WeeklyAdPage.viewWeeklyAdIsDisplay(WeeklyAdPage.java:40)
+	at testhome.WeeklyAdTest.testViewWeeklyAdIsDisplay(WeeklyAdTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWeeklyAdBottomMenuTermsLinkIsClickable">
+                  </a> <!-- testWeeklyAdBottomMenuTermsLinkIsClickable -->
+                  <span class="method-name">testWeeklyAdBottomMenuTermsLinkIsClickable</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Weekly Ad&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:55066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9764fc74abf2b781f807622b19925eb3
+*** Element info: {Using=xpath, value=//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Weekly Ad&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at weeklyad.WeeklyAdPage.weeklyAdButtonIsClickable(WeeklyAdPage.java:31)
+	at weeklyad.WeeklyAdPage.weeklyAdBottomMenuTermsLinkIsClickable(WeeklyAdPage.java:61)
+	at testhome.WeeklyAdTest.testWeeklyAdBottomMenuTermsLinkIsClickable(WeeklyAdTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWeeklyAdBottomTargetLogoIsDisplay">
+                  </a> <!-- testWeeklyAdBottomTargetLogoIsDisplay -->
+                  <span class="method-name">testWeeklyAdBottomTargetLogoIsDisplay</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Weekly Ad&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:55128}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cdd590eec6e0f134d3237ec6c34823ec
+*** Element info: {Using=xpath, value=//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Weekly Ad&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at weeklyad.WeeklyAdPage.weeklyAdButtonIsClickable(WeeklyAdPage.java:31)
+	at weeklyad.WeeklyAdPage.weeklyAdBottomTargetLogoIsDisplay(WeeklyAdPage.java:57)
+	at testhome.WeeklyAdTest.testWeeklyAdBottomTargetLogoIsDisplay(WeeklyAdTest.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWeeklyAdButtonIsClickable">
+                  </a> <!-- testWeeklyAdButtonIsClickable -->
+                  <span class="method-name">testWeeklyAdButtonIsClickable</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Weekly Ad&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:55191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e05d1652ebd39ba48aff5ce468d21c0b
+*** Element info: {Using=xpath, value=//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Weekly Ad&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at weeklyad.WeeklyAdPage.weeklyAdButtonIsClickable(WeeklyAdPage.java:31)
+	at testhome.WeeklyAdTest.testWeeklyAdButtonIsClickable(WeeklyAdTest.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWeeklyAdButtonIsDisplay">
+                  </a> <!-- testWeeklyAdButtonIsDisplay -->
+                  <span class="method-name">testWeeklyAdButtonIsDisplay</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Weekly Ad&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:55264}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3239d1994c2298f79fccc3b2810ecf56
+*** Element info: {Using=xpath, value=//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Weekly Ad&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.isDisplayed(Unknown Source)
+	at weeklyad.WeeklyAdPage.weeklyAdIsDisplay(WeeklyAdPage.java:26)
+	at testhome.WeeklyAdTest.testWeeklyAdButtonIsDisplay(WeeklyAdTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWeeklyAdPageFooterMenuTermsLinkIsClickable">
+                  </a> <!-- testWeeklyAdPageFooterMenuTermsLinkIsClickable -->
+                  <span class="method-name">testWeeklyAdPageFooterMenuTermsLinkIsClickable</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Weekly Ad&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:55341}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 20b6c366a6c6ef9d682ef37078b0ff9c
+*** Element info: {Using=xpath, value=//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Weekly Ad&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at weeklyad.WeeklyAdPage.weeklyAdButtonIsClickable(WeeklyAdPage.java:31)
+	at weeklyad.WeeklyAdPage.weeklyAdPageFooterMenuPrivacyLinkIsClickable(WeeklyAdPage.java:69)
+	at testhome.WeeklyAdTest.testWeeklyAdPageFooterMenuTermsLinkIsClickable(WeeklyAdTest.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWeeklyAsPageInterestBasedAdLinkIsActive">
+                  </a> <!-- testWeeklyAsPageInterestBasedAdLinkIsActive -->
+                  <span class="method-name">testWeeklyAsPageInterestBasedAdLinkIsActive</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Weekly Ad&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:55408}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 15d8172f59ea8b8044e03547aa50482a
+*** Element info: {Using=xpath, value=//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Weekly Ad&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at weeklyad.WeeklyAdPage.weeklyAdButtonIsClickable(WeeklyAdPage.java:31)
+	at weeklyad.WeeklyAdPage.weeklyAsPageInterestBasedAdLinkIsActive(WeeklyAdPage.java:76)
+	at testhome.WeeklyAdTest.testWeeklyAsPageInterestBasedAdLinkIsActive(WeeklyAdTest.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-failed -->
+          <div class="suite-TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testhome.ShoppingCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testShoppingCartLogIn">
+                  </a> <!-- testShoppingCartLogIn -->
+                  <span class="method-name">testShoppingCartLogIn</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;sc-AxjAm hhuVxr&apos;]//div[@class=&apos;sc-AxiKw eSbheu&apos;]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:54772}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4a7e2f8bda97e261120e459b709fbb00
+*** Element info: {Using=xpath, value=//span[@class=&apos;sc-AxjAm hhuVxr&apos;]//div[@class=&apos;sc-AxiKw eSbheu&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at shoppingcart.ShoppingCartPage.shoppingCartLogoIsClickable(ShoppingCartPage.java:32)
+	at shoppingcart.ShoppingCartPage.shoppingInCartLogIn(ShoppingCartPage.java:48)
+	at testhome.ShoppingCartTest.testShoppingCartLogIn(ShoppingCartTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testShoppingCartLogoIsClickable">
+                  </a> <!-- testShoppingCartLogoIsClickable -->
+                  <span class="method-name">testShoppingCartLogoIsClickable</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;sc-AxjAm hhuVxr&apos;]//div[@class=&apos;sc-AxiKw eSbheu&apos;]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:54835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 953f45a7b8e9b28a79912e3af8e6262d
+*** Element info: {Using=xpath, value=//span[@class=&apos;sc-AxjAm hhuVxr&apos;]//div[@class=&apos;sc-AxiKw eSbheu&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at shoppingcart.ShoppingCartPage.shoppingCartLogoIsClickable(ShoppingCartPage.java:32)
+	at testhome.ShoppingCartTest.testShoppingCartLogoIsClickable(ShoppingCartTest.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testShoppingCartLogoIsDisplay">
+                  </a> <!-- testShoppingCartLogoIsDisplay -->
+                  <span class="method-name">testShoppingCartLogoIsDisplay</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;sc-AxjAm hhuVxr&apos;]//div[@class=&apos;sc-AxiKw eSbheu&apos;]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:54894}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1a232145e793de4fdd848eaf5aa14139
+*** Element info: {Using=xpath, value=//span[@class=&apos;sc-AxjAm hhuVxr&apos;]//div[@class=&apos;sc-AxiKw eSbheu&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.isDisplayed(Unknown Source)
+	at shoppingcart.ShoppingCartPage.shoppingCartLogoIsDisplay(ShoppingCartPage.java:27)
+	at testhome.ShoppingCartTest.testShoppingCartLogoIsDisplay(ShoppingCartTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-failed -->
+          <div class="suite-TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testhome.GiftCardPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGcpGiftCardForSchShoBagLogoIsDisplay">
+                  </a> <!-- testGcpGiftCardForSchShoBagLogoIsDisplay -->
+                  <span class="method-name">testGcpGiftCardForSchShoBagLogoIsDisplay</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Gift Cards&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:53699}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 890bc7eff86c6c576623f697535d4012
+*** Element info: {Using=xpath, value=//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Gift Cards&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at giftcard.GiftCardPage.giftCardButtonCheck(GiftCardPage.java:38)
+	at giftcard.GiftCardPage.gcpGiftCardForSchShoBagLogoIsDisplay(GiftCardPage.java:82)
+	at testhome.GiftCardPageTest.testGcpGiftCardForSchShoBagLogoIsDisplay(GiftCardPageTest.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGcpGiftCardForSchoolShoppingBagLogo">
+                  </a> <!-- testGcpGiftCardForSchoolShoppingBagLogo -->
+                  <span class="method-name">testGcpGiftCardForSchoolShoppingBagLogo</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Gift Cards&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:53764}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 892347da590a072dc2ea15b6edd4e929
+*** Element info: {Using=xpath, value=//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Gift Cards&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at giftcard.GiftCardPage.giftCardButtonCheck(GiftCardPage.java:38)
+	at giftcard.GiftCardPage.gcpGiftCardForSchoolShoppingBagLogo(GiftCardPage.java:88)
+	at testhome.GiftCardPageTest.testGcpGiftCardForSchoolShoppingBagLogo(GiftCardPageTest.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGcpGiftForSchoolChooseOption">
+                  </a> <!-- testGcpGiftForSchoolChooseOption -->
+                  <span class="method-name">testGcpGiftForSchoolChooseOption</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Gift Cards&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:53824}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: edfe899e63b2a87c92d5a99df9b3905a
+*** Element info: {Using=xpath, value=//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Gift Cards&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at giftcard.GiftCardPage.giftCardButtonCheck(GiftCardPage.java:38)
+	at giftcard.GiftCardPage.gcpGiftForSchoolChooseOption(GiftCardPage.java:101)
+	at testhome.GiftCardPageTest.testGcpGiftForSchoolChooseOption(GiftCardPageTest.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGcpShiptButtonIsClickable">
+                  </a> <!-- testGcpShiptButtonIsClickable -->
+                  <span class="method-name">testGcpShiptButtonIsClickable</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Gift Cards&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:53892}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1a3da9627a410728c685b35d4f0c8df0
+*** Element info: {Using=xpath, value=//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Gift Cards&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at giftcard.GiftCardPage.giftCardButtonCheck(GiftCardPage.java:38)
+	at giftcard.GiftCardPage.gcpShiptButtonIsClickable(GiftCardPage.java:69)
+	at testhome.GiftCardPageTest.testGcpShiptButtonIsClickable(GiftCardPageTest.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGcpShiptButtonIsDisplay">
+                  </a> <!-- testGcpShiptButtonIsDisplay -->
+                  <span class="method-name">testGcpShiptButtonIsDisplay</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Gift Cards&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:53949}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e9d8839848d49b58e9a97a94bd16f560
+*** Element info: {Using=xpath, value=//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Gift Cards&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at giftcard.GiftCardPage.giftCardButtonCheck(GiftCardPage.java:38)
+	at giftcard.GiftCardPage.gcpShiptButtonIsDisplay(GiftCardPage.java:63)
+	at testhome.GiftCardPageTest.testGcpShiptButtonIsDisplay(GiftCardPageTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGcpShiptImageIsClickAble">
+                  </a> <!-- testGcpShiptImageIsClickAble -->
+                  <span class="method-name">testGcpShiptImageIsClickAble</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Gift Cards&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:54010}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4630111149194f1ad2335eabcef5569b
+*** Element info: {Using=xpath, value=//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Gift Cards&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at giftcard.GiftCardPage.gcpShiptImageIsClickAble(GiftCardPage.java:54)
+	at testhome.GiftCardPageTest.testGcpShiptImageIsClickAble(GiftCardPageTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGiftCardButton">
+                  </a> <!-- testGiftCardButton -->
+                  <span class="method-name">testGiftCardButton</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Gift Cards&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:54072}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 46b2ddc41b2f4a16921479f1854b71e0
+*** Element info: {Using=xpath, value=//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Gift Cards&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at giftcard.GiftCardPage.giftCardButtonCheck(GiftCardPage.java:38)
+	at testhome.GiftCardPageTest.testGiftCardButton(GiftCardPageTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testShiptImageDisplay">
+                  </a> <!-- testShiptImageDisplay -->
+                  <span class="method-name">testShiptImageDisplay</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Gift Cards&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mizans-MacBook-Pro.local&apos;, ip: &apos;2604:2000:6087:cf00:906b:7f1d:5bf9:2341%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:54127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9de576a25c8d917812fcc4c2d19f21ff
+*** Element info: {Using=xpath, value=//a[@class=&apos;Link-sc-1khjl8b-0 kPdxNk&apos;][contains(text(),&apos;Gift Cards&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at giftcard.GiftCardPage.giftCardButtonCheck(GiftCardPage.java:38)
+	at giftcard.GiftCardPage.shiptImageDisplay(GiftCardPage.java:49)
+	at testhome.GiftCardPageTest.testShiptImageDisplay(GiftCardPageTest.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-failed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testhome.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBoxCheckUsingGetItemValue">
+                  </a> <!-- testSearchBoxCheckUsingGetItemValue -->
+                  <span class="method-name">testSearchBoxCheckUsingGetItemValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBoxIsDisplayed">
+                  </a> <!-- testSearchBoxIsDisplayed -->
+                  <span class="method-name">testSearchBoxIsDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+        </div> <!-- panel TestSuite -->
+        <div panel-name="test-xml-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/mohammadislam/IdeaProjects/WebAutomationFrameWorkSelenium_Team2/TargetEcommerce/target/test-classes/TargetEcommerceTestRunner.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;TestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;OS X&quot;/&gt;
+  &lt;parameter name=&quot;os_version&quot; value=&quot;catalina&quot;/&gt;
+  &lt;parameter name=&quot;browserVersion&quot; value=&quot;85&quot;/&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;cloudEnvName&quot; value=&quot;browserstack&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://www.target.com&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Target Home&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testhome.GiftCardPageTest&quot;/&gt;
+      &lt;class name=&quot;testhome.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;testhome.ShoppingCartTest&quot;/&gt;
+      &lt;class name=&quot;testhome.WeeklyAdTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;testSearchBoxCheck&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testhome.WeeklyAdTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Target Home --&gt;
+&lt;/suite&gt; &lt;!-- TestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Target Home (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestSuite');
+function tableData_TestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testSearchBoxCheckUsingGetItemValue')
+data.setCell(0, 2, 'testhome.HomePageTest')
+data.setCell(0, 3, 24389);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSearchBoxCheck')
+data.setCell(1, 2, 'testhome.HomePageTest')
+data.setCell(1, 3, 10589);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testShoppingCartLogIn')
+data.setCell(2, 2, 'testhome.ShoppingCartTest')
+data.setCell(2, 3, 10181);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testGcpGiftForSchoolChooseOption')
+data.setCell(3, 2, 'testhome.GiftCardPageTest')
+data.setCell(3, 3, 10177);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCreateTargetAccount')
+data.setCell(4, 2, 'testhome.HomePageTest')
+data.setCell(4, 3, 10151);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testGcpShiptButtonIsClickable')
+data.setCell(5, 2, 'testhome.GiftCardPageTest')
+data.setCell(5, 3, 10137);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testGcpGiftCardForSchShoBagLogoIsDisplay')
+data.setCell(6, 2, 'testhome.GiftCardPageTest')
+data.setCell(6, 3, 10132);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testGcpShiptImageIsClickAble')
+data.setCell(7, 2, 'testhome.GiftCardPageTest')
+data.setCell(7, 3, 10128);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testShoppingCartLogoIsClickable')
+data.setCell(8, 2, 'testhome.ShoppingCartTest')
+data.setCell(8, 3, 10092);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testWeeklyAdBottomTargetLogoIsDisplay')
+data.setCell(9, 2, 'testhome.WeeklyAdTest')
+data.setCell(9, 3, 10079);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testWeeklyAdButtonIsClickable')
+data.setCell(10, 2, 'testhome.WeeklyAdTest')
+data.setCell(10, 3, 10077);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testGcpShiptButtonIsDisplay')
+data.setCell(11, 2, 'testhome.GiftCardPageTest')
+data.setCell(11, 3, 10066);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testWeeklyAdButtonIsDisplay')
+data.setCell(12, 2, 'testhome.WeeklyAdTest')
+data.setCell(12, 3, 10061);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testGcpGiftCardForSchoolShoppingBagLogo')
+data.setCell(13, 2, 'testhome.GiftCardPageTest')
+data.setCell(13, 3, 10057);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testShoppingCartLogoIsDisplay')
+data.setCell(14, 2, 'testhome.ShoppingCartTest')
+data.setCell(14, 3, 10051);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testSignInTargetUserAccount')
+data.setCell(15, 2, 'testhome.HomePageTest')
+data.setCell(15, 3, 10048);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testShiptImageDisplay')
+data.setCell(16, 2, 'testhome.GiftCardPageTest')
+data.setCell(16, 3, 10043);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testGiftCardButton')
+data.setCell(17, 2, 'testhome.GiftCardPageTest')
+data.setCell(17, 3, 10040);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testWeeklyAsPageInterestBasedAdLinkIsActive')
+data.setCell(18, 2, 'testhome.WeeklyAdTest')
+data.setCell(18, 3, 10035);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testWeeklyAdBottomMenuTermsLinkIsClickable')
+data.setCell(19, 2, 'testhome.WeeklyAdTest')
+data.setCell(19, 3, 10030);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testCreateTargetAccountForNegativeTest')
+data.setCell(20, 2, 'testhome.HomePageTest')
+data.setCell(20, 3, 10030);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testViewWeeklyAdIsClickable')
+data.setCell(21, 2, 'testhome.WeeklyAdTest')
+data.setCell(21, 3, 10025);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testSignInTargetUserAccountUsingInvalidCredentials')
+data.setCell(22, 2, 'testhome.HomePageTest')
+data.setCell(22, 3, 10020);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testWeeklyAdPageFooterMenuTermsLinkIsClickable')
+data.setCell(23, 2, 'testhome.WeeklyAdTest')
+data.setCell(23, 3, 10016);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testViewWeeklyAdIsDisplay')
+data.setCell(24, 2, 'testhome.WeeklyAdTest')
+data.setCell(24, 3, 10015);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testSearchBoxCheckUsingGetItemsListFromExcel')
+data.setCell(25, 2, 'testhome.HomePageTest')
+data.setCell(25, 3, 729);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testSearchBoxCheckGetItemsListFromDB')
+data.setCell(26, 2, 'testhome.HomePageTest')
+data.setCell(26, 3, 337);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testSearchBoxIsDisplayed')
+data.setCell(27, 2, 'testhome.HomePageTest')
+data.setCell(27, 3, 88);
+window.suiteTableData['TestSuite']= { tableData: data, tableDiv: 'times-div-TestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-TestSuite">
+              </div> <!-- times-div-TestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSearchBoxIsDisplayed</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePageTest: test Search Box Is Displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSearchBoxCheckUsingGetItemValue</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePageTest: test Search Box Check Using Get Item Value</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testCreateTargetAccount</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePageTest: test Create Target Account</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSignInTargetUserAccountUsingInvalidCredentials</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePageTest: test Sign In Target User Account Using Invalid Credentials</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testCreateTargetAccountForNegativeTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePageTest: test Create Target Account For Negative Test</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSearchBoxCheckUsingGetItemsListFromExcel</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePageTest: test Search Box Check Using Get Items List From Excel</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSearchBoxCheckGetItemsListFromDB</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePageTest: test Search Box Check Get Items List From DB</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSignInTargetUserAccount</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePageTest: test Sign In Target User Account</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testhome.HomePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testhome.WeeklyAdTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testhome.ShoppingCartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testhome.GiftCardPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@1c8e8fed)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">497 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.GiftCardPageTest.testGcpGiftCardForSchShoBagLogoIsDisplay())</span>
+                <span class="method-start">6253 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">6260 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGcpGiftCardForSchShoBagLogoIsDisplay</span>
+                <span class="method-start">6316 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testGcpGiftCardForSchShoBagLogoIsDisplay status=FAILURE method=GiftCardPageTest.tes...)</span>
+                <span class="method-start">16463 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">18189 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">18191 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.GiftCardPageTest.testGcpGiftCardForSchoolShoppingBagLogo() throws java.lang.Int...)</span>
+                <span class="method-start">23698 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">23699 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGcpGiftCardForSchoolShoppingBagLogo</span>
+                <span class="method-start">23703 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testGcpGiftCardForSchoolShoppingBagLogo status=FAILURE method=GiftCardPageTest.test...)</span>
+                <span class="method-start">33762 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">35388 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">35390 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.GiftCardPageTest.testGcpGiftForSchoolChooseOption() throws java.lang.Interrupte...)</span>
+                <span class="method-start">41225 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">41226 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGcpGiftForSchoolChooseOption</span>
+                <span class="method-start">41228 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testGcpGiftForSchoolChooseOption status=FAILURE method=GiftCardPageTest.testGcpGift...)</span>
+                <span class="method-start">51410 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">53131 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">53132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.GiftCardPageTest.testGcpShiptButtonIsClickable() throws java.lang.InterruptedEx...)</span>
+                <span class="method-start">56721 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">56722 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGcpShiptButtonIsClickable</span>
+                <span class="method-start">56724 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testGcpShiptButtonIsClickable status=FAILURE method=GiftCardPageTest.testGcpShiptBu...)</span>
+                <span class="method-start">66862 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">67952 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">67953 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.GiftCardPageTest.testGcpShiptButtonIsDisplay() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">72681 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">72681 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGcpShiptButtonIsDisplay</span>
+                <span class="method-start">72682 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testGcpShiptButtonIsDisplay status=FAILURE method=GiftCardPageTest.testGcpShiptButt...)</span>
+                <span class="method-start">82749 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">83885 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">83885 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.GiftCardPageTest.testGcpShiptImageIsClickAble() throws java.lang.InterruptedExc...)</span>
+                <span class="method-start">88530 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">88531 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGcpShiptImageIsClickAble</span>
+                <span class="method-start">88532 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testGcpShiptImageIsClickAble status=FAILURE method=GiftCardPageTest.testGcpShiptIma...)</span>
+                <span class="method-start">98661 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">99756 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">99757 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.GiftCardPageTest.testGiftCardButton() throws java.lang.InterruptedException)</span>
+                <span class="method-start">104448 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">104449 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGiftCardButton</span>
+                <span class="method-start">104449 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testGiftCardButton status=FAILURE method=GiftCardPageTest.testGiftCardButton()[pri:...)</span>
+                <span class="method-start">114490 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">115600 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">115601 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.GiftCardPageTest.testShiptImageDisplay() throws java.lang.InterruptedException)</span>
+                <span class="method-start">119610 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">119610 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testShiptImageDisplay</span>
+                <span class="method-start">119611 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testShiptImageDisplay status=FAILURE method=GiftCardPageTest.testShiptImageDisplay(...)</span>
+                <span class="method-start">129655 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">130792 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testhome.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">130795 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.HomePageTest.testCreateTargetAccount() throws java.lang.InterruptedException)</span>
+                <span class="method-start">134042 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">134043 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreateTargetAccount</span>
+                <span class="method-start">134047 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testCreateTargetAccount status=FAILURE method=HomePageTest.testCreateTargetAccount(...)</span>
+                <span class="method-start">144199 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">145327 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">145327 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.HomePageTest.testCreateTargetAccountForNegativeTest() throws java.lang.Interrup...)</span>
+                <span class="method-start">150578 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">150579 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreateTargetAccountForNegativeTest</span>
+                <span class="method-start">150579 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testCreateTargetAccountForNegativeTest status=FAILURE method=HomePageTest.testCreat...)</span>
+                <span class="method-start">160609 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">161700 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">161702 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.HomePageTest.testSearchBoxCheck() throws java.lang.InterruptedException)</span>
+                <span class="method-start">166252 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">166253 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchBoxCheck</span>
+                <span class="method-start">166254 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSearchBoxCheck status=FAILURE method=HomePageTest.testSearchBoxCheck()[pri:0, i...)</span>
+                <span class="method-start">176844 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">178225 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">178226 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.HomePageTest.testSearchBoxCheckGetItemsListFromDB() throws java.lang.Exception)</span>
+                <span class="method-start">182455 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">182455 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchBoxCheckGetItemsListFromDB</span>
+                <span class="method-start">182457 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSearchBoxCheckGetItemsListFromDB status=FAILURE method=HomePageTest.testSearchB...)</span>
+                <span class="method-start">182798 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">183883 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">183883 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.HomePageTest.testSearchBoxCheckUsingGetItemValue() throws java.lang.Interrupted...)</span>
+                <span class="method-start">188047 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">188047 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchBoxCheckUsingGetItemValue</span>
+                <span class="method-start">188048 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSearchBoxCheckUsingGetItemValue status=SUCCESS method=HomePageTest.testSearchBo...)</span>
+                <span class="method-start">212437 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">212599 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">212599 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.HomePageTest.testSearchBoxCheckUsingGetItemsListFromExcel() throws java.lang.Ex...)</span>
+                <span class="method-start">216959 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">216959 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchBoxCheckUsingGetItemsListFromExcel</span>
+                <span class="method-start">216960 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSearchBoxCheckUsingGetItemsListFromExcel status=FAILURE method=HomePageTest.tes...)</span>
+                <span class="method-start">217689 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">218861 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">218861 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.HomePageTest.testSearchBoxIsDisplayed())</span>
+                <span class="method-start">224106 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">224106 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchBoxIsDisplayed</span>
+                <span class="method-start">224108 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSearchBoxIsDisplayed status=SUCCESS method=HomePageTest.testSearchBoxIsDisplaye...)</span>
+                <span class="method-start">224196 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">224385 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">224390 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.HomePageTest.testSignInTargetUserAccount())</span>
+                <span class="method-start">228072 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">228073 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSignInTargetUserAccount</span>
+                <span class="method-start">228074 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSignInTargetUserAccount status=FAILURE method=HomePageTest.testSignInTargetUser...)</span>
+                <span class="method-start">238123 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">239213 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">239214 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.HomePageTest.testSignInTargetUserAccountUsingInvalidCredentials() throws java.l...)</span>
+                <span class="method-start">244067 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInit</span>
+                <span class="method-start">244067 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSignInTargetUserAccountUsingInvalidCredentials</span>
+                <span class="method-start">244068 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testSignInTargetUserAccountUsingInvalidCredentials status=FAILURE method=HomePageTe...)</span>
+                <span class="method-start">254089 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">255203 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testhome.ShoppingCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">255204 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.ShoppingCartTest.testShoppingCartLogIn() throws java.lang.InterruptedException)</span>
+                <span class="method-start">259473 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInIt</span>
+                <span class="method-start">259473 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testShoppingCartLogIn</span>
+                <span class="method-start">259476 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testShoppingCartLogIn status=FAILURE method=ShoppingCartTest.testShoppingCartLogIn(...)</span>
+                <span class="method-start">269658 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">270721 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">270722 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.ShoppingCartTest.testShoppingCartLogoIsClickable() throws java.lang.Interrupted...)</span>
+                <span class="method-start">273791 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInIt</span>
+                <span class="method-start">273792 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testShoppingCartLogoIsClickable</span>
+                <span class="method-start">273792 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testShoppingCartLogoIsClickable status=FAILURE method=ShoppingCartTest.testShopping...)</span>
+                <span class="method-start">283885 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">284954 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">284955 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.ShoppingCartTest.testShoppingCartLogoIsDisplay())</span>
+                <span class="method-start">289488 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInIt</span>
+                <span class="method-start">289489 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testShoppingCartLogoIsDisplay</span>
+                <span class="method-start">289490 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testShoppingCartLogoIsDisplay status=FAILURE method=ShoppingCartTest.testShoppingCa...)</span>
+                <span class="method-start">299541 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">300638 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testhome.WeeklyAdTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">300639 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.WeeklyAdTest.testViewWeeklyAdIsClickable() throws java.lang.InterruptedExceptio...)</span>
+                <span class="method-start">304423 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInIt</span>
+                <span class="method-start">304423 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testViewWeeklyAdIsClickable</span>
+                <span class="method-start">304425 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testViewWeeklyAdIsClickable status=FAILURE method=WeeklyAdTest.testViewWeeklyAdIsCl...)</span>
+                <span class="method-start">314451 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">315518 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">315519 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.WeeklyAdTest.testViewWeeklyAdIsDisplay() throws java.lang.InterruptedException)</span>
+                <span class="method-start">319263 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInIt</span>
+                <span class="method-start">319263 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testViewWeeklyAdIsDisplay</span>
+                <span class="method-start">319264 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testViewWeeklyAdIsDisplay status=FAILURE method=WeeklyAdTest.testViewWeeklyAdIsDisp...)</span>
+                <span class="method-start">329279 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">330374 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">330375 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.WeeklyAdTest.testWeeklyAdBottomMenuTermsLinkIsClickable())</span>
+                <span class="method-start">335779 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInIt</span>
+                <span class="method-start">335780 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testWeeklyAdBottomMenuTermsLinkIsClickable</span>
+                <span class="method-start">335780 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testWeeklyAdBottomMenuTermsLinkIsClickable status=FAILURE method=WeeklyAdTest.testW...)</span>
+                <span class="method-start">345810 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">347352 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">347352 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.WeeklyAdTest.testWeeklyAdBottomTargetLogoIsDisplay())</span>
+                <span class="method-start">350732 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInIt</span>
+                <span class="method-start">350733 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testWeeklyAdBottomTargetLogoIsDisplay</span>
+                <span class="method-start">350733 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testWeeklyAdBottomTargetLogoIsDisplay status=FAILURE method=WeeklyAdTest.testWeekly...)</span>
+                <span class="method-start">360813 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">361966 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">361966 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.WeeklyAdTest.testWeeklyAdButtonIsClickable())</span>
+                <span class="method-start">365687 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInIt</span>
+                <span class="method-start">365688 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testWeeklyAdButtonIsClickable</span>
+                <span class="method-start">365689 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testWeeklyAdButtonIsClickable status=FAILURE method=WeeklyAdTest.testWeeklyAdButton...)</span>
+                <span class="method-start">375767 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">377003 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">377003 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.WeeklyAdTest.testWeeklyAdButtonIsDisplay())</span>
+                <span class="method-start">381174 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInIt</span>
+                <span class="method-start">381175 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testWeeklyAdButtonIsDisplay</span>
+                <span class="method-start">381176 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testWeeklyAdButtonIsDisplay status=FAILURE method=WeeklyAdTest.testWeeklyAdButtonIs...)</span>
+                <span class="method-start">391238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">392498 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">392498 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.WeeklyAdTest.testWeeklyAdPageFooterMenuTermsLinkIsClickable())</span>
+                <span class="method-start">396234 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInIt</span>
+                <span class="method-start">396234 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testWeeklyAdPageFooterMenuTermsLinkIsClickable</span>
+                <span class="method-start">396235 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testWeeklyAdPageFooterMenuTermsLinkIsClickable status=FAILURE method=WeeklyAdTest.t...)</span>
+                <span class="method-start">406252 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">407318 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, catalina, chrome, 85, https://www.target.com)</span>
+                <span class="method-start">407319 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testhome.WeeklyAdTest.testWeeklyAsPageInterestBasedAdLinkIsActive())</span>
+                <span class="method-start">410524 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getInIt</span>
+                <span class="method-start">410524 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testWeeklyAsPageInterestBasedAdLinkIsActive</span>
+                <span class="method-start">410524 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testWeeklyAsPageInterestBasedAdLinkIsActive status=FAILURE method=WeeklyAdTest.test...)</span>
+                <span class="method-start">420560 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">421612 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testhome.GiftCardPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">421951 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

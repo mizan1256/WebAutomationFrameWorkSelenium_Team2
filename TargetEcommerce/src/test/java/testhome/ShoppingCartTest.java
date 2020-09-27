@@ -24,6 +24,6 @@ public class ShoppingCartTest extends WebAPI {
     @Test
     public void testShoppingCartLogIn() throws InterruptedException {
         shoppingCart.shoppingInCartLogIn();
-        shoppingCart.validateShoppInCartLogIn();
+        shoppingCart.validateShoppingCartLogIn();
     }
 }

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="OS X"/>
+  <parameter name="os_version" value="catalina"/>
+  <parameter name="browserVersion" value="85"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="cloudEnvName" value="browserstack"/>
+  <parameter name="url" value="https://www.target.com"/>
+  <test thread-count="5" name="Target Home(failed)" verbose="0">
+    <classes>
+      <class name="testhome.HomePageTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="setUp"/>
+          <include name="testSearchBoxCheck"/>
+          <include name="testCreateTargetAccount"/>
+          <include name="testSearchBoxCheckUsingGetItemsListFromExcel"/>
+          <include name="startExtent"/>
+          <include name="testSignInTargetUserAccount"/>
+          <include name="cleanUp"/>
+          <include name="testSearchBoxCheckGetItemsListFromDB"/>
+          <include name="extentSetup"/>
+          <include name="testCreateTargetAccountForNegativeTest"/>
+          <include name="testSignInTargetUserAccountUsingInvalidCredentials"/>
+          <include name="generateReport"/>
+          <include name="getInit"/>
+        </methods>
+      </class> <!-- testhome.HomePageTest -->
+      <class name="testhome.WeeklyAdTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="testWeeklyAsPageInterestBasedAdLinkIsActive"/>
+          <include name="setUp"/>
+          <include name="testWeeklyAdButtonIsDisplay"/>
+          <include name="testViewWeeklyAdIsDisplay"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+          <include name="testWeeklyAdBottomMenuTermsLinkIsClickable"/>
+          <include name="getInIt"/>
+          <include name="extentSetup"/>
+          <include name="testViewWeeklyAdIsClickable"/>
+          <include name="testWeeklyAdPageFooterMenuTermsLinkIsClickable"/>
+          <include name="testWeeklyAdButtonIsClickable"/>
+          <include name="testWeeklyAdBottomTargetLogoIsDisplay"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- testhome.WeeklyAdTest -->
+      <class name="testhome.ShoppingCartTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="testShoppingCartLogoIsDisplay"/>
+          <include name="setUp"/>
+          <include name="getInIt"/>
+          <include name="startExtent"/>
+          <include name="testShoppingCartLogIn"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="testShoppingCartLogoIsClickable"/>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- testhome.ShoppingCartTest -->
+      <class name="testhome.GiftCardPageTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="testGcpShiptButtonIsDisplay"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+          <include name="testGcpGiftForSchoolChooseOption"/>
+          <include name="testGiftCardButton"/>
+          <include name="extentSetup"/>
+          <include name="getInit"/>
+          <include name="testGcpShiptImageIsClickAble"/>
+          <include name="testGcpGiftCardForSchShoBagLogoIsDisplay"/>
+          <include name="generateReport"/>
+          <include name="testGcpGiftCardForSchoolShoppingBagLogo"/>
+          <include name="testGcpShiptButtonIsClickable"/>
+          <include name="testShiptImageDisplay"/>
+        </methods>
+      </class> <!-- testhome.GiftCardPageTest -->
+    </classes>
+  </test> <!-- Target Home(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

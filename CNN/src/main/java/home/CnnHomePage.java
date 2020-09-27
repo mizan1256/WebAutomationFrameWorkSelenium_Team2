@@ -25,9 +25,9 @@ public class CnnHomePage extends WebAPI {
     }
     //Action Method
     public void cnnLogInIconIsClickable(){
-
         cnnLogInIcon.click();
     }
+
     //Validation Method
     public void validateCnnLogInIconIsClickable(){
         System.out.println(driver.getTitle());

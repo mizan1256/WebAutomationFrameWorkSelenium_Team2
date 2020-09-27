@@ -1,0 +1,6 @@
+registration/RegistrationWebElement.class
+livetv/LiveTvWebElement.class
+home/CnnHomePageWebElement.class
+registration/RegistrationPage.class
+livetv/LiveTvHome.class
+home/CnnHomePage.class

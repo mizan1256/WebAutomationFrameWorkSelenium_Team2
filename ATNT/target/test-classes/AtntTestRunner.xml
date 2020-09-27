@@ -20,7 +20,8 @@
         <parameter name="browserName" value="chrome"/>
         <parameter name="browserVersion" value="85"/>
         <classes>
-            <class name="atnthometest.AtntHomeTest">
+            <class name="atnthometest.AtntHomeTest"/>
+            <class name="atnthometest.AtntCookiesTest">
                 <methods>
                     <exclude name="testSearchBoxCheck"></exclude>
                 </methods>

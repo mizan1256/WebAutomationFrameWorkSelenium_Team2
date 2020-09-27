@@ -28,9 +28,6 @@
                 <methods>
                     <exclude name="testSearchBoxCheck"></exclude>
                     <!--                    <exclude name="testSearchBoxCheckUsingGetItemValue"></exclude>-->
-                    <!--                    <exclude name="testSearchBoxCheckGetItemsListFromExcel"></exclude>-->
-                    <!--                    <exclude name="testSearchBoxCheckGetItemsListFromDB"></exclude>-->
-                    <!--                    <include name="testSearchBoxCheckGetItemsListFromExcel"></include>-->
                 </methods>
             </class>
 
