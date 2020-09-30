@@ -14,12 +14,16 @@ public class TripAdvisorHomeTest extends WebAPI {
         tripAdvisorHome= PageFactory.initElements(driver,TripAdvisorHome.class);
     }
     @Test
+    public void test() throws InterruptedException {
+        tripAdvisorHome.searchBoxClickable();}
+    @Test
     public void testCheckSearchBoxText() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         tripAdvisorHome.checkSearchBoxText("\"Cox's Bazar\"");
         tripAdvisorHome.validateCheckSearchBoxText("Top results matching \"\"Cox's Bazar\"\"");
     }
+
     @Test
     public void testCheckPostButton() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {

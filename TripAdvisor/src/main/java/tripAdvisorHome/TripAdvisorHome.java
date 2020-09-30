@@ -10,6 +10,7 @@ import static tripAdvisorHome.TripAdvisorHomeWebElements.*;
 
 
 public class TripAdvisorHome extends WebAPI {
+
     @FindBy(how = How.XPATH,using = webElementsSearchBox)
     public WebElement searchBox;
 
@@ -33,6 +34,14 @@ public class TripAdvisorHome extends WebAPI {
 
     @FindBy(how = How.XPATH,using =webElementsTATravelersChoiceButton)
     public WebElement travelersChoiceButton;
+
+
+//    Action Method
+    public void searchBoxClickable() throws InterruptedException {
+        searchBox.isDisplayed();
+        Thread.sleep(5000);
+    }
+
 
     //Action Method
     public void checkSearchBoxText(String searchItem ) throws InterruptedException {

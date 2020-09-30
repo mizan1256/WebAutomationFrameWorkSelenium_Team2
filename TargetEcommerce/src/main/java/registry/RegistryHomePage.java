@@ -1,5 +1,6 @@
 package registry;
 
+
 import common.WebAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -7,146 +8,77 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.testng.Assert;
 
-import static registry.registryHomePageElements.*;
+import static homefunctiontest.HomePagewebElements.*;
 
 public class RegistryHomePage extends WebAPI {
-    @FindBy(how = How.XPATH, using = webElementsRegistry)
-    public WebElement registryButton;
-    @FindBy(how = How.XPATH, using = webElementsRegistryText)
-    public WebElement registryText;
-    @FindBy(how = How.XPATH, using = webElementHouseWarmingRegistry)
-    public WebElement houseWarmingRegistry;
-    @FindBy(how = How.XPATH, using = webElementHouseWarmingRegistryDisplay)
-    public WebElement houseWarmingRegistryDisplay;
-    @FindBy(how = How.XPATH, using = webElementHouseWarmingRegistryDisplayBrands)
-    public WebElement houseWarmingRegistryBrands;
-    @FindBy(how = How.XPATH, using = webElementCreateRegistry)
-    public WebElement createRegistry;
-    @FindBy(how = How.XPATH, using = webElementsRegistrySignInButton)
-    public WebElement registrySignButton;
-    @FindBy(how = How.XPATH, using = webElementsRegistrySignInPage)
-    public WebElement signInPage;
-    @FindBy(how = How.XPATH, using = webElementsFindList)
-    public WebElement findList;
-    @FindBy(how = How.XPATH, using = webElementsReadyForSchool)
-    public WebElement readyForSchool;
-    @FindBy(how = How.XPATH, using = webElementsReadyForSchoolText)
-    public WebElement readyForSchoolText;
+    @FindBy(how = How.XPATH, using = webElementTargetLogo)public WebElement checkLogo;
 
-    //Test-11
+    @FindBy(how = How.XPATH, using = webElementSearchText) public WebElement searchText;
+
+    @FindBy(xpath ="//a[@class='Link-sc-1khjl8b-0 kPdxNk'][contains(text(),'Registry')]") public WebElement registryButton;
+    @FindBy(xpath = "//h1[@class='h-padding-b-jumbo h-display-inline-block Heading__StyledHeading-sc-6yiixr-0 chGBOr']//span[contains(text(),'Registry')]") public WebElement registryText;
+
+    @FindBy (xpath = "//img[@class='h-display-inline-block styles__RegistryLogo-sc-1v5fzne-1 Afvth']") public WebElement boxLogo;
+    @FindBy(xpath = "//span[contains(text(),'find a registry')]") public WebElement valedateText;
+
+    @FindBy(xpath = "//button[contains(text(),'create a baby registry')]") public WebElement createBabyField;
+    @FindBy(xpath = "//img[@class='styles__RegistryLogo-sc-13385cm-1 hfuzYL']") public WebElement shoppingCar;
+
+    @FindBy(xpath = "//div[@class='styles__ContentWrapper-vnn8rt-1 iacQrW']//div[2]//a[1]//img[1]") public WebElement appStoreLogo;
+    @FindBy(xpath = "//span[contains(text(),'easy for everyone')]") public WebElement easyText;
+
+    // Action Method
+    public void logoIsDisplayed(){
+        checkLogo.isDisplayed();
+    }
     //Action Method
-    public void checkRegistry() {
+    public void registryButtonIsClickable() throws InterruptedException {
         registryButton.click();
     }
-
-    //Validate method
-    public void validateCheckRegistry() throws InterruptedException {
-        Assert.assertTrue(driver.findElement(By.xpath("//span[contains(text(),'celebrate any milestone')]")).isDisplayed());
+    //Validation
+    public void validateRegistryButton() {
+        String actualResult= registryText.getText();
+        String expectedRuslt="Registry";
+        System.out.println("EASY FOR EVERYONE");
+        Assert.assertEquals(actualResult,expectedRuslt,"Message");
     }
-
-    //Test-12
-    //Action Method
-    public void checkHouseWarmingRegistry() throws InterruptedException {
+    //    Action Method
+    public void boxLogo(){
         registryButton.click();
-        Thread.sleep(5000);
-        houseWarmingRegistry.click();
-        Thread.sleep(4000);
+        boxLogo.click();
     }
-
-    //Validate method
-    public void validateCheckHouseWarmingRegistry() throws InterruptedException {
-        String actualResult = "KITCHEN SOLUTIONS";
-        Thread.sleep(4000);
-        String expectedResult = houseWarmingRegistryDisplay.getText();
-        Assert.assertEquals(actualResult, expectedResult, "Not Exist");
-
+    //    Validate
+    public void validateBoxLogo(){
+        String actualResult = valedateText.getText();
+        String expectedResult = "find a registry";
+        System.out.println("EASY FOR EVERYONE");
+        Assert.assertEquals(actualResult,expectedResult,"Not Match");
     }
-
-    //Test-13
-    //Action Method
-    public void checkHouseWarmingBrands() throws InterruptedException {
-        registryButton.click();
-        Thread.sleep(5000);
-        houseWarmingRegistry.click();
-        Thread.sleep(4000);
-    }
-
-    //Validate method
-    public void validateCheckHouseWarmingBrands() throws InterruptedException {
-        String actualResult = "Housewarming registry";
-        Thread.sleep(4000);
-        String expectedResult = houseWarmingRegistryBrands.getText();
-        Assert.assertEquals(actualResult, expectedResult, "Not Exist");
-
-    }
-
-    //Test-14
-    //Action Method
-    public void checkCreateRegistry() throws InterruptedException {
+    //    Action Method
+    public void creatBabyRegistry() throws InterruptedException {
         registryButton.click();
         Thread.sleep(3000);
-        houseWarmingRegistry.click();
+        createBabyField.click();
         Thread.sleep(3000);
-        createRegistry.click();
-        Thread.sleep(2000);
     }
-
-    //Validate method
-    public void validateCreateRegistry() throws InterruptedException {
-        Assert.assertTrue(driver.findElement(By.xpath("//span[contains(text(),'Do you already have a Target.com account?')]")).isDisplayed());
+    //    Validation
+    public void validateShoppingCar(){
+        System.out.println("EASY FOR EVERYONE");
+        Assert.assertTrue(driver.findElement(By.xpath("//img[@class='styles__RegistryLogo-sc-13385cm-1 hfuzYL']")).isDisplayed());
     }
-
-    //Test-15
-    //Action Method
-    public void checkRegistrySignINButton() throws InterruptedException {
+    //    Action Method
+    public void appsStroeLogo() throws InterruptedException {
         registryButton.click();
         Thread.sleep(3000);
-        houseWarmingRegistry.click();
+        createBabyField.click();
         Thread.sleep(3000);
-        registrySignButton.click();
-        Thread.sleep(2000);
+        appStoreLogo.isDisplayed();
     }
-
-    //Validate method
-    public void validateCheckRegistrySignINButton() throws InterruptedException {
-        String actualResult = "Sign into your Target account";
-        Thread.sleep(4000);
-        String expectedResult = signInPage.getText();
-        Assert.assertEquals(actualResult, expectedResult, "Not Exist");
-
-    }
-
-    //Action Method
-    public void checkFindList() throws InterruptedException {
-        registryButton.click();
-        Thread.sleep(3000);
-        findList.click();
-        Thread.sleep(3000);
-    }
-
-    //Validate Method
-    public void validateCheckFindList() throws InterruptedException {
-        String actualResult = "School List Assist : Target";
-        Thread.sleep(3000);
-        String expectedResult = driver.getTitle();
-        Assert.assertEquals(actualResult, expectedResult, "Text don't match");
-    }
-
-    //Action Method
-    public void checkReadyForSchool() throws InterruptedException {
-        registryButton.click();
-        Thread.sleep(3000);
-        findList.click();
-        Thread.sleep(3000);
-        readyForSchool.click();
-        Thread.sleep(3000);
-    }
-    //Validate method
-    public void validateCheckReadyForSchool() throws InterruptedException {
-        String actualResult = "Ready for School";
-        Thread.sleep(4000);
-        String expectedResult = readyForSchoolText.getText();
-        Assert.assertEquals(actualResult, expectedResult, "Not Exist");
-
+    //    Validation
+    public void validateAppsStroeLogo(){
+        String actualResult = easyText.getText();
+        String expectedResult= "EASY FOR EVERYONE";
+        System.out.println("EASY FOR EVERYONE");
+        Assert.assertEquals(actualResult,expectedResult,"Not Match");
     }
 }
